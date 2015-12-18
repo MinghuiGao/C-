@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>1-【掌握】常量和变量.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>day02备课代码.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0E07E1FF1C22ADCC00798ADD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E07E20D1C22B1BA00798ADD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

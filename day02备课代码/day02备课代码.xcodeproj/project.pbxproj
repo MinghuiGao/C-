@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0E07E2041C22ADCC00798ADD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E07E2031C22ADCC00798ADD /* main.c */; };
+		0E07E2111C22B1BA00798ADD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E07E2101C22B1BA00798ADD /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0E07E1FE1C22ADCC00798ADD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E07E20C1C22B1BA00798ADD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		0E07E2001C22ADCC00798ADD /* day02备课代码 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "day02备课代码"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E07E2031C22ADCC00798ADD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E07E20E1C22B1BA00798ADD /* 1-【掌握】常量和变量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-【掌握】常量和变量"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E07E2101C22B1BA00798ADD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0E07E1FD1C22ADCC00798ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E07E20B1C22B1BA00798ADD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				0E07E2021C22ADCC00798ADD /* day02备课代码 */,
+				0E07E20F1C22B1BA00798ADD /* 1-【掌握】常量和变量 */,
 				0E07E2011C22ADCC00798ADD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				0E07E2001C22ADCC00798ADD /* day02备课代码 */,
+				0E07E20E1C22B1BA00798ADD /* 1-【掌握】常量和变量 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				0E07E2031C22ADCC00798ADD /* main.c */,
 			);
 			path = "day02备课代码";
+			sourceTree = "<group>";
+		};
+		0E07E20F1C22B1BA00798ADD /* 1-【掌握】常量和变量 */ = {
+			isa = PBXGroup;
+			children = (
+				0E07E2101C22B1BA00798ADD /* main.c */,
+			);
+			path = "1-【掌握】常量和变量";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 0E07E2001C22ADCC00798ADD /* day02备课代码 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E07E20D1C22B1BA00798ADD /* 1-【掌握】常量和变量 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E07E2121C22B1BA00798ADD /* Build configuration list for PBXNativeTarget "1-【掌握】常量和变量" */;
+			buildPhases = (
+				0E07E20A1C22B1BA00798ADD /* Sources */,
+				0E07E20B1C22B1BA00798ADD /* Frameworks */,
+				0E07E20C1C22B1BA00798ADD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1-【掌握】常量和变量";
+			productName = "1-【掌握】常量和变量";
+			productReference = 0E07E20E1C22B1BA00798ADD /* 1-【掌握】常量和变量 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				ORGANIZATIONNAME = itcast;
 				TargetAttributes = {
 					0E07E1FF1C22ADCC00798ADD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E07E20D1C22B1BA00798ADD = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -109,6 +158,7 @@
 			projectRoot = "";
 			targets = (
 				0E07E1FF1C22ADCC00798ADD /* day02备课代码 */,
+				0E07E20D1C22B1BA00798ADD /* 1-【掌握】常量和变量 */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E07E2041C22ADCC00798ADD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E07E20A1C22B1BA00798ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E07E2111C22B1BA00798ADD /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +274,20 @@
 			};
 			name = Release;
 		};
+		0E07E2131C22B1BA00798ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E07E2141C22B1BA00798ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -233,6 +305,14 @@
 			buildConfigurations = (
 				0E07E2081C22ADCC00798ADD /* Debug */,
 				0E07E2091C22ADCC00798ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E07E2121C22B1BA00798ADD /* Build configuration list for PBXNativeTarget "1-【掌握】常量和变量" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E07E2131C22B1BA00798ADD /* Debug */,
+				0E07E2141C22B1BA00798ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
