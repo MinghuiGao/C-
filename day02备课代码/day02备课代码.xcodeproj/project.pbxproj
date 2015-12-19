@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E07E2041C22ADCC00798ADD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E07E2031C22ADCC00798ADD /* main.c */; };
 		0E07E2111C22B1BA00798ADD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E07E2101C22B1BA00798ADD /* main.c */; };
+		0E07E21C1C24FDFE00798ADD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E07E21B1C24FDFE00798ADD /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E07E2171C24FDFE00798ADD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		0E07E2031C22ADCC00798ADD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0E07E20E1C22B1BA00798ADD /* 1-【掌握】常量和变量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-【掌握】常量和变量"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E07E2101C22B1BA00798ADD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E07E2191C24FDFE00798ADD /* 第二天作业题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "第二天作业题"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E07E21B1C24FDFE00798ADD /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E07E2161C24FDFE00798ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				0E07E2021C22ADCC00798ADD /* day02备课代码 */,
 				0E07E20F1C22B1BA00798ADD /* 1-【掌握】常量和变量 */,
+				0E07E21A1C24FDFE00798ADD /* 第二天作业题 */,
 				0E07E2011C22ADCC00798ADD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				0E07E2001C22ADCC00798ADD /* day02备课代码 */,
 				0E07E20E1C22B1BA00798ADD /* 1-【掌握】常量和变量 */,
+				0E07E2191C24FDFE00798ADD /* 第二天作业题 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +110,14 @@
 				0E07E2101C22B1BA00798ADD /* main.c */,
 			);
 			path = "1-【掌握】常量和变量";
+			sourceTree = "<group>";
+		};
+		0E07E21A1C24FDFE00798ADD /* 第二天作业题 */ = {
+			isa = PBXGroup;
+			children = (
+				0E07E21B1C24FDFE00798ADD /* main.c */,
+			);
+			path = "第二天作业题";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,23 @@
 			productReference = 0E07E20E1C22B1BA00798ADD /* 1-【掌握】常量和变量 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E07E2181C24FDFE00798ADD /* 第二天作业题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E07E21F1C24FDFE00798ADD /* Build configuration list for PBXNativeTarget "第二天作业题" */;
+			buildPhases = (
+				0E07E2151C24FDFE00798ADD /* Sources */,
+				0E07E2161C24FDFE00798ADD /* Frameworks */,
+				0E07E2171C24FDFE00798ADD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "第二天作业题";
+			productName = "第二天作业题";
+			productReference = 0E07E2191C24FDFE00798ADD /* 第二天作业题 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -141,6 +187,9 @@
 						CreatedOnToolsVersion = 7.0;
 					};
 					0E07E20D1C22B1BA00798ADD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E07E2181C24FDFE00798ADD = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -159,6 +208,7 @@
 			targets = (
 				0E07E1FF1C22ADCC00798ADD /* day02备课代码 */,
 				0E07E20D1C22B1BA00798ADD /* 1-【掌握】常量和变量 */,
+				0E07E2181C24FDFE00798ADD /* 第二天作业题 */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +227,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E07E2111C22B1BA00798ADD /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E07E2151C24FDFE00798ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E07E21C1C24FDFE00798ADD /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +346,20 @@
 			};
 			name = Release;
 		};
+		0E07E21D1C24FDFE00798ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E07E21E1C24FDFE00798ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -307,12 +379,22 @@
 				0E07E2091C22ADCC00798ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E07E2121C22B1BA00798ADD /* Build configuration list for PBXNativeTarget "1-【掌握】常量和变量" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E07E2131C22B1BA00798ADD /* Debug */,
 				0E07E2141C22B1BA00798ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E07E21F1C24FDFE00798ADD /* Build configuration list for PBXNativeTarget "第二天作业题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E07E21D1C24FDFE00798ADD /* Debug */,
+				0E07E21E1C24FDFE00798ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
