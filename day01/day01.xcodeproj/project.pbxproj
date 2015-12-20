@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ED31A6B1C259EA0002A69BF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0ED31A6A1C259EA0002A69BF /* main.c */; };
+		0ED31A781C259F2D002A69BF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0ED31A771C259F2D002A69BF /* main.c */; };
+		0ED31A831C25A1C5002A69BF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0ED31A821C25A1C5002A69BF /* main.c */; };
+		0ED31A8E1C25A644002A69BF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0ED31A8D1C25A644002A69BF /* main.c */; };
+		0ED31A991C26D062002A69BF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0ED31A981C26D062002A69BF /* main.c */; };
+		0ED31AA41C26DFDE002A69BF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0ED31AA31C26DFDE002A69BF /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0ED31A651C259EA0002A69BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0ED31A731C259F2D002A69BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0ED31A7E1C25A1C5002A69BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0ED31A891C25A644002A69BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0ED31A941C26D062002A69BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0ED31A9F1C26DFDE002A69BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0ED31A671C259EA0002A69BF /* day01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day01; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED31A6A1C259EA0002A69BF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0ED31A751C259F2D002A69BF /* 12-【掌握】第一个C语言程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-【掌握】第一个C语言程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED31A771C259F2D002A69BF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0ED31A801C25A1C5002A69BF /* 12-【掌握】第一个C语言程序2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-【掌握】第一个C语言程序2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED31A821C25A1C5002A69BF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0ED31A8B1C25A644002A69BF /* 12-【掌握】编写第一个C语言程序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-【掌握】编写第一个C语言程序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED31A8D1C25A644002A69BF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0ED31A961C26D062002A69BF /* 15-【理解】数据类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-【理解】数据类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED31A981C26D062002A69BF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0ED31AA11C26DFDE002A69BF /* 16-【掌握】数据类型范围与存储方式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16-【掌握】数据类型范围与存储方式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED31AA31C26DFDE002A69BF /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ED31A641C259EA0002A69BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED31A721C259F2D002A69BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED31A7D1C25A1C5002A69BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED31A881C25A644002A69BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED31A931C26D062002A69BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED31A9E1C26DFDE002A69BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED31A5E1C259EA0002A69BF = {
+			isa = PBXGroup;
+			children = (
+				0ED31A691C259EA0002A69BF /* day01 */,
+				0ED31A761C259F2D002A69BF /* 12-【掌握】第一个C语言程序 */,
+				0ED31A811C25A1C5002A69BF /* 12-【掌握】第一个C语言程序2 */,
+				0ED31A8C1C25A644002A69BF /* 12-【掌握】编写第一个C语言程序 */,
+				0ED31A971C26D062002A69BF /* 15-【理解】数据类型 */,
+				0ED31AA21C26DFDE002A69BF /* 16-【掌握】数据类型范围与存储方式 */,
+				0ED31A681C259EA0002A69BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0ED31A681C259EA0002A69BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ED31A671C259EA0002A69BF /* day01 */,
+				0ED31A751C259F2D002A69BF /* 12-【掌握】第一个C语言程序 */,
+				0ED31A801C25A1C5002A69BF /* 12-【掌握】第一个C语言程序2 */,
+				0ED31A8B1C25A644002A69BF /* 12-【掌握】编写第一个C语言程序 */,
+				0ED31A961C26D062002A69BF /* 15-【理解】数据类型 */,
+				0ED31AA11C26DFDE002A69BF /* 16-【掌握】数据类型范围与存储方式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ED31A691C259EA0002A69BF /* day01 */ = {
+			isa = PBXGroup;
+			children = (
+				0ED31A6A1C259EA0002A69BF /* main.c */,
+			);
+			path = day01;
+			sourceTree = "<group>";
+		};
+		0ED31A761C259F2D002A69BF /* 12-【掌握】第一个C语言程序 */ = {
+			isa = PBXGroup;
+			children = (
+				0ED31A771C259F2D002A69BF /* main.c */,
+			);
+			path = "12-【掌握】第一个C语言程序";
+			sourceTree = "<group>";
+		};
+		0ED31A811C25A1C5002A69BF /* 12-【掌握】第一个C语言程序2 */ = {
+			isa = PBXGroup;
+			children = (
+				0ED31A821C25A1C5002A69BF /* main.c */,
+			);
+			path = "12-【掌握】第一个C语言程序2";
+			sourceTree = "<group>";
+		};
+		0ED31A8C1C25A644002A69BF /* 12-【掌握】编写第一个C语言程序 */ = {
+			isa = PBXGroup;
+			children = (
+				0ED31A8D1C25A644002A69BF /* main.c */,
+			);
+			path = "12-【掌握】编写第一个C语言程序";
+			sourceTree = "<group>";
+		};
+		0ED31A971C26D062002A69BF /* 15-【理解】数据类型 */ = {
+			isa = PBXGroup;
+			children = (
+				0ED31A981C26D062002A69BF /* main.c */,
+			);
+			path = "15-【理解】数据类型";
+			sourceTree = "<group>";
+		};
+		0ED31AA21C26DFDE002A69BF /* 16-【掌握】数据类型范围与存储方式 */ = {
+			isa = PBXGroup;
+			children = (
+				0ED31AA31C26DFDE002A69BF /* main.c */,
+			);
+			path = "16-【掌握】数据类型范围与存储方式";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ED31A661C259EA0002A69BF /* day01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED31A6E1C259EA0002A69BF /* Build configuration list for PBXNativeTarget "day01" */;
+			buildPhases = (
+				0ED31A631C259EA0002A69BF /* Sources */,
+				0ED31A641C259EA0002A69BF /* Frameworks */,
+				0ED31A651C259EA0002A69BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day01;
+			productName = day01;
+			productReference = 0ED31A671C259EA0002A69BF /* day01 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0ED31A741C259F2D002A69BF /* 12-【掌握】第一个C语言程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED31A791C259F2D002A69BF /* Build configuration list for PBXNativeTarget "12-【掌握】第一个C语言程序" */;
+			buildPhases = (
+				0ED31A711C259F2D002A69BF /* Sources */,
+				0ED31A721C259F2D002A69BF /* Frameworks */,
+				0ED31A731C259F2D002A69BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12-【掌握】第一个C语言程序";
+			productName = "12-【掌握】第一个C语言程序";
+			productReference = 0ED31A751C259F2D002A69BF /* 12-【掌握】第一个C语言程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0ED31A7F1C25A1C5002A69BF /* 12-【掌握】第一个C语言程序2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED31A861C25A1C5002A69BF /* Build configuration list for PBXNativeTarget "12-【掌握】第一个C语言程序2" */;
+			buildPhases = (
+				0ED31A7C1C25A1C5002A69BF /* Sources */,
+				0ED31A7D1C25A1C5002A69BF /* Frameworks */,
+				0ED31A7E1C25A1C5002A69BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12-【掌握】第一个C语言程序2";
+			productName = "12-【掌握】第一个C语言程序2";
+			productReference = 0ED31A801C25A1C5002A69BF /* 12-【掌握】第一个C语言程序2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0ED31A8A1C25A644002A69BF /* 12-【掌握】编写第一个C语言程序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED31A911C25A644002A69BF /* Build configuration list for PBXNativeTarget "12-【掌握】编写第一个C语言程序" */;
+			buildPhases = (
+				0ED31A871C25A644002A69BF /* Sources */,
+				0ED31A881C25A644002A69BF /* Frameworks */,
+				0ED31A891C25A644002A69BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12-【掌握】编写第一个C语言程序";
+			productName = "12-【掌握】编写第一个C语言程序";
+			productReference = 0ED31A8B1C25A644002A69BF /* 12-【掌握】编写第一个C语言程序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0ED31A951C26D062002A69BF /* 15-【理解】数据类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED31A9A1C26D062002A69BF /* Build configuration list for PBXNativeTarget "15-【理解】数据类型" */;
+			buildPhases = (
+				0ED31A921C26D062002A69BF /* Sources */,
+				0ED31A931C26D062002A69BF /* Frameworks */,
+				0ED31A941C26D062002A69BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15-【理解】数据类型";
+			productName = "15-【理解】数据类型";
+			productReference = 0ED31A961C26D062002A69BF /* 15-【理解】数据类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0ED31AA01C26DFDE002A69BF /* 16-【掌握】数据类型范围与存储方式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED31AA51C26DFDE002A69BF /* Build configuration list for PBXNativeTarget "16-【掌握】数据类型范围与存储方式" */;
+			buildPhases = (
+				0ED31A9D1C26DFDE002A69BF /* Sources */,
+				0ED31A9E1C26DFDE002A69BF /* Frameworks */,
+				0ED31A9F1C26DFDE002A69BF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16-【掌握】数据类型范围与存储方式";
+			productName = "16-【掌握】数据类型范围与存储方式";
+			productReference = 0ED31AA11C26DFDE002A69BF /* 16-【掌握】数据类型范围与存储方式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ED31A5F1C259EA0002A69BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					0ED31A661C259EA0002A69BF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0ED31A741C259F2D002A69BF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0ED31A7F1C25A1C5002A69BF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0ED31A8A1C25A644002A69BF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0ED31A951C26D062002A69BF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0ED31AA01C26DFDE002A69BF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 0ED31A621C259EA0002A69BF /* Build configuration list for PBXProject "day01" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0ED31A5E1C259EA0002A69BF;
+			productRefGroup = 0ED31A681C259EA0002A69BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ED31A661C259EA0002A69BF /* day01 */,
+				0ED31A741C259F2D002A69BF /* 12-【掌握】第一个C语言程序 */,
+				0ED31A7F1C25A1C5002A69BF /* 12-【掌握】第一个C语言程序2 */,
+				0ED31A8A1C25A644002A69BF /* 12-【掌握】编写第一个C语言程序 */,
+				0ED31A951C26D062002A69BF /* 15-【理解】数据类型 */,
+				0ED31AA01C26DFDE002A69BF /* 16-【掌握】数据类型范围与存储方式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ED31A631C259EA0002A69BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED31A6B1C259EA0002A69BF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED31A711C259F2D002A69BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED31A781C259F2D002A69BF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED31A7C1C25A1C5002A69BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED31A831C25A1C5002A69BF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED31A871C25A644002A69BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED31A8E1C25A644002A69BF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED31A921C26D062002A69BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED31A991C26D062002A69BF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0ED31A9D1C26DFDE002A69BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED31AA41C26DFDE002A69BF /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0ED31A6C1C259EA0002A69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0ED31A6D1C259EA0002A69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0ED31A6F1C259EA0002A69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0ED31A701C259EA0002A69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0ED31A7A1C259F2D002A69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0ED31A7B1C259F2D002A69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0ED31A841C25A1C5002A69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0ED31A851C25A1C5002A69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0ED31A8F1C25A644002A69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0ED31A901C25A644002A69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0ED31A9B1C26D062002A69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0ED31A9C1C26D062002A69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0ED31AA61C26DFDE002A69BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0ED31AA71C26DFDE002A69BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ED31A621C259EA0002A69BF /* Build configuration list for PBXProject "day01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED31A6C1C259EA0002A69BF /* Debug */,
+				0ED31A6D1C259EA0002A69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ED31A6E1C259EA0002A69BF /* Build configuration list for PBXNativeTarget "day01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED31A6F1C259EA0002A69BF /* Debug */,
+				0ED31A701C259EA0002A69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ED31A791C259F2D002A69BF /* Build configuration list for PBXNativeTarget "12-【掌握】第一个C语言程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED31A7A1C259F2D002A69BF /* Debug */,
+				0ED31A7B1C259F2D002A69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ED31A861C25A1C5002A69BF /* Build configuration list for PBXNativeTarget "12-【掌握】第一个C语言程序2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED31A841C25A1C5002A69BF /* Debug */,
+				0ED31A851C25A1C5002A69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ED31A911C25A644002A69BF /* Build configuration list for PBXNativeTarget "12-【掌握】编写第一个C语言程序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED31A8F1C25A644002A69BF /* Debug */,
+				0ED31A901C25A644002A69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0ED31A9A1C26D062002A69BF /* Build configuration list for PBXNativeTarget "15-【理解】数据类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED31A9B1C26D062002A69BF /* Debug */,
+				0ED31A9C1C26D062002A69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0ED31AA51C26DFDE002A69BF /* Build configuration list for PBXNativeTarget "16-【掌握】数据类型范围与存储方式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED31AA61C26DFDE002A69BF /* Debug */,
+				0ED31AA71C26DFDE002A69BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ED31A5F1C259EA0002A69BF /* Project object */;
+}
