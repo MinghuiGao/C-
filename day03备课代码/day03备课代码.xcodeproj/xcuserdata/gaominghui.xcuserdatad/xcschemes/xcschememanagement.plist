@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>6-【理解】应用：判断字符串长度.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>7-【掌握】if语句的高级用法.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+		<key>9-【掌握】do...while循环语句练习.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>9-【掌握】应用：剪刀石头布游戏.xcscheme</key>
 		<dict>
@@ -83,6 +93,16 @@
 			<true/>
 		</dict>
 		<key>0E6527A51C32CB6E00EB47D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6527B01C337A7D00EB47D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6527BB1C3385CF00EB47D9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

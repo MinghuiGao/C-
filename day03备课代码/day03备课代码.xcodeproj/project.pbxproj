@@ -15,6 +15,8 @@
 		0E6527931C328B1600EB47D9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E6527921C328B1600EB47D9 /* main.c */; };
 		0E65279E1C329EF600EB47D9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E65279D1C329EF600EB47D9 /* main.c */; };
 		0E6527A91C32CB6E00EB47D9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E6527A81C32CB6E00EB47D9 /* main.c */; };
+		0E6527B41C337A7D00EB47D9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E6527B31C337A7D00EB47D9 /* main.c */; };
+		0E6527BF1C3385CF00EB47D9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E6527BE1C3385CF00EB47D9 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +92,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E6527AF1C337A7D00EB47D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E6527BA1C3385CF00EB47D9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +129,10 @@
 		0E65279D1C329EF600EB47D9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0E6527A61C32CB6E00EB47D9 /* 13-【掌握】冒泡排序代码实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13-【掌握】冒泡排序代码实现"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6527A81C32CB6E00EB47D9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E6527B11C337A7D00EB47D9 /* 6-【理解】应用：判断字符串长度 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6-【理解】应用：判断字符串长度"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6527B31C337A7D00EB47D9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E6527BC1C3385CF00EB47D9 /* 9-【掌握】do...while循环语句练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9-【掌握】do...while循环语句练习"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6527BE1C3385CF00EB47D9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +192,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E6527AE1C337A7D00EB47D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6527B91C3385CF00EB47D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -182,6 +220,8 @@
 				0E6527911C328B1600EB47D9 /* 9-【掌握】应用：剪刀石头布游戏分析 */,
 				0E65279C1C329EF600EB47D9 /* 9-【掌握】应用：剪刀石头布游戏 */,
 				0E6527A71C32CB6E00EB47D9 /* 13-【掌握】冒泡排序代码实现 */,
+				0E6527B21C337A7D00EB47D9 /* 6-【理解】应用：判断字符串长度 */,
+				0E6527BD1C3385CF00EB47D9 /* 9-【掌握】do...while循环语句练习 */,
 				0E6527571C30CF4900EB47D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,6 +237,8 @@
 				0E6527901C328B1600EB47D9 /* 9-【掌握】应用：剪刀石头布游戏分析 */,
 				0E65279B1C329EF600EB47D9 /* 9-【掌握】应用：剪刀石头布游戏 */,
 				0E6527A61C32CB6E00EB47D9 /* 13-【掌握】冒泡排序代码实现 */,
+				0E6527B11C337A7D00EB47D9 /* 6-【理解】应用：判断字符串长度 */,
+				0E6527BC1C3385CF00EB47D9 /* 9-【掌握】do...while循环语句练习 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,6 +305,22 @@
 				0E6527A81C32CB6E00EB47D9 /* main.c */,
 			);
 			path = "13-【掌握】冒泡排序代码实现";
+			sourceTree = "<group>";
+		};
+		0E6527B21C337A7D00EB47D9 /* 6-【理解】应用：判断字符串长度 */ = {
+			isa = PBXGroup;
+			children = (
+				0E6527B31C337A7D00EB47D9 /* main.c */,
+			);
+			path = "6-【理解】应用：判断字符串长度";
+			sourceTree = "<group>";
+		};
+		0E6527BD1C3385CF00EB47D9 /* 9-【掌握】do...while循环语句练习 */ = {
+			isa = PBXGroup;
+			children = (
+				0E6527BE1C3385CF00EB47D9 /* main.c */,
+			);
+			path = "9-【掌握】do...while循环语句练习";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -404,6 +462,40 @@
 			productReference = 0E6527A61C32CB6E00EB47D9 /* 13-【掌握】冒泡排序代码实现 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E6527B01C337A7D00EB47D9 /* 6-【理解】应用：判断字符串长度 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6527B51C337A7D00EB47D9 /* Build configuration list for PBXNativeTarget "6-【理解】应用：判断字符串长度" */;
+			buildPhases = (
+				0E6527AD1C337A7D00EB47D9 /* Sources */,
+				0E6527AE1C337A7D00EB47D9 /* Frameworks */,
+				0E6527AF1C337A7D00EB47D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6-【理解】应用：判断字符串长度";
+			productName = "6-【理解】应用：判断字符串长度";
+			productReference = 0E6527B11C337A7D00EB47D9 /* 6-【理解】应用：判断字符串长度 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E6527BB1C3385CF00EB47D9 /* 9-【掌握】do...while循环语句练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6527C21C3385CF00EB47D9 /* Build configuration list for PBXNativeTarget "9-【掌握】do...while循环语句练习" */;
+			buildPhases = (
+				0E6527B81C3385CF00EB47D9 /* Sources */,
+				0E6527B91C3385CF00EB47D9 /* Frameworks */,
+				0E6527BA1C3385CF00EB47D9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9-【掌握】do...while循环语句练习";
+			productName = "9-【掌握】do...while循环语句练习";
+			productReference = 0E6527BC1C3385CF00EB47D9 /* 9-【掌握】do...while循环语句练习 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -437,6 +529,12 @@
 					0E6527A51C32CB6E00EB47D9 = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E6527B01C337A7D00EB47D9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E6527BB1C3385CF00EB47D9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 0E6527511C30CF4900EB47D9 /* Build configuration list for PBXProject "day03备课代码" */;
@@ -459,6 +557,8 @@
 				0E65278F1C328B1600EB47D9 /* 9-【掌握】应用：剪刀石头布游戏分析 */,
 				0E65279A1C329EF600EB47D9 /* 9-【掌握】应用：剪刀石头布游戏 */,
 				0E6527A51C32CB6E00EB47D9 /* 13-【掌握】冒泡排序代码实现 */,
+				0E6527B01C337A7D00EB47D9 /* 6-【理解】应用：判断字符串长度 */,
+				0E6527BB1C3385CF00EB47D9 /* 9-【掌握】do...while循环语句练习 */,
 			);
 		};
 /* End PBXProject section */
@@ -525,6 +625,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E6527A91C32CB6E00EB47D9 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6527AD1C337A7D00EB47D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6527B41C337A7D00EB47D9 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6527B81C3385CF00EB47D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6527BF1C3385CF00EB47D9 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,6 +836,34 @@
 			};
 			name = Release;
 		};
+		0E6527B61C337A7D00EB47D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6527B71C337A7D00EB47D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E6527C01C3385CF00EB47D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6527C11C3385CF00EB47D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -748,6 +892,7 @@
 				0E6527691C323C4E00EB47D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E6527731C32566E00EB47D9 /* Build configuration list for PBXNativeTarget "6-【掌握】if语句的嵌套" */ = {
 			isa = XCConfigurationList;
@@ -756,6 +901,7 @@
 				0E6527751C32566E00EB47D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E65277E1C325CED00EB47D9 /* Build configuration list for PBXNativeTarget "7-【掌握】if语句的高级用法" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +910,7 @@
 				0E6527801C325CED00EB47D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E6527891C3280F800EB47D9 /* Build configuration list for PBXNativeTarget "8-【掌握】if语句的使用注意点" */ = {
 			isa = XCConfigurationList;
@@ -772,6 +919,7 @@
 				0E65278B1C3280F800EB47D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E6527941C328B1600EB47D9 /* Build configuration list for PBXNativeTarget "9-【掌握】应用：剪刀石头布游戏分析" */ = {
 			isa = XCConfigurationList;
@@ -780,6 +928,7 @@
 				0E6527961C328B1600EB47D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E65279F1C329EF600EB47D9 /* Build configuration list for PBXNativeTarget "9-【掌握】应用：剪刀石头布游戏" */ = {
 			isa = XCConfigurationList;
@@ -788,12 +937,31 @@
 				0E6527A11C329EF600EB47D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E6527AA1C32CB6E00EB47D9 /* Build configuration list for PBXNativeTarget "13-【掌握】冒泡排序代码实现" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E6527AB1C32CB6E00EB47D9 /* Debug */,
 				0E6527AC1C32CB6E00EB47D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6527B51C337A7D00EB47D9 /* Build configuration list for PBXNativeTarget "6-【理解】应用：判断字符串长度" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6527B61C337A7D00EB47D9 /* Debug */,
+				0E6527B71C337A7D00EB47D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6527C21C3385CF00EB47D9 /* Build configuration list for PBXNativeTarget "9-【掌握】do...while循环语句练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6527C01C3385CF00EB47D9 /* Debug */,
+				0E6527C11C3385CF00EB47D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
