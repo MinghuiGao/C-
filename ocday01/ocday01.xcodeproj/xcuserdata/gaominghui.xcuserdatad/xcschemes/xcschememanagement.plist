@@ -4,6 +4,51 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>12【掌握】类的声明和实现.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>13【掌握】创建一个对象并访问实例变量.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>14【掌握】无参方法声明实现及调用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>15【掌握】有参方法声明实现及调用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>4【掌握】OC语言快速入门之“helloworld”.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>5【掌握】NSLog函数使用方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>6【掌握】OC中注释及@符号使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>7【掌握】访问OC源文件、C源文件中的函数.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>8【掌握】OC和C差异学习(一).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>ocday01.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +57,51 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0E240E381C3CB191008D9A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E240E431C3CB1E6008D9A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E240E4E1C3CB8F0008D9A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E240E591C3CBDD2008D9A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E240E6A1C3CCA5B008D9A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E240E751C3CDB2D008D9A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E240E801C3CE7FE008D9A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E240E8B1C3CF764008D9A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E240E961C3D03B0008D9A7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0E79D44B1C3C1083001C70A2</key>
 		<dict>
 			<key>primary</key>
