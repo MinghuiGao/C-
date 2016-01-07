@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E30BF721C3E07F100E5B186 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E30BF711C3E07F100E5B186 /* main.c */; };
 		0E79D4321C3BB279001C70A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E79D4311C3BB279001C70A2 /* main.c */; };
 		0E79D43F1C3BF044001C70A2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E79D43E1C3BF044001C70A2 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0E30BF6D1C3E07F100E5B186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0E79D42C1C3BB279001C70A2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E30BF6F1C3E07F100E5B186 /* 10【掌握】结构指针定义和初始化 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10【掌握】结构指针定义和初始化"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E30BF711C3E07F100E5B186 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0E79D42E1C3BB279001C70A2 /* day09 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day09; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E79D4311C3BB279001C70A2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		0E79D43C1C3BF044001C70A2 /* 6【掌握】结构体变量占用存储空间大小 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6【掌握】结构体变量占用存储空间大小"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +52,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0E30BF6C1C3E07F100E5B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0E79D42B1C3BB279001C70A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -57,11 +76,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E30BF701C3E07F100E5B186 /* 10【掌握】结构指针定义和初始化 */ = {
+			isa = PBXGroup;
+			children = (
+				0E30BF711C3E07F100E5B186 /* main.c */,
+			);
+			path = "10【掌握】结构指针定义和初始化";
+			sourceTree = "<group>";
+		};
 		0E79D4251C3BB279001C70A2 = {
 			isa = PBXGroup;
 			children = (
 				0E79D4301C3BB279001C70A2 /* day09 */,
 				0E79D43D1C3BF044001C70A2 /* 6【掌握】结构体变量占用存储空间大小 */,
+				0E30BF701C3E07F100E5B186 /* 10【掌握】结构指针定义和初始化 */,
 				0E79D42F1C3BB279001C70A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +99,7 @@
 			children = (
 				0E79D42E1C3BB279001C70A2 /* day09 */,
 				0E79D43C1C3BF044001C70A2 /* 6【掌握】结构体变量占用存储空间大小 */,
+				0E30BF6F1C3E07F100E5B186 /* 10【掌握】结构指针定义和初始化 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +123,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0E30BF6E1C3E07F100E5B186 /* 10【掌握】结构指针定义和初始化 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E30BF731C3E07F100E5B186 /* Build configuration list for PBXNativeTarget "10【掌握】结构指针定义和初始化" */;
+			buildPhases = (
+				0E30BF6B1C3E07F100E5B186 /* Sources */,
+				0E30BF6C1C3E07F100E5B186 /* Frameworks */,
+				0E30BF6D1C3E07F100E5B186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10【掌握】结构指针定义和初始化";
+			productName = "10【掌握】结构指针定义和初始化";
+			productReference = 0E30BF6F1C3E07F100E5B186 /* 10【掌握】结构指针定义和初始化 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0E79D42D1C3BB279001C70A2 /* day09 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E79D4351C3BB279001C70A2 /* Build configuration list for PBXNativeTarget "day09" */;
@@ -137,6 +183,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = itcast;
 				TargetAttributes = {
+					0E30BF6E1C3E07F100E5B186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					0E79D42D1C3BB279001C70A2 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -159,11 +208,20 @@
 			targets = (
 				0E79D42D1C3BB279001C70A2 /* day09 */,
 				0E79D43B1C3BF044001C70A2 /* 6【掌握】结构体变量占用存储空间大小 */,
+				0E30BF6E1C3E07F100E5B186 /* 10【掌握】结构指针定义和初始化 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0E30BF6B1C3E07F100E5B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E30BF721C3E07F100E5B186 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0E79D42A1C3BB279001C70A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +241,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0E30BF741C3E07F100E5B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E30BF751C3E07F100E5B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0E79D4331C3BB279001C70A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -291,6 +363,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0E30BF731C3E07F100E5B186 /* Build configuration list for PBXNativeTarget "10【掌握】结构指针定义和初始化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E30BF741C3E07F100E5B186 /* Debug */,
+				0E30BF751C3E07F100E5B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0E79D4291C3BB279001C70A2 /* Build configuration list for PBXProject "day09" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -307,6 +387,7 @@
 				0E79D4371C3BB279001C70A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E79D4401C3BF044001C70A2 /* Build configuration list for PBXNativeTarget "6【掌握】结构体变量占用存储空间大小" */ = {
 			isa = XCConfigurationList;
@@ -315,6 +396,7 @@
 				0E79D4421C3BF044001C70A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
