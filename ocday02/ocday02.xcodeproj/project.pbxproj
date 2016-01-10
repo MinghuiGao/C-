@@ -18,6 +18,10 @@
 		0E30BFDD1C40B6EA00E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30BFDC1C40B6EA00E5B186 /* main.m */; };
 		0E30BFE81C40F26F00E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30BFE71C40F26F00E5B186 /* main.m */; };
 		0E30BFF31C40F76B00E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30BFF21C40F76B00E5B186 /* main.m */; };
+		0E30BFFE1C41E89800E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30BFFD1C41E89800E5B186 /* main.m */; };
+		0E30C0041C41EDBA00E5B186 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0031C41EDBA00E5B186 /* Bullet.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0071C41EEA400E5B186 /* Gun.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0061C41EEA400E5B186 /* Gun.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C00A1C41EFE000E5B186 /* Soldier.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0091C41EFE000E5B186 /* Soldier.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -120,6 +124,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E30BFF91C41E89800E5B186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -145,6 +158,14 @@
 		0E30BFE71C40F26F00E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E30BFF01C40F76B00E5B186 /* 13【掌握】NSString 字符串长度计算方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13【掌握】NSString 字符串长度计算方法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E30BFF21C40F76B00E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E30BFFB1C41E89800E5B186 /* 15【掌握】多文件实现步骤 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15【掌握】多文件实现步骤"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E30BFFD1C41E89800E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E30C0021C41ED6C00E5B186 /* Bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		0E30C0031C41EDBA00E5B186 /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		0E30C0051C41EEA400E5B186 /* Gun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gun.h; sourceTree = "<group>"; };
+		0E30C0061C41EEA400E5B186 /* Gun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gun.m; sourceTree = "<group>"; };
+		0E30C0081C41EFE000E5B186 /* Soldier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soldier.h; sourceTree = "<group>"; };
+		0E30C0091C41EFE000E5B186 /* Soldier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soldier.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +246,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E30BFF81C41E89800E5B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -242,6 +270,7 @@
 				0E30BFDB1C40B6EA00E5B186 /* 8【掌握】对象作为方法的参数连续传递 */,
 				0E30BFE61C40F26F00E5B186 /* 12【掌握】NSString 类介绍及用法 */,
 				0E30BFF11C40F76B00E5B186 /* 13【掌握】NSString 字符串长度计算方法 */,
+				0E30BFFC1C41E89800E5B186 /* 15【掌握】多文件实现步骤 */,
 				0E30BF801C3F7F4800E5B186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -260,6 +289,7 @@
 				0E30BFDA1C40B6EA00E5B186 /* 8【掌握】对象作为方法的参数连续传递 */,
 				0E30BFE51C40F26F00E5B186 /* 12【掌握】NSString 类介绍及用法 */,
 				0E30BFF01C40F76B00E5B186 /* 13【掌握】NSString 字符串长度计算方法 */,
+				0E30BFFB1C41E89800E5B186 /* 15【掌握】多文件实现步骤 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -350,6 +380,28 @@
 				0E30BFF21C40F76B00E5B186 /* main.m */,
 			);
 			path = "13【掌握】NSString 字符串长度计算方法";
+			sourceTree = "<group>";
+		};
+		0E30BFFC1C41E89800E5B186 /* 15【掌握】多文件实现步骤 */ = {
+			isa = PBXGroup;
+			children = (
+				0E30C00B1C41F12200E5B186 /* weapon */,
+				0E30BFFD1C41E89800E5B186 /* main.m */,
+				0E30C0081C41EFE000E5B186 /* Soldier.h */,
+				0E30C0091C41EFE000E5B186 /* Soldier.m */,
+			);
+			path = "15【掌握】多文件实现步骤";
+			sourceTree = "<group>";
+		};
+		0E30C00B1C41F12200E5B186 /* weapon */ = {
+			isa = PBXGroup;
+			children = (
+				0E30C0061C41EEA400E5B186 /* Gun.m */,
+				0E30C0051C41EEA400E5B186 /* Gun.h */,
+				0E30C0031C41EDBA00E5B186 /* Bullet.m */,
+				0E30C0021C41ED6C00E5B186 /* Bullet.h */,
+			);
+			name = weapon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -542,6 +594,23 @@
 			productReference = 0E30BFF01C40F76B00E5B186 /* 13【掌握】NSString 字符串长度计算方法 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E30BFFA1C41E89800E5B186 /* 15【掌握】多文件实现步骤 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E30C0011C41E89800E5B186 /* Build configuration list for PBXNativeTarget "15【掌握】多文件实现步骤" */;
+			buildPhases = (
+				0E30BFF71C41E89800E5B186 /* Sources */,
+				0E30BFF81C41E89800E5B186 /* Frameworks */,
+				0E30BFF91C41E89800E5B186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15【掌握】多文件实现步骤";
+			productName = "15【掌握】多文件实现步骤";
+			productReference = 0E30BFFB1C41E89800E5B186 /* 15【掌握】多文件实现步骤 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -584,6 +653,9 @@
 					0E30BFEF1C40F76B00E5B186 = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E30BFFA1C41E89800E5B186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 0E30BF7A1C3F7F4800E5B186 /* Build configuration list for PBXProject "ocday02" */;
@@ -609,6 +681,7 @@
 				0E30BFD91C40B6EA00E5B186 /* 8【掌握】对象作为方法的参数连续传递 */,
 				0E30BFE41C40F26F00E5B186 /* 12【掌握】NSString 类介绍及用法 */,
 				0E30BFEF1C40F76B00E5B186 /* 13【掌握】NSString 字符串长度计算方法 */,
+				0E30BFFA1C41E89800E5B186 /* 15【掌握】多文件实现步骤 */,
 			);
 		};
 /* End PBXProject section */
@@ -699,6 +772,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E30BFF31C40F76B00E5B186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30BFF71C41E89800E5B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E30C0071C41EEA400E5B186 /* Gun.m in Sources */,
+				0E30BFFE1C41E89800E5B186 /* main.m in Sources */,
+				0E30C00A1C41EFE000E5B186 /* Soldier.m in Sources */,
+				0E30C0041C41EDBA00E5B186 /* Bullet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -936,6 +1020,20 @@
 			};
 			name = Release;
 		};
+		0E30BFFF1C41E89800E5B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E30C0001C41E89800E5B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1036,6 +1134,7 @@
 				0E30BFEA1C40F26F00E5B186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E30BFF41C40F76B00E5B186 /* Build configuration list for PBXNativeTarget "13【掌握】NSString 字符串长度计算方法" */ = {
 			isa = XCConfigurationList;
@@ -1044,6 +1143,16 @@
 				0E30BFF61C40F76B00E5B186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E30C0011C41E89800E5B186 /* Build configuration list for PBXNativeTarget "15【掌握】多文件实现步骤" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E30BFFF1C41E89800E5B186 /* Debug */,
+				0E30C0001C41E89800E5B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

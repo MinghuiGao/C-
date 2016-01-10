@@ -73,7 +73,8 @@
 #pragma mark Bullet类的实现
 @implementation Bullet
 // 子弹开火，就是爆炸，响一声
--(void)fire{    NSLog(@"啪，%@飞出去了!",_type);
+-(void)fire{
+    NSLog(@"啪，%@飞出去了!",_type);
 }
 @end
 

@@ -14,6 +14,11 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>15【掌握】多文件实现步骤.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>2-【掌握】对象的存储细节.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -113,6 +118,11 @@
 			<true/>
 		</dict>
 		<key>0E30BFEF1C40F76B00E5B186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E30BFFA1C41E89800E5B186</key>
 		<dict>
 			<key>primary</key>
 			<true/>
