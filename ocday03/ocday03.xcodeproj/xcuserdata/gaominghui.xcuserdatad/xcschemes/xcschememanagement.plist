@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>11-【理解】封装应用:股票K线计算.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>1【了解】类方法学习引入.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -43,6 +48,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>8</integer>
+		</dict>
+		<key>9-【了解】封装的概念及原理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 		<key>ocday03.xcscheme</key>
 		<dict>
@@ -93,6 +103,16 @@
 			<true/>
 		</dict>
 		<key>0E30C0851C429D0300E5B186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E30C0961C434DB400E5B186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E30C0A41C435D6100E5B186</key>
 		<dict>
 			<key>primary</key>
 			<true/>

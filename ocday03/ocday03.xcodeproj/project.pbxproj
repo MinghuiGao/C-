@@ -25,6 +25,10 @@
 		0E30C0891C429D0300E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0881C429D0300E5B186 /* main.m */; };
 		0E30C08F1C429DE800E5B186 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C08E1C429DE800E5B186 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		0E30C0921C429DF100E5B186 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0911C429DF100E5B186 /* Dog.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C09A1C434DB400E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0991C434DB400E5B186 /* main.m */; };
+		0E30C0A01C43549800E5B186 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C09F1C43549800E5B186 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0A81C435D6100E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0A71C435D6100E5B186 /* main.m */; };
+		0E30C0AE1C435ED700E5B186 /* KLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0AD1C435ED700E5B186 /* KLine.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +113,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E30C0951C434DB400E5B186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E30C0A31C435D6100E5B186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +170,14 @@
 		0E30C08E1C429DE800E5B186 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		0E30C0901C429DF100E5B186 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		0E30C0911C429DF100E5B186 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		0E30C0971C434DB400E5B186 /* 9-【了解】封装的概念及原理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9-【了解】封装的概念及原理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E30C0991C434DB400E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E30C09E1C43549800E5B186 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E30C09F1C43549800E5B186 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E30C0A51C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-【理解】封装应用:股票K线计算"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E30C0A71C435D6100E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E30C0AC1C435ED700E5B186 /* KLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLine.h; sourceTree = "<group>"; };
+		0E30C0AD1C435ED700E5B186 /* KLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +244,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E30C0941C434DB400E5B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0A21C435D6100E5B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -229,6 +273,8 @@
 				0E30C0641C42851300E5B186 /* 6-【理解】类方法应用场景 */,
 				0E30C0761C42956C00E5B186 /* 7-【理解】匿名对象的概念及使用 */,
 				0E30C0871C429D0300E5B186 /* 8-【掌握】匿名对象作为方法的参数 */,
+				0E30C0981C434DB400E5B186 /* 9-【了解】封装的概念及原理 */,
+				0E30C0A61C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */,
 				0E30C0161C41FDD900E5B186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -245,6 +291,8 @@
 				0E30C0631C42851300E5B186 /* 6-【理解】类方法应用场景 */,
 				0E30C0751C42956C00E5B186 /* 7-【理解】匿名对象的概念及使用 */,
 				0E30C0861C429D0300E5B186 /* 8-【掌握】匿名对象作为方法的参数 */,
+				0E30C0971C434DB400E5B186 /* 9-【了解】封装的概念及原理 */,
+				0E30C0A51C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -345,6 +393,26 @@
 				0E30C0911C429DF100E5B186 /* Dog.m */,
 			);
 			path = "8-【掌握】匿名对象作为方法的参数";
+			sourceTree = "<group>";
+		};
+		0E30C0981C434DB400E5B186 /* 9-【了解】封装的概念及原理 */ = {
+			isa = PBXGroup;
+			children = (
+				0E30C0991C434DB400E5B186 /* main.m */,
+				0E30C09E1C43549800E5B186 /* Person.h */,
+				0E30C09F1C43549800E5B186 /* Person.m */,
+			);
+			path = "9-【了解】封装的概念及原理";
+			sourceTree = "<group>";
+		};
+		0E30C0A61C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */ = {
+			isa = PBXGroup;
+			children = (
+				0E30C0A71C435D6100E5B186 /* main.m */,
+				0E30C0AC1C435ED700E5B186 /* KLine.h */,
+				0E30C0AD1C435ED700E5B186 /* KLine.m */,
+			);
+			path = "11-【理解】封装应用:股票K线计算";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +571,40 @@
 			productReference = 0E30C0861C429D0300E5B186 /* 8-【掌握】匿名对象作为方法的参数 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E30C0961C434DB400E5B186 /* 9-【了解】封装的概念及原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E30C09B1C434DB400E5B186 /* Build configuration list for PBXNativeTarget "9-【了解】封装的概念及原理" */;
+			buildPhases = (
+				0E30C0931C434DB400E5B186 /* Sources */,
+				0E30C0941C434DB400E5B186 /* Frameworks */,
+				0E30C0951C434DB400E5B186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9-【了解】封装的概念及原理";
+			productName = "9-【了解】封装的概念及原理";
+			productReference = 0E30C0971C434DB400E5B186 /* 9-【了解】封装的概念及原理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E30C0A41C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E30C0A91C435D6100E5B186 /* Build configuration list for PBXNativeTarget "11-【理解】封装应用:股票K线计算" */;
+			buildPhases = (
+				0E30C0A11C435D6100E5B186 /* Sources */,
+				0E30C0A21C435D6100E5B186 /* Frameworks */,
+				0E30C0A31C435D6100E5B186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11-【理解】封装应用:股票K线计算";
+			productName = "11-【理解】封装应用:股票K线计算";
+			productReference = 0E30C0A51C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -539,6 +641,12 @@
 					0E30C0851C429D0300E5B186 = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E30C0961C434DB400E5B186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E30C0A41C435D6100E5B186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 0E30C0101C41FDD900E5B186 /* Build configuration list for PBXProject "ocday03" */;
@@ -562,6 +670,8 @@
 				0E30C0621C42851300E5B186 /* 6-【理解】类方法应用场景 */,
 				0E30C0741C42956C00E5B186 /* 7-【理解】匿名对象的概念及使用 */,
 				0E30C0851C429D0300E5B186 /* 8-【掌握】匿名对象作为方法的参数 */,
+				0E30C0961C434DB400E5B186 /* 9-【了解】封装的概念及原理 */,
+				0E30C0A41C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */,
 			);
 		};
 /* End PBXProject section */
@@ -645,6 +755,24 @@
 				0E30C0921C429DF100E5B186 /* Dog.m in Sources */,
 				0E30C08F1C429DE800E5B186 /* Person.m in Sources */,
 				0E30C0891C429D0300E5B186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0931C434DB400E5B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E30C0A01C43549800E5B186 /* Person.m in Sources */,
+				0E30C09A1C434DB400E5B186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0A11C435D6100E5B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E30C0A81C435D6100E5B186 /* main.m in Sources */,
+				0E30C0AE1C435ED700E5B186 /* KLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -854,6 +982,34 @@
 			};
 			name = Release;
 		};
+		0E30C09C1C434DB400E5B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E30C09D1C434DB400E5B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E30C0AA1C435D6100E5B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E30C0AB1C435D6100E5B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -946,6 +1102,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0E30C09B1C434DB400E5B186 /* Build configuration list for PBXNativeTarget "9-【了解】封装的概念及原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E30C09C1C434DB400E5B186 /* Debug */,
+				0E30C09D1C434DB400E5B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E30C0A91C435D6100E5B186 /* Build configuration list for PBXNativeTarget "11-【理解】封装应用:股票K线计算" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E30C0AA1C435D6100E5B186 /* Debug */,
+				0E30C0AB1C435D6100E5B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
