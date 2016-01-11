@@ -9,6 +9,21 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>13-【掌握】依赖关系.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>13-【掌握】依赖关系2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>14-【掌握】关联关系.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 		<key>1【了解】类方法学习引入.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +68,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
+		</dict>
+		<key>Iphone.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>ocday03.xcscheme</key>
 		<dict>
@@ -113,6 +133,26 @@
 			<true/>
 		</dict>
 		<key>0E30C0A41C435D6100E5B186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E30C0B21C4369EF00E5B186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E30C0BD1C4369FD00E5B186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E30C0D11C437E7E00E5B186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E30C0E51C43A78600E5B186</key>
 		<dict>
 			<key>primary</key>
 			<true/>

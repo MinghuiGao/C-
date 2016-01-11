@@ -29,6 +29,17 @@
 		0E30C0A01C43549800E5B186 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C09F1C43549800E5B186 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		0E30C0A81C435D6100E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0A71C435D6100E5B186 /* main.m */; };
 		0E30C0AE1C435ED700E5B186 /* KLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0AD1C435ED700E5B186 /* KLine.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0B61C4369EF00E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0B51C4369EF00E5B186 /* main.m */; };
+		0E30C0C71C436A1800E5B186 /* Iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0C61C436A1800E5B186 /* Iphone.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0CA1C437A0200E5B186 /* Tuhao.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0C91C437A0200E5B186 /* Tuhao.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0CD1C437B3200E5B186 /* Beauty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0CC1C437B3200E5B186 /* Beauty.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0D51C437E7E00E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0D41C437E7E00E5B186 /* main.m */; };
+		0E30C0DB1C437FA500E5B186 /* Iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0DA1C437FA500E5B186 /* Iphone.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0DE1C437FB000E5B186 /* Beauty.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0DD1C437FB000E5B186 /* Beauty.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0E11C437FE400E5B186 /* RichMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0E01C437FE400E5B186 /* RichMan.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0E91C43A78600E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0E81C43A78600E5B186 /* main.m */; };
+		0E30C0EF1C43A8E200E5B186 /* Ipad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0EE1C43A8E200E5B186 /* Ipad.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0F21C43A93800E5B186 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0F11C43A93800E5B186 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -131,6 +142,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E30C0B11C4369EF00E5B186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E30C0D01C437E7E00E5B186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E30C0E41C43A78600E5B186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -178,6 +216,28 @@
 		0E30C0A71C435D6100E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E30C0AC1C435ED700E5B186 /* KLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLine.h; sourceTree = "<group>"; };
 		0E30C0AD1C435ED700E5B186 /* KLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLine.m; sourceTree = "<group>"; };
+		0E30C0B31C4369EF00E5B186 /* 13-【掌握】依赖关系 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13-【掌握】依赖关系"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E30C0B51C4369EF00E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E30C0C51C436A1800E5B186 /* Iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iphone.h; sourceTree = "<group>"; };
+		0E30C0C61C436A1800E5B186 /* Iphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Iphone.m; sourceTree = "<group>"; };
+		0E30C0C81C437A0200E5B186 /* Tuhao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tuhao.h; sourceTree = "<group>"; };
+		0E30C0C91C437A0200E5B186 /* Tuhao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tuhao.m; sourceTree = "<group>"; };
+		0E30C0CB1C437B3200E5B186 /* Beauty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beauty.h; sourceTree = "<group>"; };
+		0E30C0CC1C437B3200E5B186 /* Beauty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beauty.m; sourceTree = "<group>"; };
+		0E30C0D21C437E7E00E5B186 /* 13-【掌握】依赖关系2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13-【掌握】依赖关系2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E30C0D41C437E7E00E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E30C0D91C437FA500E5B186 /* Iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iphone.h; sourceTree = "<group>"; };
+		0E30C0DA1C437FA500E5B186 /* Iphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Iphone.m; sourceTree = "<group>"; };
+		0E30C0DC1C437FB000E5B186 /* Beauty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beauty.h; sourceTree = "<group>"; };
+		0E30C0DD1C437FB000E5B186 /* Beauty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beauty.m; sourceTree = "<group>"; };
+		0E30C0DF1C437FE400E5B186 /* RichMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichMan.h; sourceTree = "<group>"; };
+		0E30C0E01C437FE400E5B186 /* RichMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichMan.m; sourceTree = "<group>"; };
+		0E30C0E61C43A78600E5B186 /* 14-【掌握】关联关系 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14-【掌握】关联关系"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E30C0E81C43A78600E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E30C0ED1C43A8E200E5B186 /* Ipad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ipad.h; sourceTree = "<group>"; };
+		0E30C0EE1C43A8E200E5B186 /* Ipad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ipad.m; sourceTree = "<group>"; };
+		0E30C0F01C43A93800E5B186 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E30C0F11C43A93800E5B186 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +318,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E30C0B01C4369EF00E5B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0CF1C437E7E00E5B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0E31C43A78600E5B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -275,6 +356,9 @@
 				0E30C0871C429D0300E5B186 /* 8-【掌握】匿名对象作为方法的参数 */,
 				0E30C0981C434DB400E5B186 /* 9-【了解】封装的概念及原理 */,
 				0E30C0A61C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */,
+				0E30C0B41C4369EF00E5B186 /* 13-【掌握】依赖关系 */,
+				0E30C0D31C437E7E00E5B186 /* 13-【掌握】依赖关系2 */,
+				0E30C0E71C43A78600E5B186 /* 14-【掌握】关联关系 */,
 				0E30C0161C41FDD900E5B186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -293,6 +377,9 @@
 				0E30C0861C429D0300E5B186 /* 8-【掌握】匿名对象作为方法的参数 */,
 				0E30C0971C434DB400E5B186 /* 9-【了解】封装的概念及原理 */,
 				0E30C0A51C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */,
+				0E30C0B31C4369EF00E5B186 /* 13-【掌握】依赖关系 */,
+				0E30C0D21C437E7E00E5B186 /* 13-【掌握】依赖关系2 */,
+				0E30C0E61C43A78600E5B186 /* 14-【掌握】关联关系 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -413,6 +500,46 @@
 				0E30C0AD1C435ED700E5B186 /* KLine.m */,
 			);
 			path = "11-【理解】封装应用:股票K线计算";
+			sourceTree = "<group>";
+		};
+		0E30C0B41C4369EF00E5B186 /* 13-【掌握】依赖关系 */ = {
+			isa = PBXGroup;
+			children = (
+				0E30C0B51C4369EF00E5B186 /* main.m */,
+				0E30C0C51C436A1800E5B186 /* Iphone.h */,
+				0E30C0C61C436A1800E5B186 /* Iphone.m */,
+				0E30C0C81C437A0200E5B186 /* Tuhao.h */,
+				0E30C0C91C437A0200E5B186 /* Tuhao.m */,
+				0E30C0CB1C437B3200E5B186 /* Beauty.h */,
+				0E30C0CC1C437B3200E5B186 /* Beauty.m */,
+			);
+			path = "13-【掌握】依赖关系";
+			sourceTree = "<group>";
+		};
+		0E30C0D31C437E7E00E5B186 /* 13-【掌握】依赖关系2 */ = {
+			isa = PBXGroup;
+			children = (
+				0E30C0D41C437E7E00E5B186 /* main.m */,
+				0E30C0D91C437FA500E5B186 /* Iphone.h */,
+				0E30C0DA1C437FA500E5B186 /* Iphone.m */,
+				0E30C0DC1C437FB000E5B186 /* Beauty.h */,
+				0E30C0DD1C437FB000E5B186 /* Beauty.m */,
+				0E30C0DF1C437FE400E5B186 /* RichMan.h */,
+				0E30C0E01C437FE400E5B186 /* RichMan.m */,
+			);
+			path = "13-【掌握】依赖关系2";
+			sourceTree = "<group>";
+		};
+		0E30C0E71C43A78600E5B186 /* 14-【掌握】关联关系 */ = {
+			isa = PBXGroup;
+			children = (
+				0E30C0E81C43A78600E5B186 /* main.m */,
+				0E30C0ED1C43A8E200E5B186 /* Ipad.h */,
+				0E30C0EE1C43A8E200E5B186 /* Ipad.m */,
+				0E30C0F01C43A93800E5B186 /* Person.h */,
+				0E30C0F11C43A93800E5B186 /* Person.m */,
+			);
+			path = "14-【掌握】关联关系";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -605,6 +732,57 @@
 			productReference = 0E30C0A51C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E30C0B21C4369EF00E5B186 /* 13-【掌握】依赖关系 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E30C0B71C4369EF00E5B186 /* Build configuration list for PBXNativeTarget "13-【掌握】依赖关系" */;
+			buildPhases = (
+				0E30C0AF1C4369EF00E5B186 /* Sources */,
+				0E30C0B01C4369EF00E5B186 /* Frameworks */,
+				0E30C0B11C4369EF00E5B186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-【掌握】依赖关系";
+			productName = "13-【掌握】依赖关系";
+			productReference = 0E30C0B31C4369EF00E5B186 /* 13-【掌握】依赖关系 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E30C0D11C437E7E00E5B186 /* 13-【掌握】依赖关系2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E30C0D61C437E7E00E5B186 /* Build configuration list for PBXNativeTarget "13-【掌握】依赖关系2" */;
+			buildPhases = (
+				0E30C0CE1C437E7E00E5B186 /* Sources */,
+				0E30C0CF1C437E7E00E5B186 /* Frameworks */,
+				0E30C0D01C437E7E00E5B186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-【掌握】依赖关系2";
+			productName = "13-【掌握】依赖关系2";
+			productReference = 0E30C0D21C437E7E00E5B186 /* 13-【掌握】依赖关系2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E30C0E51C43A78600E5B186 /* 14-【掌握】关联关系 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E30C0EA1C43A78600E5B186 /* Build configuration list for PBXNativeTarget "14-【掌握】关联关系" */;
+			buildPhases = (
+				0E30C0E21C43A78600E5B186 /* Sources */,
+				0E30C0E31C43A78600E5B186 /* Frameworks */,
+				0E30C0E41C43A78600E5B186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14-【掌握】关联关系";
+			productName = "14-【掌握】关联关系";
+			productReference = 0E30C0E61C43A78600E5B186 /* 14-【掌握】关联关系 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -647,6 +825,15 @@
 					0E30C0A41C435D6100E5B186 = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E30C0B21C4369EF00E5B186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E30C0D11C437E7E00E5B186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E30C0E51C43A78600E5B186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 0E30C0101C41FDD900E5B186 /* Build configuration list for PBXProject "ocday03" */;
@@ -672,6 +859,9 @@
 				0E30C0851C429D0300E5B186 /* 8-【掌握】匿名对象作为方法的参数 */,
 				0E30C0961C434DB400E5B186 /* 9-【了解】封装的概念及原理 */,
 				0E30C0A41C435D6100E5B186 /* 11-【理解】封装应用:股票K线计算 */,
+				0E30C0B21C4369EF00E5B186 /* 13-【掌握】依赖关系 */,
+				0E30C0D11C437E7E00E5B186 /* 13-【掌握】依赖关系2 */,
+				0E30C0E51C43A78600E5B186 /* 14-【掌握】关联关系 */,
 			);
 		};
 /* End PBXProject section */
@@ -773,6 +963,38 @@
 			files = (
 				0E30C0A81C435D6100E5B186 /* main.m in Sources */,
 				0E30C0AE1C435ED700E5B186 /* KLine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0AF1C4369EF00E5B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E30C0CA1C437A0200E5B186 /* Tuhao.m in Sources */,
+				0E30C0CD1C437B3200E5B186 /* Beauty.m in Sources */,
+				0E30C0C71C436A1800E5B186 /* Iphone.m in Sources */,
+				0E30C0B61C4369EF00E5B186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0CE1C437E7E00E5B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E30C0DE1C437FB000E5B186 /* Beauty.m in Sources */,
+				0E30C0DB1C437FA500E5B186 /* Iphone.m in Sources */,
+				0E30C0E11C437FE400E5B186 /* RichMan.m in Sources */,
+				0E30C0D51C437E7E00E5B186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0E21C43A78600E5B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E30C0F21C43A93800E5B186 /* Person.m in Sources */,
+				0E30C0E91C43A78600E5B186 /* main.m in Sources */,
+				0E30C0EF1C43A8E200E5B186 /* Ipad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1010,6 +1232,48 @@
 			};
 			name = Release;
 		};
+		0E30C0B81C4369EF00E5B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E30C0B91C4369EF00E5B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E30C0D71C437E7E00E5B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E30C0D81C437E7E00E5B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E30C0EB1C43A78600E5B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E30C0EC1C43A78600E5B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1116,6 +1380,30 @@
 			buildConfigurations = (
 				0E30C0AA1C435D6100E5B186 /* Debug */,
 				0E30C0AB1C435D6100E5B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E30C0B71C4369EF00E5B186 /* Build configuration list for PBXNativeTarget "13-【掌握】依赖关系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E30C0B81C4369EF00E5B186 /* Debug */,
+				0E30C0B91C4369EF00E5B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E30C0D61C437E7E00E5B186 /* Build configuration list for PBXNativeTarget "13-【掌握】依赖关系2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E30C0D71C437E7E00E5B186 /* Debug */,
+				0E30C0D81C437E7E00E5B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E30C0EA1C43A78600E5B186 /* Build configuration list for PBXNativeTarget "14-【掌握】关联关系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E30C0EB1C43A78600E5B186 /* Debug */,
+				0E30C0EC1C43A78600E5B186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
