@@ -24,6 +24,16 @@
 			<key>orderHint</key>
 			<integer>14</integer>
 		</dict>
+		<key>17-[理解］方法重载问题.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>18-［理解］OC中的static关键字使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>1【了解】类方法学习引入.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -153,6 +163,16 @@
 			<true/>
 		</dict>
 		<key>0E30C0E51C43A78600E5B186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E30C0F61C43ABF800E5B186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E30C1011C43B7CE00E5B186</key>
 		<dict>
 			<key>primary</key>
 			<true/>

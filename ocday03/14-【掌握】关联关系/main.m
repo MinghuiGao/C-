@@ -19,7 +19,8 @@
             关联关系的耦合程度要高于依赖关系。
     案例：
         人又一个ipad，使用ipad放歌听。
-    
+    总结：
+        人拥有一个ipad，ipad作为人这个类的一个属性存在。因此二者之间是一个关联关系。
  
  */
 int main(int argc, const char * argv[]) {

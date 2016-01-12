@@ -40,6 +40,8 @@
 		0E30C0E91C43A78600E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0E81C43A78600E5B186 /* main.m */; };
 		0E30C0EF1C43A8E200E5B186 /* Ipad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0EE1C43A8E200E5B186 /* Ipad.m */; settings = {ASSET_TAGS = (); }; };
 		0E30C0F21C43A93800E5B186 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0F11C43A93800E5B186 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E30C0FA1C43ABF800E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0F91C43ABF800E5B186 /* main.m */; };
+		0E30C1051C43B7CE00E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C1041C43B7CE00E5B186 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -169,6 +171,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E30C0F51C43ABF800E5B186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E30C1001C43B7CE00E5B186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -238,6 +258,10 @@
 		0E30C0EE1C43A8E200E5B186 /* Ipad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ipad.m; sourceTree = "<group>"; };
 		0E30C0F01C43A93800E5B186 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0E30C0F11C43A93800E5B186 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E30C0F71C43ABF800E5B186 /* 17-[理解］方法重载问题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17-[理解］方法重载问题"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E30C0F91C43ABF800E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E30C1021C43B7CE00E5B186 /* 18-［理解］OC中的static关键字使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-［理解］OC中的static关键字使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E30C1041C43B7CE00E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +363,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E30C0F41C43ABF800E5B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0FF1C43B7CE00E5B186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -359,6 +397,8 @@
 				0E30C0B41C4369EF00E5B186 /* 13-【掌握】依赖关系 */,
 				0E30C0D31C437E7E00E5B186 /* 13-【掌握】依赖关系2 */,
 				0E30C0E71C43A78600E5B186 /* 14-【掌握】关联关系 */,
+				0E30C0F81C43ABF800E5B186 /* 17-[理解］方法重载问题 */,
+				0E30C1031C43B7CE00E5B186 /* 18-［理解］OC中的static关键字使用 */,
 				0E30C0161C41FDD900E5B186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -380,6 +420,8 @@
 				0E30C0B31C4369EF00E5B186 /* 13-【掌握】依赖关系 */,
 				0E30C0D21C437E7E00E5B186 /* 13-【掌握】依赖关系2 */,
 				0E30C0E61C43A78600E5B186 /* 14-【掌握】关联关系 */,
+				0E30C0F71C43ABF800E5B186 /* 17-[理解］方法重载问题 */,
+				0E30C1021C43B7CE00E5B186 /* 18-［理解］OC中的static关键字使用 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -540,6 +582,22 @@
 				0E30C0F11C43A93800E5B186 /* Person.m */,
 			);
 			path = "14-【掌握】关联关系";
+			sourceTree = "<group>";
+		};
+		0E30C0F81C43ABF800E5B186 /* 17-[理解］方法重载问题 */ = {
+			isa = PBXGroup;
+			children = (
+				0E30C0F91C43ABF800E5B186 /* main.m */,
+			);
+			path = "17-[理解］方法重载问题";
+			sourceTree = "<group>";
+		};
+		0E30C1031C43B7CE00E5B186 /* 18-［理解］OC中的static关键字使用 */ = {
+			isa = PBXGroup;
+			children = (
+				0E30C1041C43B7CE00E5B186 /* main.m */,
+			);
+			path = "18-［理解］OC中的static关键字使用";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -783,6 +841,40 @@
 			productReference = 0E30C0E61C43A78600E5B186 /* 14-【掌握】关联关系 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E30C0F61C43ABF800E5B186 /* 17-[理解］方法重载问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E30C0FB1C43ABF800E5B186 /* Build configuration list for PBXNativeTarget "17-[理解］方法重载问题" */;
+			buildPhases = (
+				0E30C0F31C43ABF800E5B186 /* Sources */,
+				0E30C0F41C43ABF800E5B186 /* Frameworks */,
+				0E30C0F51C43ABF800E5B186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "17-[理解］方法重载问题";
+			productName = "17-[理解］方法重载问题";
+			productReference = 0E30C0F71C43ABF800E5B186 /* 17-[理解］方法重载问题 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E30C1011C43B7CE00E5B186 /* 18-［理解］OC中的static关键字使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E30C1061C43B7CE00E5B186 /* Build configuration list for PBXNativeTarget "18-［理解］OC中的static关键字使用" */;
+			buildPhases = (
+				0E30C0FE1C43B7CE00E5B186 /* Sources */,
+				0E30C0FF1C43B7CE00E5B186 /* Frameworks */,
+				0E30C1001C43B7CE00E5B186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "18-［理解］OC中的static关键字使用";
+			productName = "18-［理解］OC中的static关键字使用";
+			productReference = 0E30C1021C43B7CE00E5B186 /* 18-［理解］OC中的static关键字使用 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -834,6 +926,12 @@
 					0E30C0E51C43A78600E5B186 = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E30C0F61C43ABF800E5B186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E30C1011C43B7CE00E5B186 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 0E30C0101C41FDD900E5B186 /* Build configuration list for PBXProject "ocday03" */;
@@ -862,6 +960,8 @@
 				0E30C0B21C4369EF00E5B186 /* 13-【掌握】依赖关系 */,
 				0E30C0D11C437E7E00E5B186 /* 13-【掌握】依赖关系2 */,
 				0E30C0E51C43A78600E5B186 /* 14-【掌握】关联关系 */,
+				0E30C0F61C43ABF800E5B186 /* 17-[理解］方法重载问题 */,
+				0E30C1011C43B7CE00E5B186 /* 18-［理解］OC中的static关键字使用 */,
 			);
 		};
 /* End PBXProject section */
@@ -995,6 +1095,22 @@
 				0E30C0F21C43A93800E5B186 /* Person.m in Sources */,
 				0E30C0E91C43A78600E5B186 /* main.m in Sources */,
 				0E30C0EF1C43A8E200E5B186 /* Ipad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0F31C43ABF800E5B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E30C0FA1C43ABF800E5B186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E30C0FE1C43B7CE00E5B186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E30C1051C43B7CE00E5B186 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1274,6 +1390,34 @@
 			};
 			name = Release;
 		};
+		0E30C0FC1C43ABF800E5B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E30C0FD1C43ABF800E5B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E30C1071C43B7CE00E5B186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E30C1081C43B7CE00E5B186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1404,6 +1548,22 @@
 			buildConfigurations = (
 				0E30C0EB1C43A78600E5B186 /* Debug */,
 				0E30C0EC1C43A78600E5B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E30C0FB1C43ABF800E5B186 /* Build configuration list for PBXNativeTarget "17-[理解］方法重载问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E30C0FC1C43ABF800E5B186 /* Debug */,
+				0E30C0FD1C43ABF800E5B186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E30C1061C43B7CE00E5B186 /* Build configuration list for PBXNativeTarget "18-［理解］OC中的static关键字使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E30C1071C43B7CE00E5B186 /* Debug */,
+				0E30C1081C43B7CE00E5B186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
