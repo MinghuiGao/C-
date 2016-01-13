@@ -42,6 +42,7 @@
 		0E30C0F21C43A93800E5B186 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0F11C43A93800E5B186 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		0E30C0FA1C43ABF800E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C0F91C43ABF800E5B186 /* main.m */; };
 		0E30C1051C43B7CE00E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C1041C43B7CE00E5B186 /* main.m */; };
+		0E30C10B1C45EBB100E5B186 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C10A1C45EBB100E5B186 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -262,6 +263,8 @@
 		0E30C0F91C43ABF800E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E30C1021C43B7CE00E5B186 /* 18-［理解］OC中的static关键字使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-［理解］OC中的static关键字使用"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E30C1041C43B7CE00E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E30C1091C45EBB100E5B186 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E30C10A1C45EBB100E5B186 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -596,6 +599,8 @@
 			isa = PBXGroup;
 			children = (
 				0E30C1041C43B7CE00E5B186 /* main.m */,
+				0E30C1091C45EBB100E5B186 /* Person.h */,
+				0E30C10A1C45EBB100E5B186 /* Person.m */,
 			);
 			path = "18-［理解］OC中的static关键字使用";
 			sourceTree = "<group>";
@@ -1110,6 +1115,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E30C10B1C45EBB100E5B186 /* Person.m in Sources */,
 				0E30C1051C43B7CE00E5B186 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
