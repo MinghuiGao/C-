@@ -18,6 +18,21 @@
 		0E30C1561C462DB500E5B186 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C1551C462DB500E5B186 /* Dog.m */; settings = {ASSET_TAGS = (); }; };
 		0E30C15E1C46304E00E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C15D1C46304E00E5B186 /* main.m */; };
 		0E30C1641C4633B600E5B186 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C1631C4633B600E5B186 /* Dog.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA7EB1C4699F00057866D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA7EA1C4699F00057866D /* main.m */; };
+		0E6BA7F11C469A4E0057866D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA7F01C469A4E0057866D /* Student.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA7F41C469AC10057866D /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA7F31C469AC10057866D /* Teacher.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA7F81C469B9A0057866D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA7F71C469B9A0057866D /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA7FB1C469C0F0057866D /* SchoolMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA7FA1C469C0F0057866D /* SchoolMaster.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA8031C46A4750057866D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA8021C46A4750057866D /* main.m */; };
+		0E6BA80C1C46AB560057866D /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA80B1C46AB560057866D /* Father.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA80F1C46AC0B0057866D /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA80E1C46AC0B0057866D /* Son.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA8171C46C2CB0057866D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA8161C46C2CB0057866D /* main.m */; };
+		0E6BA81D1C46C3EC0057866D /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA81C1C46C3EC0057866D /* Animal.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA8201C46C4320057866D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA81F1C46C4320057866D /* Dog.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA8231C46C4800057866D /* ShoutSkyDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA8221C46C4800057866D /* ShoutSkyDog.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA82B1C46D7E40057866D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA82A1C46D7E40057866D /* main.m */; };
+		0E6BA8311C46D8C30057866D /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA8301C46D8C30057866D /* Car.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA8341C46DB1E0057866D /* BigCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA8331C46DB1E0057866D /* BigCar.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +90,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E6BA7E61C4699F00057866D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E6BA7FE1C46A4750057866D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E6BA8121C46C2CB0057866D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E6BA8261C46D7E40057866D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +151,37 @@
 		0E30C15D1C46304E00E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E30C1621C4633B600E5B186 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		0E30C1631C4633B600E5B186 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		0E6BA7E81C4699F00057866D /* 8-【掌握】继承的代码实现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8-【掌握】继承的代码实现"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6BA7EA1C4699F00057866D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6BA7EF1C469A4E0057866D /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0E6BA7F01C469A4E0057866D /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		0E6BA7F21C469AC10057866D /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		0E6BA7F31C469AC10057866D /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		0E6BA7F51C469AEC0057866D /* Gender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gender.h; sourceTree = "<group>"; };
+		0E6BA7F61C469B9A0057866D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E6BA7F71C469B9A0057866D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E6BA7F91C469C0F0057866D /* SchoolMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolMaster.h; sourceTree = "<group>"; };
+		0E6BA7FA1C469C0F0057866D /* SchoolMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolMaster.m; sourceTree = "<group>"; };
+		0E6BA8001C46A4750057866D /* 9-【理解】基类和派生类之间的关系 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9-【理解】基类和派生类之间的关系"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6BA8021C46A4750057866D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6BA80A1C46AB560057866D /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		0E6BA80B1C46AB560057866D /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		0E6BA80D1C46AC0B0057866D /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
+		0E6BA80E1C46AC0B0057866D /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
+		0E6BA8141C46C2CB0057866D /* 10-【理解】继承的注意事项 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-【理解】继承的注意事项"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6BA8161C46C2CB0057866D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6BA81B1C46C3EC0057866D /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		0E6BA81C1C46C3EC0057866D /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		0E6BA81E1C46C4320057866D /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		0E6BA81F1C46C4320057866D /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		0E6BA8211C46C4800057866D /* ShoutSkyDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoutSkyDog.h; sourceTree = "<group>"; };
+		0E6BA8221C46C4800057866D /* ShoutSkyDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoutSkyDog.m; sourceTree = "<group>"; };
+		0E6BA8281C46D7E40057866D /* 11-【掌握】实例变量修饰符介绍 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-【掌握】实例变量修饰符介绍"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6BA82A1C46D7E40057866D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6BA82F1C46D8C30057866D /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		0E6BA8301C46D8C30057866D /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		0E6BA8321C46DB1E0057866D /* BigCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigCar.h; sourceTree = "<group>"; };
+		0E6BA8331C46DB1E0057866D /* BigCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigCar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +227,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E6BA7E51C4699F00057866D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA7FD1C46A4750057866D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA8111C46C2CB0057866D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA8251C46D7E40057866D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -157,6 +267,10 @@
 				0E30C1401C4625CD00E5B186 /* 4-【掌握】self用在类方法中 */,
 				0E30C14E1C462C8200E5B186 /* 5-【理解】self修饰变量 */,
 				0E30C15C1C46304E00E5B186 /* 6-【理解】self使用总结和注意事项 */,
+				0E6BA7E91C4699F00057866D /* 8-【掌握】继承的代码实现 */,
+				0E6BA8011C46A4750057866D /* 9-【理解】基类和派生类之间的关系 */,
+				0E6BA8151C46C2CB0057866D /* 10-【理解】继承的注意事项 */,
+				0E6BA8291C46D7E40057866D /* 11-【掌握】实例变量修饰符介绍 */,
 				0E30C1161C461ABC00E5B186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -170,6 +284,10 @@
 				0E30C13F1C4625CD00E5B186 /* 4-【掌握】self用在类方法中 */,
 				0E30C14D1C462C8200E5B186 /* 5-【理解】self修饰变量 */,
 				0E30C15B1C46304E00E5B186 /* 6-【理解】self使用总结和注意事项 */,
+				0E6BA7E81C4699F00057866D /* 8-【掌握】继承的代码实现 */,
+				0E6BA8001C46A4750057866D /* 9-【理解】基类和派生类之间的关系 */,
+				0E6BA8141C46C2CB0057866D /* 10-【理解】继承的注意事项 */,
+				0E6BA8281C46D7E40057866D /* 11-【掌握】实例变量修饰符介绍 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,6 +348,61 @@
 				0E30C1631C4633B600E5B186 /* Dog.m */,
 			);
 			path = "6-【理解】self使用总结和注意事项";
+			sourceTree = "<group>";
+		};
+		0E6BA7E91C4699F00057866D /* 8-【掌握】继承的代码实现 */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA7EA1C4699F00057866D /* main.m */,
+				0E6BA7EF1C469A4E0057866D /* Student.h */,
+				0E6BA7F01C469A4E0057866D /* Student.m */,
+				0E6BA7F21C469AC10057866D /* Teacher.h */,
+				0E6BA7F31C469AC10057866D /* Teacher.m */,
+				0E6BA7F51C469AEC0057866D /* Gender.h */,
+				0E6BA7F61C469B9A0057866D /* Person.h */,
+				0E6BA7F71C469B9A0057866D /* Person.m */,
+				0E6BA7F91C469C0F0057866D /* SchoolMaster.h */,
+				0E6BA7FA1C469C0F0057866D /* SchoolMaster.m */,
+			);
+			path = "8-【掌握】继承的代码实现";
+			sourceTree = "<group>";
+		};
+		0E6BA8011C46A4750057866D /* 9-【理解】基类和派生类之间的关系 */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA8021C46A4750057866D /* main.m */,
+				0E6BA80A1C46AB560057866D /* Father.h */,
+				0E6BA80B1C46AB560057866D /* Father.m */,
+				0E6BA80D1C46AC0B0057866D /* Son.h */,
+				0E6BA80E1C46AC0B0057866D /* Son.m */,
+			);
+			path = "9-【理解】基类和派生类之间的关系";
+			sourceTree = "<group>";
+		};
+		0E6BA8151C46C2CB0057866D /* 10-【理解】继承的注意事项 */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA8161C46C2CB0057866D /* main.m */,
+				0E6BA81B1C46C3EC0057866D /* Animal.h */,
+				0E6BA81C1C46C3EC0057866D /* Animal.m */,
+				0E6BA81E1C46C4320057866D /* Dog.h */,
+				0E6BA81F1C46C4320057866D /* Dog.m */,
+				0E6BA8211C46C4800057866D /* ShoutSkyDog.h */,
+				0E6BA8221C46C4800057866D /* ShoutSkyDog.m */,
+			);
+			path = "10-【理解】继承的注意事项";
+			sourceTree = "<group>";
+		};
+		0E6BA8291C46D7E40057866D /* 11-【掌握】实例变量修饰符介绍 */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA82A1C46D7E40057866D /* main.m */,
+				0E6BA82F1C46D8C30057866D /* Car.h */,
+				0E6BA8301C46D8C30057866D /* Car.m */,
+				0E6BA8321C46DB1E0057866D /* BigCar.h */,
+				0E6BA8331C46DB1E0057866D /* BigCar.m */,
+			);
+			path = "11-【掌握】实例变量修饰符介绍";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +510,74 @@
 			productReference = 0E30C15B1C46304E00E5B186 /* 6-【理解】self使用总结和注意事项 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E6BA7E71C4699F00057866D /* 8-【掌握】继承的代码实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6BA7EE1C4699F00057866D /* Build configuration list for PBXNativeTarget "8-【掌握】继承的代码实现" */;
+			buildPhases = (
+				0E6BA7E41C4699F00057866D /* Sources */,
+				0E6BA7E51C4699F00057866D /* Frameworks */,
+				0E6BA7E61C4699F00057866D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8-【掌握】继承的代码实现";
+			productName = "8-【掌握】继承的代码实现";
+			productReference = 0E6BA7E81C4699F00057866D /* 8-【掌握】继承的代码实现 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E6BA7FF1C46A4750057866D /* 9-【理解】基类和派生类之间的关系 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6BA8041C46A4750057866D /* Build configuration list for PBXNativeTarget "9-【理解】基类和派生类之间的关系" */;
+			buildPhases = (
+				0E6BA7FC1C46A4750057866D /* Sources */,
+				0E6BA7FD1C46A4750057866D /* Frameworks */,
+				0E6BA7FE1C46A4750057866D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9-【理解】基类和派生类之间的关系";
+			productName = "9-【理解】基类和派生类之间的关系";
+			productReference = 0E6BA8001C46A4750057866D /* 9-【理解】基类和派生类之间的关系 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E6BA8131C46C2CB0057866D /* 10-【理解】继承的注意事项 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6BA8181C46C2CB0057866D /* Build configuration list for PBXNativeTarget "10-【理解】继承的注意事项" */;
+			buildPhases = (
+				0E6BA8101C46C2CB0057866D /* Sources */,
+				0E6BA8111C46C2CB0057866D /* Frameworks */,
+				0E6BA8121C46C2CB0057866D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10-【理解】继承的注意事项";
+			productName = "10-【理解】继承的注意事项";
+			productReference = 0E6BA8141C46C2CB0057866D /* 10-【理解】继承的注意事项 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E6BA8271C46D7E40057866D /* 11-【掌握】实例变量修饰符介绍 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6BA82C1C46D7E40057866D /* Build configuration list for PBXNativeTarget "11-【掌握】实例变量修饰符介绍" */;
+			buildPhases = (
+				0E6BA8241C46D7E40057866D /* Sources */,
+				0E6BA8251C46D7E40057866D /* Frameworks */,
+				0E6BA8261C46D7E40057866D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11-【掌握】实例变量修饰符介绍";
+			productName = "11-【掌握】实例变量修饰符介绍";
+			productReference = 0E6BA8281C46D7E40057866D /* 11-【掌握】实例变量修饰符介绍 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -364,6 +605,18 @@
 					0E30C15A1C46304E00E5B186 = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E6BA7E71C4699F00057866D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E6BA7FF1C46A4750057866D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E6BA8131C46C2CB0057866D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E6BA8271C46D7E40057866D = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 0E30C1101C461ABC00E5B186 /* Build configuration list for PBXProject "ocday04" */;
@@ -384,6 +637,10 @@
 				0E30C13E1C4625CD00E5B186 /* 4-【掌握】self用在类方法中 */,
 				0E30C14C1C462C8200E5B186 /* 5-【理解】self修饰变量 */,
 				0E30C15A1C46304E00E5B186 /* 6-【理解】self使用总结和注意事项 */,
+				0E6BA7E71C4699F00057866D /* 8-【掌握】继承的代码实现 */,
+				0E6BA7FF1C46A4750057866D /* 9-【理解】基类和派生类之间的关系 */,
+				0E6BA8131C46C2CB0057866D /* 10-【理解】继承的注意事项 */,
+				0E6BA8271C46D7E40057866D /* 11-【掌握】实例变量修饰符介绍 */,
 			);
 		};
 /* End PBXProject section */
@@ -439,6 +696,49 @@
 			files = (
 				0E30C1641C4633B600E5B186 /* Dog.m in Sources */,
 				0E30C15E1C46304E00E5B186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA7E41C4699F00057866D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA7F41C469AC10057866D /* Teacher.m in Sources */,
+				0E6BA7EB1C4699F00057866D /* main.m in Sources */,
+				0E6BA7F81C469B9A0057866D /* Person.m in Sources */,
+				0E6BA7FB1C469C0F0057866D /* SchoolMaster.m in Sources */,
+				0E6BA7F11C469A4E0057866D /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA7FC1C46A4750057866D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA80F1C46AC0B0057866D /* Son.m in Sources */,
+				0E6BA8031C46A4750057866D /* main.m in Sources */,
+				0E6BA80C1C46AB560057866D /* Father.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA8101C46C2CB0057866D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA8231C46C4800057866D /* ShoutSkyDog.m in Sources */,
+				0E6BA8201C46C4320057866D /* Dog.m in Sources */,
+				0E6BA8171C46C2CB0057866D /* main.m in Sources */,
+				0E6BA81D1C46C3EC0057866D /* Animal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA8241C46D7E40057866D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA8341C46DB1E0057866D /* BigCar.m in Sources */,
+				0E6BA8311C46D8C30057866D /* Car.m in Sources */,
+				0E6BA82B1C46D7E40057866D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +906,62 @@
 			};
 			name = Release;
 		};
+		0E6BA7EC1C4699F00057866D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6BA7ED1C4699F00057866D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E6BA8051C46A4750057866D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6BA8061C46A4750057866D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E6BA8191C46C2CB0057866D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6BA81A1C46C2CB0057866D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E6BA82D1C46D7E40057866D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6BA82E1C46D7E40057866D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -625,6 +981,7 @@
 				0E30C11E1C461ABC00E5B186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E30C1271C461AD400E5B186 /* Build configuration list for PBXNativeTarget "2-【了解】self和super关键字介绍" */ = {
 			isa = XCConfigurationList;
@@ -633,6 +990,7 @@
 				0E30C1291C461AD400E5B186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E30C1351C46208000E5B186 /* Build configuration list for PBXNativeTarget "3-【掌握】self用在对象方法中" */ = {
 			isa = XCConfigurationList;
@@ -641,6 +999,7 @@
 				0E30C1371C46208000E5B186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E30C1431C4625CD00E5B186 /* Build configuration list for PBXNativeTarget "4-【掌握】self用在类方法中" */ = {
 			isa = XCConfigurationList;
@@ -649,6 +1008,7 @@
 				0E30C1451C4625CD00E5B186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E30C1511C462C8200E5B186 /* Build configuration list for PBXNativeTarget "5-【理解】self修饰变量" */ = {
 			isa = XCConfigurationList;
@@ -657,6 +1017,7 @@
 				0E30C1531C462C8200E5B186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E30C15F1C46304E00E5B186 /* Build configuration list for PBXNativeTarget "6-【理解】self使用总结和注意事项" */ = {
 			isa = XCConfigurationList;
@@ -665,6 +1026,43 @@
 				0E30C1611C46304E00E5B186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6BA7EE1C4699F00057866D /* Build configuration list for PBXNativeTarget "8-【掌握】继承的代码实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6BA7EC1C4699F00057866D /* Debug */,
+				0E6BA7ED1C4699F00057866D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6BA8041C46A4750057866D /* Build configuration list for PBXNativeTarget "9-【理解】基类和派生类之间的关系" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6BA8051C46A4750057866D /* Debug */,
+				0E6BA8061C46A4750057866D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6BA8181C46C2CB0057866D /* Build configuration list for PBXNativeTarget "10-【理解】继承的注意事项" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6BA8191C46C2CB0057866D /* Debug */,
+				0E6BA81A1C46C2CB0057866D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6BA82C1C46D7E40057866D /* Build configuration list for PBXNativeTarget "11-【掌握】实例变量修饰符介绍" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6BA82D1C46D7E40057866D /* Debug */,
+				0E6BA82E1C46D7E40057866D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

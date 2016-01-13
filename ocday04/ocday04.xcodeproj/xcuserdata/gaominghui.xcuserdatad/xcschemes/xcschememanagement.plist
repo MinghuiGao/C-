@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>10-【理解】继承的注意事项.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>11-【掌握】实例变量修饰符介绍.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>2-【了解】self和super关键字介绍.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +38,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+		<key>8-【掌握】继承的代码实现.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>9-【理解】基类和派生类之间的关系.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>ocday04.xcscheme</key>
 		<dict>
@@ -63,6 +83,26 @@
 			<true/>
 		</dict>
 		<key>0E30C15A1C46304E00E5B186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA7E71C4699F00057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA7FF1C46A4750057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA8131C46C2CB0057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA8271C46D7E40057866D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
