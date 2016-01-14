@@ -14,10 +14,45 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>13-【理解】OC中的私有变量.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>13-【理解】OC中的私有变量2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>14-【掌握】OC中的私有(相对私有)方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>15-【理解】description方法介绍及重写.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>16-【了解】多态的概念和条件.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>18-【了解】类的本质.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>2-【了解】self和super关键字介绍.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>21-【理解】SEL类型.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
 		</dict>
 		<key>3-【掌握】self用在对象方法中.xcscheme</key>
 		<dict>
@@ -53,6 +88,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>problem3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -103,6 +143,46 @@
 			<true/>
 		</dict>
 		<key>0E6BA8271C46D7E40057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA8381C4745910057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA8461C475D950057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA8571C476C150057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA8681C4795BE0057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA8761C47C4B30057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA88D1C47DF9D0057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA89B1C47E77A0057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA8A61C4802340057866D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

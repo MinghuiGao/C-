@@ -26,6 +26,9 @@
         1）@public    可以在子类中使用
         2）@protected 可以在子类中使用
         3）@private   不能在子类中使用，但是能够被子类继承。
+    注意：
+        1、默认缺省是的修饰符实@protected
+        2、子类可以继承父类的@private的实例变量，但是不能访问。
  */
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
