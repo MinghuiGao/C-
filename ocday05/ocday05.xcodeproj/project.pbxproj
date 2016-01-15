@@ -20,6 +20,12 @@
 		0E6BA9091C491BE20057866D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA9081C491BE20057866D /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		0E6BA9111C4922620057866D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA9101C4922620057866D /* main.m */; };
 		0E6BA9171C4922870057866D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA9161C4922870057866D /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA91F1C493C360057866D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA91E1C493C360057866D /* main.m */; };
+		0E6BA9251C4941700057866D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA9241C4941700057866D /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA92D1C4947780057866D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA92C1C4947780057866D /* main.m */; };
+		0E6BA9331C4948490057866D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA9321C4948490057866D /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA94C1C4956AC0057866D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA94B1C4956AC0057866D /* main.m */; };
+		0E6BA9521C4957B80057866D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA9511C4957B80057866D /* Person.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +92,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E6BA91A1C493C360057866D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E6BA9281C4947780057866D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E6BA9471C4956AC0057866D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +148,18 @@
 		0E6BA9101C4922620057866D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E6BA9151C4922870057866D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0E6BA9161C4922870057866D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E6BA91C1C493C360057866D /* 8-【掌握】@synthesize指定实例变量赋值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8-【掌握】@synthesize指定实例变量赋值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6BA91E1C493C360057866D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6BA9231C4941700057866D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E6BA9241C4941700057866D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E6BA92A1C4947780057866D /* 9-【掌握】@property增强使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9-【掌握】@property增强使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6BA92C1C4947780057866D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6BA9311C4948490057866D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E6BA9321C4948490057866D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E6BA9491C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-【理解】@property增强下重写setget方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6BA94B1C4956AC0057866D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E6BA9501C4957B80057866D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E6BA9511C4957B80057866D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +212,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E6BA9191C493C360057866D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA9271C4947780057866D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA9461C4956AC0057866D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -180,6 +246,9 @@
 				0E6BA8F31C48C5160057866D /* 6-【掌握】@property使用注意事项 */,
 				0E6BA9011C491BB70057866D /* 5-【掌握】@property关键字介绍及使用2 */,
 				0E6BA90F1C4922620057866D /* 7-【掌握】@synthesize关键字介绍和使用 */,
+				0E6BA91D1C493C360057866D /* 8-【掌握】@synthesize指定实例变量赋值 */,
+				0E6BA92B1C4947780057866D /* 9-【掌握】@property增强使用 */,
+				0E6BA94A1C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */,
 				0E6BA8BB1C48AE8F0057866D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -194,6 +263,9 @@
 				0E6BA8F21C48C5160057866D /* 6-【掌握】@property使用注意事项 */,
 				0E6BA9001C491BB70057866D /* 5-【掌握】@property关键字介绍及使用2 */,
 				0E6BA90E1C4922620057866D /* 7-【掌握】@synthesize关键字介绍和使用 */,
+				0E6BA91C1C493C360057866D /* 8-【掌握】@synthesize指定实例变量赋值 */,
+				0E6BA92A1C4947780057866D /* 9-【掌握】@property增强使用 */,
+				0E6BA9491C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,6 +336,36 @@
 				0E6BA9161C4922870057866D /* Person.m */,
 			);
 			path = "7-【掌握】@synthesize关键字介绍和使用";
+			sourceTree = "<group>";
+		};
+		0E6BA91D1C493C360057866D /* 8-【掌握】@synthesize指定实例变量赋值 */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA91E1C493C360057866D /* main.m */,
+				0E6BA9231C4941700057866D /* Person.h */,
+				0E6BA9241C4941700057866D /* Person.m */,
+			);
+			path = "8-【掌握】@synthesize指定实例变量赋值";
+			sourceTree = "<group>";
+		};
+		0E6BA92B1C4947780057866D /* 9-【掌握】@property增强使用 */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA92C1C4947780057866D /* main.m */,
+				0E6BA9311C4948490057866D /* Person.h */,
+				0E6BA9321C4948490057866D /* Person.m */,
+			);
+			path = "9-【掌握】@property增强使用";
+			sourceTree = "<group>";
+		};
+		0E6BA94A1C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA94B1C4956AC0057866D /* main.m */,
+				0E6BA9501C4957B80057866D /* Person.h */,
+				0E6BA9511C4957B80057866D /* Person.m */,
+			);
+			path = "10-【理解】@property增强下重写setget方法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +490,57 @@
 			productReference = 0E6BA90E1C4922620057866D /* 7-【掌握】@synthesize关键字介绍和使用 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E6BA91B1C493C360057866D /* 8-【掌握】@synthesize指定实例变量赋值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6BA9201C493C360057866D /* Build configuration list for PBXNativeTarget "8-【掌握】@synthesize指定实例变量赋值" */;
+			buildPhases = (
+				0E6BA9181C493C360057866D /* Sources */,
+				0E6BA9191C493C360057866D /* Frameworks */,
+				0E6BA91A1C493C360057866D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8-【掌握】@synthesize指定实例变量赋值";
+			productName = "8-【掌握】@synthesize指定实例变量赋值";
+			productReference = 0E6BA91C1C493C360057866D /* 8-【掌握】@synthesize指定实例变量赋值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E6BA9291C4947780057866D /* 9-【掌握】@property增强使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6BA92E1C4947780057866D /* Build configuration list for PBXNativeTarget "9-【掌握】@property增强使用" */;
+			buildPhases = (
+				0E6BA9261C4947780057866D /* Sources */,
+				0E6BA9271C4947780057866D /* Frameworks */,
+				0E6BA9281C4947780057866D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9-【掌握】@property增强使用";
+			productName = "9-【掌握】@property增强使用";
+			productReference = 0E6BA92A1C4947780057866D /* 9-【掌握】@property增强使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E6BA9481C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6BA94D1C4956AC0057866D /* Build configuration list for PBXNativeTarget "10-【理解】@property增强下重写setget方法" */;
+			buildPhases = (
+				0E6BA9451C4956AC0057866D /* Sources */,
+				0E6BA9461C4956AC0057866D /* Frameworks */,
+				0E6BA9471C4956AC0057866D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10-【理解】@property增强下重写setget方法";
+			productName = "10-【理解】@property增强下重写setget方法";
+			productReference = 0E6BA9491C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -418,6 +571,15 @@
 					0E6BA90D1C4922620057866D = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E6BA91B1C493C360057866D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E6BA9291C4947780057866D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E6BA9481C4956AC0057866D = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 0E6BA8B51C48AE8F0057866D /* Build configuration list for PBXProject "ocday05" */;
@@ -439,6 +601,9 @@
 				0E6BA8F11C48C5160057866D /* 6-【掌握】@property使用注意事项 */,
 				0E6BA8FF1C491BB70057866D /* 5-【掌握】@property关键字介绍及使用2 */,
 				0E6BA90D1C4922620057866D /* 7-【掌握】@synthesize关键字介绍和使用 */,
+				0E6BA91B1C493C360057866D /* 8-【掌握】@synthesize指定实例变量赋值 */,
+				0E6BA9291C4947780057866D /* 9-【掌握】@property增强使用 */,
+				0E6BA9481C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */,
 			);
 		};
 /* End PBXProject section */
@@ -503,6 +668,33 @@
 			files = (
 				0E6BA9171C4922870057866D /* Person.m in Sources */,
 				0E6BA9111C4922620057866D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA9181C493C360057866D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA9251C4941700057866D /* Person.m in Sources */,
+				0E6BA91F1C493C360057866D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA9261C4947780057866D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA9331C4948490057866D /* Person.m in Sources */,
+				0E6BA92D1C4947780057866D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA9451C4956AC0057866D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA9521C4957B80057866D /* Person.m in Sources */,
+				0E6BA94C1C4956AC0057866D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +876,48 @@
 			};
 			name = Release;
 		};
+		0E6BA9211C493C360057866D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6BA9221C493C360057866D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E6BA92F1C4947780057866D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6BA9301C4947780057866D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E6BA94E1C4956AC0057866D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6BA94F1C4956AC0057866D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -749,6 +983,30 @@
 			buildConfigurations = (
 				0E6BA9131C4922620057866D /* Debug */,
 				0E6BA9141C4922620057866D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E6BA9201C493C360057866D /* Build configuration list for PBXNativeTarget "8-【掌握】@synthesize指定实例变量赋值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6BA9211C493C360057866D /* Debug */,
+				0E6BA9221C493C360057866D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E6BA92E1C4947780057866D /* Build configuration list for PBXNativeTarget "9-【掌握】@property增强使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6BA92F1C4947780057866D /* Debug */,
+				0E6BA9301C4947780057866D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E6BA94D1C4956AC0057866D /* Build configuration list for PBXNativeTarget "10-【理解】@property增强下重写setget方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6BA94E1C4956AC0057866D /* Debug */,
+				0E6BA94F1C4956AC0057866D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>10-【理解】@property增强下重写setget方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>3-【掌握】点语法介绍和使用.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +38,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
+		</dict>
+		<key>8-【掌握】@synthesize指定实例变量赋值.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>9-【掌握】@property增强使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 		<key>ocday05.xcscheme</key>
 		<dict>
@@ -73,6 +88,21 @@
 			<true/>
 		</dict>
 		<key>0E6BA90D1C4922620057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA91B1C493C360057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA9291C4947780057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA9481C4956AC0057866D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
