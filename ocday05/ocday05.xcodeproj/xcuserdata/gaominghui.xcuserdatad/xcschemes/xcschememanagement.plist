@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>15-【掌握】响应方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>3-【掌握】点语法介绍和使用.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -103,6 +108,11 @@
 			<true/>
 		</dict>
 		<key>0E6BA9481C4956AC0057866D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E6BA9561C4CE8B60057866D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

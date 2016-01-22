@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E18D5991C51F9BE00BFC3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E18D5981C51F9BE00BFC3EA /* main.m */; };
+		0E18D59F1C51FA6C00BFC3EA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E18D59E1C51FA6C00BFC3EA /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		0E30C1191C461ABC00E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C1181C461ABC00E5B186 /* main.m */; };
 		0E30C1261C461AD400E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C1251C461AD400E5B186 /* main.m */; };
 		0E30C12C1C461FB800E5B186 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C12B1C461FB800E5B186 /* Person.m */; settings = {ASSET_TAGS = (); }; };
@@ -55,6 +57,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0E18D5941C51F9BE00BFC3EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0E30C1131C461ABC00E5B186 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,6 +231,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E18D5961C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "21-【理解】SEL类型2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E18D5981C51F9BE00BFC3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E18D59D1C51FA6C00BFC3EA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E18D59E1C51FA6C00BFC3EA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		0E30C1151C461ABC00E5B186 /* ocday04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ocday04; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E30C1181C461ABC00E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E30C1231C461AD400E5B186 /* 2-【了解】self和super关键字介绍 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2-【了解】self和super关键字介绍"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -315,6 +330,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0E18D5931C51F9BE00BFC3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0E30C1121C461ABC00E5B186 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,6 +466,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E18D5971C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */ = {
+			isa = PBXGroup;
+			children = (
+				0E18D5981C51F9BE00BFC3EA /* main.m */,
+				0E18D59D1C51FA6C00BFC3EA /* Person.h */,
+				0E18D59E1C51FA6C00BFC3EA /* Person.m */,
+			);
+			path = "21-【理解】SEL类型2";
+			sourceTree = "<group>";
+		};
 		0E30C10C1C461ABC00E5B186 = {
 			isa = PBXGroup;
 			children = (
@@ -464,6 +496,7 @@
 				0E6BA8781C47C4B30057866D /* 16-【了解】多态的概念和条件 */,
 				0E6BA88F1C47DF9D0057866D /* 18-【了解】类的本质 */,
 				0E6BA8A81C4802340057866D /* 21-【理解】SEL类型 */,
+				0E18D5971C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */,
 				0E30C1161C461ABC00E5B186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -489,6 +522,7 @@
 				0E6BA88E1C47DF9D0057866D /* 18-【了解】类的本质 */,
 				0E6BA89C1C47E77A0057866D /* problem3 */,
 				0E6BA8A71C4802340057866D /* 21-【理解】SEL类型 */,
+				0E18D5961C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -689,6 +723,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0E18D5951C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E18D59C1C51F9BE00BFC3EA /* Build configuration list for PBXNativeTarget "21-【理解】SEL类型2" */;
+			buildPhases = (
+				0E18D5921C51F9BE00BFC3EA /* Sources */,
+				0E18D5931C51F9BE00BFC3EA /* Frameworks */,
+				0E18D5941C51F9BE00BFC3EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "21-【理解】SEL类型2";
+			productName = "21-【理解】SEL类型2";
+			productReference = 0E18D5961C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0E30C1141C461ABC00E5B186 /* ocday04 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E30C11C1C461ABC00E5B186 /* Build configuration list for PBXNativeTarget "ocday04" */;
@@ -1004,6 +1055,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = itcast;
 				TargetAttributes = {
+					0E18D5951C51F9BE00BFC3EA = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					0E30C1141C461ABC00E5B186 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -1090,11 +1144,21 @@
 				0E6BA88D1C47DF9D0057866D /* 18-【了解】类的本质 */,
 				0E6BA89B1C47E77A0057866D /* problem3 */,
 				0E6BA8A61C4802340057866D /* 21-【理解】SEL类型 */,
+				0E18D5951C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0E18D5921C51F9BE00BFC3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E18D59F1C51FA6C00BFC3EA /* Person.m in Sources */,
+				0E18D5991C51F9BE00BFC3EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0E30C1111C461ABC00E5B186 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1269,6 +1333,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		0E18D59A1C51F9BE00BFC3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E18D59B1C51F9BE00BFC3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0E30C11A1C461ABC00E5B186 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1601,6 +1679,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0E18D59C1C51F9BE00BFC3EA /* Build configuration list for PBXNativeTarget "21-【理解】SEL类型2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E18D59A1C51F9BE00BFC3EA /* Debug */,
+				0E18D59B1C51F9BE00BFC3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		0E30C1101C461ABC00E5B186 /* Build configuration list for PBXProject "ocday04" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1770,6 +1856,7 @@
 				0E6BA8AD1C4802340057866D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

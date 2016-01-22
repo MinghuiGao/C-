@@ -20,11 +20,11 @@
         
         工作原理
             @synthesize name;
-            1) 生成一个私有属性
+            1) 生成一个私有属性:
                 在@implementation 中生成一个名称和Property的名称一样的属性
                 属性的类型：和@property的类型相同
                 属性的名称：和@synthesize的名称一致，也和@Property的名称一致。
-            2）在去生成getter和setter方法
+            2）再去生成getter和setter方法
  
                 将@synthesize替换成下面的代码：
                 -(void)setName:(NSString *)name{

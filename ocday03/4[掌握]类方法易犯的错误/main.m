@@ -52,7 +52,7 @@ int main(int argc, const char * argv[]) {
         float avg2 = [Calculator avg2:num1 andNum2:num2];
         NSLog(@"avg2 = %.2f",avg2);
         
-        
+        [Calculator test];
     }
     return 0;
 }

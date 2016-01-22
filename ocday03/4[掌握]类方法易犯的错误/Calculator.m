@@ -43,4 +43,9 @@
     return res;
 }
 
++(void)test{
+    [Calculator test];
+
+}
+
 @end

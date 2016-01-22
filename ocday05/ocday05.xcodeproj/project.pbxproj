@@ -26,6 +26,7 @@
 		0E6BA9331C4948490057866D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA9321C4948490057866D /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		0E6BA94C1C4956AC0057866D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA94B1C4956AC0057866D /* main.m */; };
 		0E6BA9521C4957B80057866D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA9511C4957B80057866D /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E6BA95A1C4CE8B60057866D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6BA9591C4CE8B60057866D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,6 +120,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E6BA9551C4CE8B60057866D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -160,6 +170,8 @@
 		0E6BA94B1C4956AC0057866D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E6BA9501C4957B80057866D /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0E6BA9511C4957B80057866D /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E6BA9571C4CE8B60057866D /* 15-【掌握】响应方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-【掌握】响应方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6BA9591C4CE8B60057866D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +245,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E6BA9541C4CE8B60057866D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -249,6 +268,7 @@
 				0E6BA91D1C493C360057866D /* 8-【掌握】@synthesize指定实例变量赋值 */,
 				0E6BA92B1C4947780057866D /* 9-【掌握】@property增强使用 */,
 				0E6BA94A1C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */,
+				0E6BA9581C4CE8B60057866D /* 15-【掌握】响应方法 */,
 				0E6BA8BB1C48AE8F0057866D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -266,6 +286,7 @@
 				0E6BA91C1C493C360057866D /* 8-【掌握】@synthesize指定实例变量赋值 */,
 				0E6BA92A1C4947780057866D /* 9-【掌握】@property增强使用 */,
 				0E6BA9491C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */,
+				0E6BA9571C4CE8B60057866D /* 15-【掌握】响应方法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -366,6 +387,14 @@
 				0E6BA9511C4957B80057866D /* Person.m */,
 			);
 			path = "10-【理解】@property增强下重写setget方法";
+			sourceTree = "<group>";
+		};
+		0E6BA9581C4CE8B60057866D /* 15-【掌握】响应方法 */ = {
+			isa = PBXGroup;
+			children = (
+				0E6BA9591C4CE8B60057866D /* main.m */,
+			);
+			path = "15-【掌握】响应方法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -541,6 +570,23 @@
 			productReference = 0E6BA9491C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E6BA9561C4CE8B60057866D /* 15-【掌握】响应方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6BA95B1C4CE8B60057866D /* Build configuration list for PBXNativeTarget "15-【掌握】响应方法" */;
+			buildPhases = (
+				0E6BA9531C4CE8B60057866D /* Sources */,
+				0E6BA9541C4CE8B60057866D /* Frameworks */,
+				0E6BA9551C4CE8B60057866D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15-【掌握】响应方法";
+			productName = "15-【掌握】响应方法";
+			productReference = 0E6BA9571C4CE8B60057866D /* 15-【掌握】响应方法 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -580,6 +626,9 @@
 					0E6BA9481C4956AC0057866D = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E6BA9561C4CE8B60057866D = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 0E6BA8B51C48AE8F0057866D /* Build configuration list for PBXProject "ocday05" */;
@@ -604,6 +653,7 @@
 				0E6BA91B1C493C360057866D /* 8-【掌握】@synthesize指定实例变量赋值 */,
 				0E6BA9291C4947780057866D /* 9-【掌握】@property增强使用 */,
 				0E6BA9481C4956AC0057866D /* 10-【理解】@property增强下重写setget方法 */,
+				0E6BA9561C4CE8B60057866D /* 15-【掌握】响应方法 */,
 			);
 		};
 /* End PBXProject section */
@@ -695,6 +745,14 @@
 			files = (
 				0E6BA9521C4957B80057866D /* Person.m in Sources */,
 				0E6BA94C1C4956AC0057866D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E6BA9531C4CE8B60057866D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6BA95A1C4CE8B60057866D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -918,6 +976,20 @@
 			};
 			name = Release;
 		};
+		0E6BA95C1C4CE8B60057866D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E6BA95D1C4CE8B60057866D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1007,6 +1079,14 @@
 			buildConfigurations = (
 				0E6BA94E1C4956AC0057866D /* Debug */,
 				0E6BA94F1C4956AC0057866D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E6BA95B1C4CE8B60057866D /* Build configuration list for PBXNativeTarget "15-【掌握】响应方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6BA95C1C4CE8B60057866D /* Debug */,
+				0E6BA95D1C4CE8B60057866D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

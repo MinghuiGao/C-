@@ -54,6 +54,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>21-【理解】SEL类型2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>3-【掌握】self用在对象方法中.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -97,6 +102,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0E18D5951C51F9BE00BFC3EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0E30C1141C461ABC00E5B186</key>
 		<dict>
 			<key>primary</key>

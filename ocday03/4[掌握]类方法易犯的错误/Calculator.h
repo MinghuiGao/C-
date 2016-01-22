@@ -14,13 +14,13 @@
     int _avgResult;// 用于存放两个数的平局数。
 }
 
-//  声明对象方法
+//  对象方法
 -(int)sum:(int)num1 andNum2:(int)num2;
-
-
 
 // 类方法
 +(int)sum2:(int)num1 andNum2:(int)num2;
+
+
 +(float)avg2:(int)num1 andNum2:(int)num2;
 
 
@@ -30,5 +30,9 @@
 
 // 在调用的时候，需要穿入一个Calculator对象为参数。
 +(float)avg:(int)num1 andNum2:(int)num2 andCalculator: (Calculator *)cal;
+
+
+// 在类放发中自己调用自己
++(void)test;
 
 @end
