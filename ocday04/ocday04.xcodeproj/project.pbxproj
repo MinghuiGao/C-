@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0E18D5991C51F9BE00BFC3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E18D5981C51F9BE00BFC3EA /* main.m */; };
 		0E18D59F1C51FA6C00BFC3EA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E18D59E1C51FA6C00BFC3EA /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E18D5A71C520BAB00BFC3EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E18D5A61C520BAB00BFC3EA /* main.m */; };
+		0E18D5AD1C520BC500BFC3EA /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E18D5AC1C520BC500BFC3EA /* Animal.m */; settings = {ASSET_TAGS = (); }; };
+		0E18D5B01C520BCF00BFC3EA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E18D5AF1C520BCF00BFC3EA /* Dog.m */; settings = {ASSET_TAGS = (); }; };
 		0E30C1191C461ABC00E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C1181C461ABC00E5B186 /* main.m */; };
 		0E30C1261C461AD400E5B186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C1251C461AD400E5B186 /* main.m */; };
 		0E30C12C1C461FB800E5B186 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E30C12B1C461FB800E5B186 /* Person.m */; settings = {ASSET_TAGS = (); }; };
@@ -58,6 +61,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0E18D5941C51F9BE00BFC3EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E18D5A21C520BAB00BFC3EA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -235,6 +247,12 @@
 		0E18D5981C51F9BE00BFC3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E18D59D1C51FA6C00BFC3EA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0E18D59E1C51FA6C00BFC3EA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E18D5A41C520BAB00BFC3EA /* 子类中使用super */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "子类中使用super"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E18D5A61C520BAB00BFC3EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E18D5AB1C520BC400BFC3EA /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		0E18D5AC1C520BC500BFC3EA /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		0E18D5AE1C520BCF00BFC3EA /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		0E18D5AF1C520BCF00BFC3EA /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		0E30C1151C461ABC00E5B186 /* ocday04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ocday04; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E30C1181C461ABC00E5B186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E30C1231C461AD400E5B186 /* 2-【了解】self和super关键字介绍 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2-【了解】self和super关键字介绍"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -331,6 +349,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		0E18D5931C51F9BE00BFC3EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E18D5A11C520BAB00BFC3EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -476,6 +501,18 @@
 			path = "21-【理解】SEL类型2";
 			sourceTree = "<group>";
 		};
+		0E18D5A51C520BAB00BFC3EA /* 子类中使用super */ = {
+			isa = PBXGroup;
+			children = (
+				0E18D5A61C520BAB00BFC3EA /* main.m */,
+				0E18D5AB1C520BC400BFC3EA /* Animal.h */,
+				0E18D5AC1C520BC500BFC3EA /* Animal.m */,
+				0E18D5AE1C520BCF00BFC3EA /* Dog.h */,
+				0E18D5AF1C520BCF00BFC3EA /* Dog.m */,
+			);
+			path = "子类中使用super";
+			sourceTree = "<group>";
+		};
 		0E30C10C1C461ABC00E5B186 = {
 			isa = PBXGroup;
 			children = (
@@ -497,6 +534,7 @@
 				0E6BA88F1C47DF9D0057866D /* 18-【了解】类的本质 */,
 				0E6BA8A81C4802340057866D /* 21-【理解】SEL类型 */,
 				0E18D5971C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */,
+				0E18D5A51C520BAB00BFC3EA /* 子类中使用super */,
 				0E30C1161C461ABC00E5B186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -523,6 +561,7 @@
 				0E6BA89C1C47E77A0057866D /* problem3 */,
 				0E6BA8A71C4802340057866D /* 21-【理解】SEL类型 */,
 				0E18D5961C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */,
+				0E18D5A41C520BAB00BFC3EA /* 子类中使用super */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -738,6 +777,23 @@
 			name = "21-【理解】SEL类型2";
 			productName = "21-【理解】SEL类型2";
 			productReference = 0E18D5961C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E18D5A31C520BAB00BFC3EA /* 子类中使用super */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E18D5AA1C520BAB00BFC3EA /* Build configuration list for PBXNativeTarget "子类中使用super" */;
+			buildPhases = (
+				0E18D5A01C520BAB00BFC3EA /* Sources */,
+				0E18D5A11C520BAB00BFC3EA /* Frameworks */,
+				0E18D5A21C520BAB00BFC3EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "子类中使用super";
+			productName = "子类中使用super";
+			productReference = 0E18D5A41C520BAB00BFC3EA /* 子类中使用super */;
 			productType = "com.apple.product-type.tool";
 		};
 		0E30C1141C461ABC00E5B186 /* ocday04 */ = {
@@ -1058,6 +1114,9 @@
 					0E18D5951C51F9BE00BFC3EA = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E18D5A31C520BAB00BFC3EA = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					0E30C1141C461ABC00E5B186 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -1145,6 +1204,7 @@
 				0E6BA89B1C47E77A0057866D /* problem3 */,
 				0E6BA8A61C4802340057866D /* 21-【理解】SEL类型 */,
 				0E18D5951C51F9BE00BFC3EA /* 21-【理解】SEL类型2 */,
+				0E18D5A31C520BAB00BFC3EA /* 子类中使用super */,
 			);
 		};
 /* End PBXProject section */
@@ -1156,6 +1216,16 @@
 			files = (
 				0E18D59F1C51FA6C00BFC3EA /* Person.m in Sources */,
 				0E18D5991C51F9BE00BFC3EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E18D5A01C520BAB00BFC3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E18D5B01C520BCF00BFC3EA /* Dog.m in Sources */,
+				0E18D5A71C520BAB00BFC3EA /* main.m in Sources */,
+				0E18D5AD1C520BC500BFC3EA /* Animal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1341,6 +1411,20 @@
 			name = Debug;
 		};
 		0E18D59B1C51F9BE00BFC3EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E18D5A81C520BAB00BFC3EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E18D5A91C520BAB00BFC3EA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1684,6 +1768,15 @@
 			buildConfigurations = (
 				0E18D59A1C51F9BE00BFC3EA /* Debug */,
 				0E18D59B1C51F9BE00BFC3EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E18D5AA1C520BAB00BFC3EA /* Build configuration list for PBXNativeTarget "子类中使用super" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E18D5A81C520BAB00BFC3EA /* Debug */,
+				0E18D5A91C520BAB00BFC3EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

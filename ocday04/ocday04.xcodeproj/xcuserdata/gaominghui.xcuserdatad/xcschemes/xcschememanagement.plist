@@ -99,10 +99,20 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>子类中使用super.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0E18D5951C51F9BE00BFC3EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E18D5A31C520BAB00BFC3EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
