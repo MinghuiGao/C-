@@ -11,6 +11,9 @@
 		0E805C3D1C534C6600A75DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805C3C1C534C6600A75DDA /* main.m */; };
 		0E805C4F1C53811500A75DDA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805C4E1C53811500A75DDA /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		0E805C521C53940C00A75DDA /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805C511C53940C00A75DDA /* Room.m */; settings = {ASSET_TAGS = (); }; };
+		0E805C5A1C53C83C00A75DDA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E805C591C53C83C00A75DDA /* main.c */; };
+		0E805C601C53C84C00A75DDA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805C5F1C53C84C00A75DDA /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E805C631C53C85300A75DDA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805C621C53C85300A75DDA /* Dog.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +35,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E805C551C53C83C00A75DDA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +55,12 @@
 		0E805C4E1C53811500A75DDA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		0E805C501C53940C00A75DDA /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
 		0E805C511C53940C00A75DDA /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		0E805C571C53C83C00A75DDA /* 循环retain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "循环retain"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E805C591C53C83C00A75DDA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E805C5E1C53C84C00A75DDA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E805C5F1C53C84C00A75DDA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E805C611C53C85300A75DDA /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		0E805C621C53C85300A75DDA /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E805C541C53C83C00A75DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,6 +93,7 @@
 			children = (
 				0E805C2E1C53428800A75DDA /* ocjqday01 */,
 				0E805C3B1C534C6600A75DDA /* mrc内存管理 */,
+				0E805C581C53C83C00A75DDA /* 循环retain */,
 				0E805C2D1C53428800A75DDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +103,7 @@
 			children = (
 				0E805C2C1C53428800A75DDA /* ocjqday01 */,
 				0E805C3A1C534C6600A75DDA /* mrc内存管理 */,
+				0E805C571C53C83C00A75DDA /* 循环retain */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +126,18 @@
 				0E805C511C53940C00A75DDA /* Room.m */,
 			);
 			path = "mrc内存管理";
+			sourceTree = "<group>";
+		};
+		0E805C581C53C83C00A75DDA /* 循环retain */ = {
+			isa = PBXGroup;
+			children = (
+				0E805C591C53C83C00A75DDA /* main.c */,
+				0E805C5E1C53C84C00A75DDA /* Person.h */,
+				0E805C5F1C53C84C00A75DDA /* Person.m */,
+				0E805C611C53C85300A75DDA /* Dog.h */,
+				0E805C621C53C85300A75DDA /* Dog.m */,
+			);
+			path = "循环retain";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +177,23 @@
 			productReference = 0E805C3A1C534C6600A75DDA /* mrc内存管理 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E805C561C53C83C00A75DDA /* 循环retain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E805C5B1C53C83C00A75DDA /* Build configuration list for PBXNativeTarget "循环retain" */;
+			buildPhases = (
+				0E805C531C53C83C00A75DDA /* Sources */,
+				0E805C541C53C83C00A75DDA /* Frameworks */,
+				0E805C551C53C83C00A75DDA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "循环retain";
+			productName = "循环retain";
+			productReference = 0E805C571C53C83C00A75DDA /* 循环retain */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +207,9 @@
 						CreatedOnToolsVersion = 7.0;
 					};
 					0E805C391C534C6600A75DDA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E805C561C53C83C00A75DDA = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -169,6 +228,7 @@
 			targets = (
 				0E805C2B1C53428800A75DDA /* ocjqday01 */,
 				0E805C391C534C6600A75DDA /* mrc内存管理 */,
+				0E805C561C53C83C00A75DDA /* 循环retain */,
 			);
 		};
 /* End PBXProject section */
@@ -189,6 +249,16 @@
 				0E805C521C53940C00A75DDA /* Room.m in Sources */,
 				0E805C4F1C53811500A75DDA /* Person.m in Sources */,
 				0E805C3D1C534C6600A75DDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E805C531C53C83C00A75DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E805C631C53C85300A75DDA /* Dog.m in Sources */,
+				0E805C601C53C84C00A75DDA /* Person.m in Sources */,
+				0E805C5A1C53C83C00A75DDA /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +372,20 @@
 			};
 			name = Release;
 		};
+		0E805C5C1C53C83C00A75DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E805C5D1C53C83C00A75DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +415,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0E805C5B1C53C83C00A75DDA /* Build configuration list for PBXNativeTarget "循环retain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E805C5C1C53C83C00A75DDA /* Debug */,
+				0E805C5D1C53C83C00A75DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

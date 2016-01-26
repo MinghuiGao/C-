@@ -17,12 +17,15 @@
     NSLog(@"%@  在 %@ 房间玩游戏. ",_name,_room.name);
 }
 -(void)setRoom:(Room *)room{
-    // 如果要设置的独享和当前的实例变量是同一个对象，那么不执行retain操作，也不重新赋值。
-    if (_room == room ) {
-        return;
+    // 如果要设置的对象和
+    if (_room != room) {
+        // 释放旧的
+        [_room release];
+        // 设置新的
+//        [room retain];
+//        _room = room;
+        _room = [room retain];
     }
-    [room retain];
-    _room = room;
 }
 -(Room *)room{
     return _room;

@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>分类Category.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>循环retain.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +33,16 @@
 			<true/>
 		</dict>
 		<key>0E805C391C534C6600A75DDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E805C561C53C83C00A75DDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E805C671C55C8C200A75DDA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
