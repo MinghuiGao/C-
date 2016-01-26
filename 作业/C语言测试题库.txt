@@ -1,0 +1,819 @@
+1、求100之内自然数中最大的能被17整除的数。
+2、已知a，b，c都是1位整数，求当三位整数abc、cba的和为1333时a、b、c的值。
+3、计算并输出200-400之间不能被3整除的整数的和。
+4、从键盘输入10个数，统计非负数的个数，并计算非负数的和
+5、求100之内自然数中偶数之和。
+6、输入5个数，求和并输出。要求编写求和的函数。
+7、编程计算1*2*3+3*4*5+5*6*7+...+99*100*101的值。
+8、编写程序，将用户输入的字符串中所有的字符a用*代替，然后输出。
+9、编写程序，将一个一维数组的元素逆序存放并输出。例如，原顺序为1，2，3，4，5，逆序后为5，4，3，2，1。
+10、求3行3列矩阵a[3][3]={1,2,3,4,5,6,7,8,9}非对角线上元素之和。
+11、编程判断输入的整数的正负性和奇偶性。如果为正数，输出z；如果为负数，输出f；如果为偶数，输出o；如果为奇数，输出j
+12、计算并输出1-200之间不能被5整除的整数的和。
+13、从键盘输入n和a的值，计算a+aa+aaa+...+aa...a(n个a)的值。
+14、输入5个数，求它们中最大值和平均值并输出。
+15、输出所有200-400之间能被3整除且个位数字为6的整数
+16、编写程序，将用户输入的字符串中所有的字符a去掉，然后输出剩余的字符。
+17、计算并输出200-400之间不能被7整除的整数的和。
+18.计算并输出200-400之间不能被5整除的整数的和
+19、从键盘输入10个数，统计非正数的个数，并计算非正数的和
+20、输入一串字符，将其中的大写字母变成对应的小写字母并输出。
+21、打印所有的水仙花数。所谓水仙花数是指一个三位数，其各位数字的立方和等于该数。例如，153就是一个水仙花数，因为153=1*1*1+5*5*5+3*3*3。
+22、一个皮球从100米高度自由落下，每次落地后反弹回原高度的一半，再落下，再反弹。求当它第10次落地时，共经过了多少米，第10次反弹多高？
+23、输出所有0-200之间能被3整除且个位数字为6的整数。
+24、输入一个正整数，输出它的阶乘。
+25、编写程序，判断从键盘输入的字符中数字字符的个数、大写字母的个数、小写字母的个数及其它字符的个数，以*作为字符输入结束标志。
+26、编写程序，使用循环结构输出下列图形：
+        * * * *
+      * * * *
+    * * * *
+  * * * *
+* * * *
+27、输入一串字符，逆序输出。要求使用数组实现。
+28、求1-1/2+1/3-1/4+...+1/99-1/100的值。
+29、输入3个学生4门课的成绩{(60,70,65,75)，(75,80,75,90),(95,75,90,65)},计算每个学生的总分和平均成绩并输出，结果保留一位小数。
+30、求两个正整数的最大公约数。
+31、求100之内自然数中奇数之和。
+32、输出所有200-400之间能被3整除且个位数字为7的整数。
+33、编程计算1*2*3+4*5*6+...+97*98*99的值
+34、输入n的值，计算并输出1*1+2*2+3*3+4*4+5*5+...+n*n的值。要求编写函数f求平方。
+35、计算并输出1-200之间不能被3整除的整数的和。
+36、输入3个学生4门课的成绩{(60,70,65,75)，(75,80,75,90),(95,75,90,65)},计算每个学生的总分和平均成绩并输出，结果保留一位小数。
+37、输入一个华氏温度，输出摄氏温度，计算公式为c=5/9*(F-372)。要求结果保留两位小数。
+38、输入任意三个数，按从大到小的顺序输出
+39、用1元人民币兑换5分、2分、1分的硬币共50枚，每种硬币至少一枚，问共有多少种兑换方案？输出每一种方案中三种硬币的数量
+40、从键盘输入圆的半径，计算并输出圆面积与周长，要求结果保留两位小数。
+41、从键盘输入一个字符串，再输入两个正整数m和n，输出字符串中从m开始，连续n个字符。例如，输入abcdefg，2，3，输出bcd。
+42、输入一个不多于5位的正整数，判断它是几位数，并逆序输出各位数字
+43, 输出Fibonacci数列的前40项
+44，判断某一年是否是闰年
+45，起泡法（选择法）对十个数排序
+46，判断某个数是否为素数.
+47,编程计算1！+2！+3！+…+10的值。
+48，求以下数列前十五项的和：2/1，3/2，5/3，8/5，13/8，21/13…。
+49，从键盘输入圆柱体高与底面半径，计算并输出圆柱体表面积与体积，要求结果保留两位小数。
+50,从键盘输入一个十进制整型数据，计算并输出其各位上数字之和（忽略正负号）。例如，输入1234，输出10；输入-1234，输出10。
+51,已知银行定期存款利率为r=2.25%，输入存款本金x、存款年数n，输出本利之和y=x(1+r)(1+r)...(1+r),共n个(1+r)。
+52,编程判断输入的字符串是否为“回文”。所谓“回文”是指顺读和倒读都一样，如abcba。
+53、编写程序，将用户输入的字符串中删除所有的数字，然后输出剩余的字符
+
+答案：
+ 
+1、求100之内自然数中最大的能被17整除的数。
+#include<stdio.h>
+void main()
+{   int i;
+	for(i=100;i>0;i--)
+	if(i%17==0)break;
+	printf("%d\n",i);
+}
+2、已知a，b，c都是1位整数，求当三位整数abc、cba的和为1333时a、b、c的值。
+#include<stdio.h>
+void main()
+{
+	int a,b,c;
+	for(a=1;a<=9;a++)
+	{
+		for(b=0;b<=9;b++)
+		{
+			for(c=1;c<=9;c++)
+			if(a*100+b*10+c+c*100+b*10+a==1333)
+			printf("%d,%d,%d\n",a,b,c);
+		}
+	}
+}
+3、计算并输出200-400之间不能被3整除的整数的和。
+#include<stdio.h>
+void main()
+{   int i,sum=0;
+	for(i=200;i<=400;i++)
+	 if(i%3!=0)
+	 sum=sum+i;
+	 printf("%d\n",sum);
+}
+4、从键盘输入10个数，统计非负数的个数，并计算非负数的和。
+#include<stdio.h>
+void main()
+{   int i,n=0,sum=0;
+int a[10];
+printf(“请输入10个数:”);
+for(i=0;i<10;i++)
+scanf(“%d”,&a[i]);
+	for(i=0;i<10;i++)
+	if(a[i]>=0)
+	{ sum=sum+a[i];
+	n++;}
+    printf("非负个数是%d，sum=%d\n",n,sum);
+}
+5、求100之内自然数中偶数之和。
+#include<stdio.h>
+void main()
+{   int i,sum=0;
+	for(i=0;i<=100;i++)
+	if(i%2==0)
+	sum=sum+i;
+    printf("sum=%d\n",sum);
+}
+6、输入5个数，求和并输出。要求编写求和的函数。
+#include<stdio.h>
+void main()
+{  int b(int x[],int n);
+	int sum=0;
+	int a[5];
+	int i;
+printf("请输入5个数:");
+for(i=0;i<5;i++)
+scanf("%d",&a[i]);
+	sum=b(a,5);
+    printf("sum=%d\n",sum);
+}
+int b(int x[],int n)
+{  int i,sum=0;
+	for(i=0;i<5;i++)
+	sum=sum+x[i];
+	return sum; }
+7、编程计算1*2*3+3*4*5+5*6*7+...+99*100*101的值。
+#include<stdio.h>
+void main()
+{   int i,sum=0;
+	for(i=1;i<=99;i=i+2)
+   sum=sum+i*(i+1)*(i+2);
+	printf("%d\n",sum);
+}
+8、编写程序，将用户输入的字符串中所有的字符a用*代替，然后输出。
+#include<stdio.h>
+#include<string.h>
+void main()
+{  int i,n;
+	char b[20];
+printf("请输入字符串:");
+gets(b);
+n=strlen(b);
+	for(i=0;i<n;i++)
+		if(b[i]=='a')
+			b[i]='*';
+		for(i=0;i<n;i++)
+			printf("%c",b[i]);
+			printf("\n");
+}
+9、编写程序，将一个一维数组的元素逆序存放并输出。例如，原顺序为1，2，3，4，5，逆序后为5，4，3，2，1。
+#include<stdio.h>
+void main()
+{   int i;
+	int  a[5];
+printf(“请输入5个数:”);
+for(i=0;i<5;i++)
+scanf(“%d”,&a[i]);
+	for(i=0;i<2;i++)
+{
+t=a[i];
+	a[i]=a[4-i];
+   a[4-i]=t;
+   }
+	for(i=0;i<5;i++)
+	printf("%d ",b[i]);
+	printf("\n");
+}
+10、求3行3列矩阵a[3][3]={1,2,3,4,5,6,7,8,9}非对角线上元素之和。
+#include<stdio.h>
+void main()
+{  int i,j,sum=0;
+	int a[3][3]={1,2,3,4,5,6,7,8,9};
+	for(i=0;i<3;i++)
+	for(j=0;j<3;j++)
+	if(i!=j&&i+j!=2)
+	sum=sum+a[i][j];
+	printf("%d ",sum);
+	printf("\n");
+}
+11、编程判断输入的整数的正负性和奇偶性。如果为正数，输出z；如果为负数，输出f；如果为偶数，输出o；如果为奇数，输出j
+#include<stdio.h>
+void main()
+{   int a;
+printf(“请输入一个数:”);
+scanf(“%d”,&a);
+	if(a>0)
+    printf("z\n");
+	if(a<0)
+    printf("f\n");
+    if(a%2==0)
+    printf("o\n");
+    if(a%2!=0)
+    printf("j\n");
+}
+12、计算并输出1-200之间不能被5整除的整数的和。
+#include<stdio.h>
+void main()
+{   int i,sum=0;
+	for(i=1;i<=200;i++)
+	if(i%5!=0)
+	sum=sum+i;
+	printf("%d\n",sum);
+}
+13、从键盘输入n和a的值，计算a+aa+aaa+...+aa...a(n个a)的值。
+#include<stdio.h>
+void main()
+{  int i,a,n;
+	long int sum=0,st=0;
+printf("请输a和n:");
+scanf("%d%d",&a,&n);
+	for(i=1;i<=n;i++)
+	{   st=st+a;
+		sum=sum+st;
+		a=a*10;
+	}
+	printf("%ld\n",sum);
+}
+14、输入5个数，求它们中最大值和平均值并输出。
+#include<stdio.h>
+void main()
+{
+	int a[5];
+	int i,j,max,sum=0;
+float  average;
+printf("请输入5个数:");
+for(i=0;i<5;i++)
+scanf("%d",&a[i]);
+	max=a[0];
+	for(j=0;j<5;j++)
+	{
+		sum=sum+a[j];
+		if(max<a[j])
+		max=a[j];
+	}
+	average=1.0/5*sum;
+	printf("max=%d,average=%f\n",max,average);
+}
+15、输出所有200-400之间能被3整除且个位数字为6的整数。
+#include<stdio.h>
+  void main()
+{
+	int i;
+	for(i=200;i<=400;i++)
+	if((i%3==0)&&((i-6)%10==0))
+	printf("%d\n",i);
+	printf("\n");
+}
+16、编写程序，将用户输入的字符串中所有的字符a去掉，然后输出剩余的字符。
+#include<stdio.h>
+void main()
+{  int i,j,n1;
+	char a[20];
+printf("请输入字符串:");
+gets(a);
+n1=strlen(a);
+	for(i=0;i<n1;i++)
+		if(a[i]!='a')
+		printf("%c",a[i]); 
+			printf("\n");
+}
+17、计算并输出200-400之间不能被7整除的整数的和。
+#include<stdio.h>
+void main()
+{   int i,sum=0;
+	for(i=200;i<=400;i++)
+	if(i%7!=0)
+	sum=sum+i;
+	printf("sum=%d\n",sum);
+}
+18.计算并输出200-400之间不能被5整除的整数的和。
+#include<stdio.h>
+void main()
+{   int i,sum=0;
+	for(i=200;i<=400;i++)
+	if(i%5!=0)
+	sum=sum+i;
+	printf("sum=%d\n",sum);
+}
+19、从键盘输入10个数，统计非正数的个数，并计算非正数的和
+#include<stdio.h>
+void main()
+{   int i,n=0,sum=0;
+int a[10];
+printf(“请输入10个数:”);
+for(i=0;i<10;i++)
+scanf(“%d”,&a[i]);
+	for(i=0;i<10;i++)
+	if(a[i]<=0)
+	{ sum=sum+a[i];
+	n++;}
+    printf("非正个数是%d，sum=%d\n",n,sum);
+}
+20、输入一串字符，将其中的大写字母变成对应的小写字母并输出。
+#include<stdio.h>
+#include<string.h>
+void main()
+{   int i,n;
+char a[20];
+printf("请输入字符串:");
+gets(a);
+n=strlen(a);
+	for(i=0;i<n;i++)
+	if(a[i]>='A'&&a[i]<='Z')
+	a[i]=a[i]+32;
+    for(i=0;i<n;i++)
+	printf("%c",a[i]);
+	printf("\n");
+}
+21、打印所有的水仙花数。所谓水仙花数是指一个三位数，其各位数字的立方和等于该数。例如，153就是一个水仙花数，因为153=1*1*1+5*5*5+3*3*3。
+#include<stdio.h>
+void main()
+{  int a,b,c,s;
+	for(a=1;a<=9;a++)
+	{
+		for(b=0;b<=9;b++)
+		{
+			for(c=0;c<=9;c++)
+				if(a*100+b*10+c==a*a*a+b*b*b*b+c*c*c)
+				{
+					s=a*100+b*10+c;
+						
+						printf("%d\n",s);
+				}
+		}
+	}
+}
+22、一个皮球从100米高度自由落下，每次落地后反弹回原高度的一半，再落下，再反弹。求当它第10次落地时，共经过了多少米，第10次反弹多高？
+#include<stdio.h>
+void main()
+{  int i;
+	float sum=100.0,h=50;
+	for(i=2;i<=10;i++)
+	 {  
+		sum=sum+2*h;
+	     h=h/2;
+	}
+		printf("%f,%f\n",sum,h);
+}
+23、输出所有0-200之间能被3整除且个位数字为6的整数。
+#include<stdio.h>
+void main()
+{
+	int i;
+	for(i=0;i<=200;i++)
+	if((i%3==0)&&((i-6)%10==0))
+	printf("%d\n",i);
+	printf("\n");
+}
+24、输入一个正整数，输出它的阶乘。
+#include<stdio.h>
+void main()
+{  int i,J=1,n=10;
+printf(“请输入一个正整数:”);
+scanf(“%d”,&n);
+	for(i=1;i<=n;i++)
+	J=J*i;
+printf("%d 的阶乘是:%d\n",n,J);
+}
+25、编写程序，判断从键盘输入的字符中数字字符的个数、大写字母的个数、小写字母的个数及其它字符的个数，以*作为字符输入结束标志。
+#include<stdio.h>
+#include<string.h>
+void main()
+{int i,x,m=0,n=0,k=0,j=0;
+	char a[20];
+printf("请输入字符串:");
+gets(a);
+x=strlen(a);
+	for(i=0;i<x;i++)
+	{	
+		if(a[i]=='*')break;
+
+	else	if(a[i]>='0'&&a[i]<='9')
+			m++;
+	 else if(a[i]>='A'&&a[i]<='Z')
+		  n++;
+     else if(a[i]>='a'&&a[i]<='z')
+			k++;
+     else 
+		j++;
+	}
+	printf("%d,%d,%d,%d\n",m,n,k,j);
+}
+26、编写程序，使用循环结构输出下列图形：
+        * * * *
+      * * * *
+    * * * *
+  * * * *
+* * * *
+
+#include<stdio.h>
+void main()
+{   int i,j,k ;
+	for(i=0;i<5;i++)
+    {
+		for(j=0;j<4-i;j++)
+			printf(" ");
+	    for(k=0;k<4;k++)
+        printf("*");
+		printf("\n");
+	}
+	printf("\n");
+}
+27、输入一串字符，逆序输出。要求使用数组实现。
+#include<stdio.h>
+#include<string.h>
+void main()
+{int i,j,t,n;
+	char a[10];
+printf("请输入字符串:");
+gets(a);
+n=strlen(a);
+	for(i=0;i<n/2;i++)
+	{
+		t=a[i];
+		a[i]=a[n-1-i];
+		a[n-1-i]=t;
+	}
+		for(j=0;j<n;j++)
+	printf("%c",a[j]);
+    printf("\n");
+}
+28、求1-1/2+1/3-1/4+...+1/99-1/100的值。
+#include<stdio.h>
+void main()
+{int n,s=1;
+	float	sum=1.0;
+	for(n=2;n<=100;n++)
+	{
+		s=-s;
+		sum=sum+1.0/n*s;
+	}
+	printf("1-1/2+1/3-1/4+...+1/99-1/100=%f\n",sum);
+
+}
+29、输入3个学生4门课的成绩{(60,70,65,75)，(75,80,75,90),(95,75,90,65)},计算每个学生的总分和平均成绩并输出，结果保留一位小数。
+#include<stdio.h>
+void main()
+{  int a[3][4]={{60,70,65,75},{75,80,75,90},{95,75,90,65}};
+	int i,j;
+	float average,sum=0.0;
+   printf("三个学生的总分和平均成绩依次为：\n");
+	for(i=0;i<3;i++)
+	{   sum=0.0;
+		for(j=0;j<4;j++)
+		sum=sum+a[i][j];
+		average=sum/4;
+		printf("%.2f,%.2f\n",sum,average);
+	}
+}
+30、求两个正整数的最大公约数。
+#include<stdio.h>
+void main()
+{   int m,n,m1,n1,t,k;
+printf(“请输入两个正整数:”);
+scanf(“%d%d”,&m,&n);
+    if(m<n)
+	{   t=m;
+		m=n;
+		n=t;
+	}
+	m1=m;
+	n1=n;
+	while((k=m1%n1)!=0)
+	{  m1=n1;
+		n1=k;
+	}
+	printf("%d和%d最大公约数是:%d\n",m,n,n1);
+}
+
+31、求100之内自然数中奇数之和。
+#include<stdio.h>
+void main()
+{   int i,sum=0;
+	for(i=0;i<=100;i++)
+	if(i%2!=0)
+	sum=sum+i;
+    printf("sum=%d\n",sum);
+}
+
+32、输出所有200-400之间能被3整除且个位数字为7的整数。
+#include<stdio.h>
+  void main()
+{
+	int i;
+	for(i=200;i<=400;i++)
+	if((i%3==0)&&((i-7)%10==0))
+	printf("%d\n",i);
+	printf("\n");
+}
+
+33、编程计算1*2*3+4*5*6+...+97*98*99的值。
+#include<stdio.h>
+void main()
+{  
+	int i,n,sum=0;
+	for(i=1;i<=94;i=i+3)
+   sum=sum+i*(i+1)*(i+2);
+	printf("%d\n",sum);
+}
+34、输入n的值，计算并输出1*1+2*2+3*3+4*4+5*5+...+n*n的值。要求编写函数f求平方。
+#include<stdio.h>
+void main()
+{   int	f(int x);
+	int n,sum;
+printf("请输n值:");
+scanf("%d",&n);
+    sum=f(n);
+	printf("%d\n",sum);
+}
+int f(int x)
+{   int j,z=0;
+	for(j=1;j<=x;j++)
+		z=z+j*j;
+	return z;
+} 
+35、计算并输出1-200之间不能被3整除的整数的和。
+#include<stdio.h>
+void main()
+{   int i,sum=0;
+	for(i=1;i<=200;i++)
+	 if(i%3!=0)
+	 sum=sum+i;
+	 printf("%d\n",sum);
+}
+36、输入3个学生4门课的成绩{(60,70,65,75)，(75,80,75,90),(95,75,90,65)},计算每个学生的总分和平均成绩并输出，结果保留一位小数。
+#include<stdio.h>
+void main()
+{  int a[3][4]={{60,70,65,75},{75,80,75,90},{95,75,90,65}};
+	int i,j;
+	float average,sum=0.0;
+   printf("三个学生的总分和平均成绩依次为：\n");
+	for(i=0;i<3;i++)
+	{   sum=0.0;
+		for(j=0;j<4;j++)
+		sum=sum+a[i][j];
+		average=sum/4;
+		printf("%.1f,%.1f\n",sum,average);
+	}
+}
+37、输入一个华氏温度，输出摄氏温度，计算公式为c=5/9*(F-32)。要求结果保留两位小数。
+#include<stdio.h>
+void main()
+{  float  F,c;
+printf(“请输入一个华氏温度:”);
+scanf(“%f”,&F);
+	c=5.0/9*(F-32);
+	printf("%.2f\n",c);
+}
+38、输入任意三个数，按从大到小的顺序输出。
+#include<stdio.h>
+void main()
+{  int a,b,c,t;
+printf(“请输入任意三个数:”);
+scanf(“%d%d%d”,&a,&b,&c);
+	if(a<b)
+	{  t=a;
+		a=b;
+		b=t;
+	}
+    if(a<c)
+	{   t=a;
+		a=c;
+		c=t;
+	}
+
+	if(b<c)
+	{  t=b;
+		b=c;
+		c=t;}
+	printf("%d,%d,%d\n",a,b,c);
+}
+
+39、用1元人民币兑换5分、2分、1分的硬币共50枚，每种硬币至少一枚，问共有多少种兑换方案？输出每一种方案中三种硬币的数量。
+#include<stdio.h>
+main()
+{  float x=1.0;
+      float a=0.01,b=0.02,c=0.05;
+      int i,j,k;
+      int count=0;
+     printf(" 1分,2分,5分张数依次为: \n");
+      for(i=1;i<100;i++)
+        for(j=1;j<50;j++)
+          for(k=1;k<20;k++)
+			  if((i*a+j*b+k*c)==1&&i+j+k==50)
+              {printf(" %d %d %d\n",i,j,k);
+               count++; }
+		  printf("共有%d种方案\n",count);
+}
+40、从键盘输入圆的半径，计算并输出圆面积与周长，要求结果保留两位小数。
+#include<stdio.h>
+void main()
+{  int r;
+	float pi=3.14159;
+	float c,s;
+printf(“请输入半径r:”);
+scanf(“%d”,&r);
+	s=pi*r*r;
+	c=2*pi*r;
+	printf("面积=%.2f,周长=%.2f\n",s,c);
+}
+41、从键盘输入一个字符串，再输入两个正整数m和n，输出字符串中从m开始，连续n个字符。例如，输入abcdefg，2，3，输出bcd。
+#include<stdio.h>
+#include<string.h>
+void main()
+{   int i,m,n;
+	char a[20];
+printf("请输入字符串:");
+gets(a);
+n=strlen(a);
+printf("请输入两个正整数:");
+scanf("%d%d",&m,&n);
+    for(i=m-1;i<m+n-1;i++)
+	printf("%c",a[i]);
+	printf("\n");
+}
+42、输入一个不多于5位的正整数，判断它是几位数，并逆序输出各位数字。
+#include<stdio.h>
+void main()
+{  int a,b,c,d,e;
+	long	x;
+printf(“请输入一个不多于5位的正整数:”);
+scanf(“%d”,&x);
+	a=x/10000;
+	b=x%10000/1000;
+	c=x%1000/100;
+	d=x%100/10;
+	e=x%10;
+   if(a!=0)printf("它是5位数，%d,%d,%d,%d,%d\n",e,d,c,b,a);
+   else if(b!=0)printf("它是4位数，%d,%d,%d,%d\n",e,d,c,b);
+   else   if(c!=0)printf("它是3位数，%d,%d,%d\n",e,d,c);
+   else  if(d!=0)printf("它是2位数，%d,%d\n",e,d);
+   else   printf("它是1位数，%d\n",e);
+}                                                     
+43, 输出Fibonacci数列的前40项
+  #include<stdio.h>
+void main()
+{
+	int a[40]={1,1};
+	int i;
+	printf("%12d%12d",a[0],a[1]);
+	for(i=2;i<40;i++)
+	{
+		if(i%4==0)
+       printf("\n");
+		a[i]=a[i-1]+a[i-2];
+		printf("%12d",a[i]);
+	}
+	printf("\n");
+
+}
+44，判断某一年是否是闰年
+#include <stdio.h>
+void main ()
+{
+	int year,leap;
+printf(“请输入一个年份:”);
+	scanf("%d",&year);
+	if (year%4==0)
+	{
+		if (year%100==0)
+		{
+			if (year%400==0)
+				leap=1;
+			else
+				leap=0;
+		}
+		else leap=1;
+	}
+	else
+		leap=0;
+	if (leap)
+		printf("%d is a leap year\n",year);
+	else
+		printf("%d is not a leap year\n",year);
+}
+
+45，起泡法（选择法）对十个数排序
+#include<stdio.h>
+void main()
+{
+	int i,j,t;
+	int a[10];
+	printf("请输入10个数：\n");
+	for(i=0;i<10;i++)
+		scanf("%d",&a[i]);
+	for(j=0;j<9;j++)
+		for(i=0;i<9-j;i++)
+			if(a[i]>a[i+1])
+			{	
+				t=a[i];
+				a[i]=a[i+1];
+				a[i+1]=t;
+			}
+			for(i=0;i<10;i++)
+				printf("%d  ",a[i]);
+			printf("\n");
+}
+46，判断某个数是否为素数.
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+	int i,m;
+	float k;
+printf("请输入一个正整数:");
+	scanf("%d",&m);
+	k=sqrt(m);
+	for(i=2;i<=k;i++)
+		if(m%i==0)break;
+		if(i>k)printf("%d is a prime number\n",m);
+		else printf("%d is not a prime number\n",m);
+}
+47,编程计算1！+2！+3！+…+10的值。
+#include<stdio.h>
+void main()
+{  int i,j,sum1=1,sum=0;
+	for(i=1;i<=10;i++)
+	{
+		for(j=1;j<=i;j++)
+		sum1=sum1*j;
+		sum=sum+sum1;
+	}
+printf("1!+2!+3!+…+10!=%ld\n",sum);
+}
+48，求以下数列前十五项的和：2/1，3/2，5/3，8/5，13/8，21/13…。
+#include<stdio.h>
+void main()
+{   int n;
+	float a=2.0,sum=0.0,b=1.0,t;
+	for(n=1;n<=15;n++)
+	{  sum=sum+a/b;
+		t=a;
+		a=a+b;
+		b=t;
+}
+	printf("%f\n",sum);
+}
+49，从键盘输入圆柱体高与底面半径，计算并输出圆柱体表面积与体积，要求结果保留两位小数。
+#include<stdio.h>
+void main()
+{
+	int h,r;
+	float pi=3.14159,s,v;
+printf(“请输入圆柱体半径r和高h:”);
+scanf(“%d%d”,&r,&h);
+	s=2*pi*r*r+2*pi*r*h;
+	v=pi*r*r*h;
+    printf("s=%.2f,v=%.2f\n",s,v); }
+50,从键盘输入一个十进制整型数据，计算并输出其各位上数字之和（忽略正负号）。例如，输入1234，输出10；输入-1234，输出10。
+#include<stdio.h>
+#include<math.h>
+void main()
+{    int i1,i2,i3,i4,n,sum;
+	 int a;
+printf("请输入一个整数:");
+	scanf("%d",&a);
+	  n=abs(a);
+       i1=n/1000;
+	   i2=n%1000/100;
+	   i3=n%100/10;
+	   i4=n%10;  
+  sum=i1+i2+i3+i4;
+  printf("sum=%d\n",sum); }
+51,已知银行定期存款利率为r=2.25%，输入存款本金x、存款年数n，输出本利之和y=x(1+r)(1+r)...(1+r),共n个(1+r)。
+#include<stdio.h>
+void main()
+{
+	float x,y,r=0.0225;
+	int i,n;
+printf("请输入存款本金x和存款年数n:");
+	scanf("%f%d",&x,&n);
+	y=x;
+	for(i=1;i<=n;i++)
+	y=y*(1+r);
+    printf("%f\n",y);
+}
+52,编程判断输入的字符串是否为“回文”。所谓“回文”是指顺读和倒读都一样，如abcba。
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+	int i,n;
+	char a[20];
+printf("请输入字符串:");
+gets(a);
+n=strlen(a);
+  for(i=0;i<n;i++)
+{
+if(a[i]==a[n-i-1])
+continue;
+else 
+printf("不是回文.\n");break;
+
+}
+if(i>=n)
+printf("是回文.\n");
+}
+53、编写程序，将用户输入的字符串中删除所有的数字，然后输出剩余的字符。
+#include<stdio.h>
+void main()
+{  int i,j,n1;
+	char a[20];
+printf("请输入字符串:");
+gets(a);
+n1=strlen(a);
+	for(i=0;i<n1;i++)
+	if((a[i]>='0'&&a[i]<='9')==0)	
+printf("%c",a[i]); 
+	printf("\n");
+}
