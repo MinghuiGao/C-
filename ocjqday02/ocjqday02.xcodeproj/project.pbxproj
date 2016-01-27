@@ -20,6 +20,9 @@
 		0E805CED1C5618B000A75DDA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805CEC1C5618B000A75DDA /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		0E805CF01C561E7800A75DDA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805CEF1C561E7800A75DDA /* Dog.m */; settings = {ASSET_TAGS = (); }; };
 		0E805CF81C56695E00A75DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805CF71C56695E00A75DDA /* main.m */; };
+		0E805D091C5745D500A75DDA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805D081C5745D500A75DDA /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E805D0C1C57467100A75DDA /* Person+GMH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805D0B1C57467100A75DDA /* Person+GMH.m */; settings = {ASSET_TAGS = (); }; };
+		0E805D141C58EA2A00A75DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805D131C58EA2A00A75DDA /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +89,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E805D0F1C58EA2A00A75DDA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +127,12 @@
 		0E805CEF1C561E7800A75DDA /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		0E805CF51C56695E00A75DDA /* inputNSString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = inputNSString; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E805CF71C56695E00A75DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E805D071C5745D500A75DDA /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E805D081C5745D500A75DDA /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E805D0A1C57467100A75DDA /* Person+GMH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+GMH.h"; sourceTree = "<group>"; };
+		0E805D0B1C57467100A75DDA /* Person+GMH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+GMH.m"; sourceTree = "<group>"; };
+		0E805D111C58EA2A00A75DDA /* 19-【理解】内容总结 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-【理解】内容总结"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E805D131C58EA2A00A75DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +185,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E805D0E1C58EA2A00A75DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -180,6 +205,7 @@
 				0E805CBE1C55D93000A75DDA /* autorelase的应用场景 */,
 				0E805CCF1C55F8AF00A75DDA /* 提供一个快速创建病初始化对象的方法 */,
 				0E805CF61C56695E00A75DDA /* inputNSString */,
+				0E805D121C58EA2A00A75DDA /* 19-【理解】内容总结 */,
 				0E805C791C55C91500A75DDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -194,6 +220,7 @@
 				0E805CBD1C55D93000A75DDA /* autorelase的应用场景 */,
 				0E805CCE1C55F8AF00A75DDA /* 提供一个快速创建病初始化对象的方法 */,
 				0E805CF51C56695E00A75DDA /* inputNSString */,
+				0E805D111C58EA2A00A75DDA /* 19-【理解】内容总结 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -232,6 +259,10 @@
 			isa = PBXGroup;
 			children = (
 				0E805C9E1C55C95500A75DDA /* main.m */,
+				0E805D071C5745D500A75DDA /* Person.h */,
+				0E805D081C5745D500A75DDA /* Person.m */,
+				0E805D0A1C57467100A75DDA /* Person+GMH.h */,
+				0E805D0B1C57467100A75DDA /* Person+GMH.m */,
 			);
 			path = "分类Category";
 			sourceTree = "<group>";
@@ -264,6 +295,14 @@
 				0E805CF71C56695E00A75DDA /* main.m */,
 			);
 			path = inputNSString;
+			sourceTree = "<group>";
+		};
+		0E805D121C58EA2A00A75DDA /* 19-【理解】内容总结 */ = {
+			isa = PBXGroup;
+			children = (
+				0E805D131C58EA2A00A75DDA /* main.m */,
+			);
+			path = "19-【理解】内容总结";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,6 +427,23 @@
 			productReference = 0E805CF51C56695E00A75DDA /* inputNSString */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E805D101C58EA2A00A75DDA /* 19-【理解】内容总结 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E805D151C58EA2A00A75DDA /* Build configuration list for PBXNativeTarget "19-【理解】内容总结" */;
+			buildPhases = (
+				0E805D0D1C58EA2A00A75DDA /* Sources */,
+				0E805D0E1C58EA2A00A75DDA /* Frameworks */,
+				0E805D0F1C58EA2A00A75DDA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19-【理解】内容总结";
+			productName = "19-【理解】内容总结";
+			productReference = 0E805D111C58EA2A00A75DDA /* 19-【理解】内容总结 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -418,6 +474,9 @@
 					0E805CF41C56695E00A75DDA = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E805D101C58EA2A00A75DDA = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 0E805C731C55C91500A75DDA /* Build configuration list for PBXProject "ocjqday02" */;
@@ -439,6 +498,7 @@
 				0E805CBC1C55D93000A75DDA /* autorelase的应用场景 */,
 				0E805CCD1C55F8AF00A75DDA /* 提供一个快速创建病初始化对象的方法 */,
 				0E805CF41C56695E00A75DDA /* inputNSString */,
+				0E805D101C58EA2A00A75DDA /* 19-【理解】内容总结 */,
 			);
 		};
 /* End PBXProject section */
@@ -475,7 +535,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E805D091C5745D500A75DDA /* Person.m in Sources */,
 				0E805C9F1C55C95500A75DDA /* main.m in Sources */,
+				0E805D0C1C57467100A75DDA /* Person+GMH.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +565,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E805CF81C56695E00A75DDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E805D0D1C58EA2A00A75DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E805D141C58EA2A00A75DDA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,6 +762,20 @@
 			};
 			name = Release;
 		};
+		0E805D161C58EA2A00A75DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E805D171C58EA2A00A75DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -761,6 +845,14 @@
 			buildConfigurations = (
 				0E805CFA1C56695E00A75DDA /* Debug */,
 				0E805CFB1C56695E00A75DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E805D151C58EA2A00A75DDA /* Build configuration list for PBXNativeTarget "19-【理解】内容总结" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E805D161C58EA2A00A75DDA /* Debug */,
+				0E805D171C58EA2A00A75DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
