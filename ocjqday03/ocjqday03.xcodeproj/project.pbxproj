@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E61B3811C59F299008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B3801C59F299008AB0DB /* main.m */; };
 		0E61B38C1C59FCD2008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B38B1C59FCD2008AB0DB /* main.m */; };
+		0E61B39A1C5A0B08008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B3991C5A0B08008AB0DB /* main.m */; };
 		0E805D251C59127000A75DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805D241C59127000A75DDA /* main.m */; };
 		0E805D321C59134C00A75DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805D311C59134C00A75DDA /* main.m */; };
 		0E805D3D1C59CB5A00A75DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805D3C1C59CB5A00A75DDA /* main.m */; };
@@ -25,6 +26,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		0E61B3871C59FCD2008AB0DB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E61B3951C5A0B08008AB0DB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -67,6 +77,8 @@
 		0E61B3801C59F299008AB0DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E61B3891C59FCD2008AB0DB /* 5-【理解】block作为函数的返回值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5-【理解】block作为函数的返回值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E61B38B1C59FCD2008AB0DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E61B3971C5A0B08008AB0DB /* 6-【理解】应用:block的使用场景2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6-【理解】应用:block的使用场景2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E61B3991C5A0B08008AB0DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E805D211C59127000A75DDA /* ocjqday03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ocjqday03; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E805D241C59127000A75DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E805D2F1C59134C00A75DDA /* 2-【掌握】block的typedef */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2-【掌握】block的typedef"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +96,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0E61B3861C59FCD2008AB0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E61B3941C5A0B08008AB0DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -130,6 +149,14 @@
 			path = "5-【理解】block作为函数的返回值";
 			sourceTree = "<group>";
 		};
+		0E61B3981C5A0B08008AB0DB /* 6-【理解】应用:block的使用场景2 */ = {
+			isa = PBXGroup;
+			children = (
+				0E61B3991C5A0B08008AB0DB /* main.m */,
+			);
+			path = "6-【理解】应用:block的使用场景2";
+			sourceTree = "<group>";
+		};
 		0E805D181C59127000A75DDA = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +165,7 @@
 				0E805D3B1C59CB5A00A75DDA /* 3-【掌握】block访问外部变量 */,
 				0E61B37F1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */,
 				0E61B38A1C59FCD2008AB0DB /* 5-【理解】block作为函数的返回值 */,
+				0E61B3981C5A0B08008AB0DB /* 6-【理解】应用:block的使用场景2 */,
 				0E805D221C59127000A75DDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -150,6 +178,7 @@
 				0E805D3A1C59CB5A00A75DDA /* 3-【掌握】block访问外部变量 */,
 				0E61B37E1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */,
 				0E61B3891C59FCD2008AB0DB /* 5-【理解】block作为函数的返回值 */,
+				0E61B3971C5A0B08008AB0DB /* 6-【理解】应用:block的使用场景2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,6 +242,23 @@
 			name = "5-【理解】block作为函数的返回值";
 			productName = "5-【理解】block作为函数的返回值";
 			productReference = 0E61B3891C59FCD2008AB0DB /* 5-【理解】block作为函数的返回值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E61B3961C5A0B08008AB0DB /* 6-【理解】应用:block的使用场景2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E61B39B1C5A0B08008AB0DB /* Build configuration list for PBXNativeTarget "6-【理解】应用:block的使用场景2" */;
+			buildPhases = (
+				0E61B3931C5A0B08008AB0DB /* Sources */,
+				0E61B3941C5A0B08008AB0DB /* Frameworks */,
+				0E61B3951C5A0B08008AB0DB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6-【理解】应用:block的使用场景2";
+			productName = "6-【理解】应用:block的使用场景2";
+			productReference = 0E61B3971C5A0B08008AB0DB /* 6-【理解】应用:block的使用场景2 */;
 			productType = "com.apple.product-type.tool";
 		};
 		0E805D201C59127000A75DDA /* ocjqday03 */ = {
@@ -281,6 +327,9 @@
 					0E61B3881C59FCD2008AB0DB = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E61B3961C5A0B08008AB0DB = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					0E805D201C59127000A75DDA = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -309,6 +358,7 @@
 				0E805D391C59CB5A00A75DDA /* 3-【掌握】block访问外部变量 */,
 				0E61B37D1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */,
 				0E61B3881C59FCD2008AB0DB /* 5-【理解】block作为函数的返回值 */,
+				0E61B3961C5A0B08008AB0DB /* 6-【理解】应用:block的使用场景2 */,
 			);
 		};
 /* End PBXProject section */
@@ -327,6 +377,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E61B38C1C59FCD2008AB0DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E61B3931C5A0B08008AB0DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E61B39A1C5A0B08008AB0DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +437,20 @@
 			name = Debug;
 		};
 		0E61B38F1C59FCD2008AB0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E61B39C1C5A0B08008AB0DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E61B39D1C5A0B08008AB0DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,6 +592,14 @@
 			buildConfigurations = (
 				0E61B38E1C59FCD2008AB0DB /* Debug */,
 				0E61B38F1C59FCD2008AB0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E61B39B1C5A0B08008AB0DB /* Build configuration list for PBXNativeTarget "6-【理解】应用:block的使用场景2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E61B39C1C5A0B08008AB0DB /* Debug */,
+				0E61B39D1C5A0B08008AB0DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

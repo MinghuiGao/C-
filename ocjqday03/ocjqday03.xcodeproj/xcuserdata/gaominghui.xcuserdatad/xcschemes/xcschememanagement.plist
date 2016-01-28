@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
+		<key>6-【理解】应用:block的使用场景2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>ocjqday03.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -38,6 +43,11 @@
 			<true/>
 		</dict>
 		<key>0E61B3881C59FCD2008AB0DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E61B3961C5A0B08008AB0DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
