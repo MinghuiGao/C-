@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E805D251C59127000A75DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805D241C59127000A75DDA /* main.m */; };
 		0E805D321C59134C00A75DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805D311C59134C00A75DDA /* main.m */; };
+		0E805D3D1C59CB5A00A75DDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E805D3C1C59CB5A00A75DDA /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E805D381C59CB5A00A75DDA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,8 @@
 		0E805D241C59127000A75DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E805D2F1C59134C00A75DDA /* 2-【掌握】block的typedef */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2-【掌握】block的typedef"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E805D311C59134C00A75DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E805D3A1C59CB5A00A75DDA /* 3-【掌握】block访问外部变量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3-【掌握】block访问外部变量"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E805D3C1C59CB5A00A75DDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E805D371C59CB5A00A75DDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -62,6 +81,7 @@
 			children = (
 				0E805D231C59127000A75DDA /* ocjqday03 */,
 				0E805D301C59134C00A75DDA /* 2-【掌握】block的typedef */,
+				0E805D3B1C59CB5A00A75DDA /* 3-【掌握】block访问外部变量 */,
 				0E805D221C59127000A75DDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -71,6 +91,7 @@
 			children = (
 				0E805D211C59127000A75DDA /* ocjqday03 */,
 				0E805D2F1C59134C00A75DDA /* 2-【掌握】block的typedef */,
+				0E805D3A1C59CB5A00A75DDA /* 3-【掌握】block访问外部变量 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +110,14 @@
 				0E805D311C59134C00A75DDA /* main.m */,
 			);
 			path = "2-【掌握】block的typedef";
+			sourceTree = "<group>";
+		};
+		0E805D3B1C59CB5A00A75DDA /* 3-【掌握】block访问外部变量 */ = {
+			isa = PBXGroup;
+			children = (
+				0E805D3C1C59CB5A00A75DDA /* main.m */,
+			);
+			path = "3-【掌握】block访问外部变量";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +157,23 @@
 			productReference = 0E805D2F1C59134C00A75DDA /* 2-【掌握】block的typedef */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E805D391C59CB5A00A75DDA /* 3-【掌握】block访问外部变量 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E805D401C59CB5A00A75DDA /* Build configuration list for PBXNativeTarget "3-【掌握】block访问外部变量" */;
+			buildPhases = (
+				0E805D361C59CB5A00A75DDA /* Sources */,
+				0E805D371C59CB5A00A75DDA /* Frameworks */,
+				0E805D381C59CB5A00A75DDA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3-【掌握】block访问外部变量";
+			productName = "3-【掌握】block访问外部变量";
+			productReference = 0E805D3A1C59CB5A00A75DDA /* 3-【掌握】block访问外部变量 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -141,6 +187,9 @@
 						CreatedOnToolsVersion = 7.0;
 					};
 					0E805D2E1C59134C00A75DDA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E805D391C59CB5A00A75DDA = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -159,6 +208,7 @@
 			targets = (
 				0E805D201C59127000A75DDA /* ocjqday03 */,
 				0E805D2E1C59134C00A75DDA /* 2-【掌握】block的typedef */,
+				0E805D391C59CB5A00A75DDA /* 3-【掌握】block访问外部变量 */,
 			);
 		};
 /* End PBXProject section */
@@ -177,6 +227,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E805D321C59134C00A75DDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E805D361C59CB5A00A75DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E805D3D1C59CB5A00A75DDA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +346,20 @@
 			};
 			name = Release;
 		};
+		0E805D3E1C59CB5A00A75DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E805D3F1C59CB5A00A75DDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -307,12 +379,22 @@
 				0E805D2A1C59127000A75DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E805D331C59134C00A75DDA /* Build configuration list for PBXNativeTarget "2-【掌握】block的typedef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E805D341C59134C00A75DDA /* Debug */,
 				0E805D351C59134C00A75DDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E805D401C59CB5A00A75DDA /* Build configuration list for PBXNativeTarget "3-【掌握】block访问外部变量" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E805D3E1C59CB5A00A75DDA /* Debug */,
+				0E805D3F1C59CB5A00A75DDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
