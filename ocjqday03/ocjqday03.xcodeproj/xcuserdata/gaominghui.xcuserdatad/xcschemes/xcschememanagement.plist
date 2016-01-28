@@ -19,6 +19,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>5-【理解】block作为函数的返回值.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>ocjqday03.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0E61B37D1C59F299008AB0DB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E61B3881C59FCD2008AB0DB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
