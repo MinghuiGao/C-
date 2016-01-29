@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0E407D0E1C5B15F60089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D0D1C5B15F60089DD87 /* main.m */; };
 		0E407D151C5B19840089DD87 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D141C5B19840089DD87 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E407D1E1C5B1D950089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D1D1C5B1D950089DD87 /* main.m */; };
+		0E407D251C5B1E920089DD87 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D241C5B1E920089DD87 /* Player.m */; settings = {ASSET_TAGS = (); }; };
 		0E61B3811C59F299008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B3801C59F299008AB0DB /* main.m */; };
 		0E61B38C1C59FCD2008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B38B1C59FCD2008AB0DB /* main.m */; };
 		0E61B39A1C5A0B08008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B3991C5A0B08008AB0DB /* main.m */; };
@@ -21,6 +23,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0E407D091C5B15F60089DD87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E407D191C5B1D950089DD87 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -101,6 +112,11 @@
 		0E407D131C5B19840089DD87 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0E407D141C5B19840089DD87 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		0E407D161C5B1AD80089DD87 /* work.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = work.h; sourceTree = "<group>"; };
+		0E407D1B1C5B1D950089DD87 /* 9-【掌握】protocol中@required和@optional */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9-【掌握】protocol中@required和@optional"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E407D1D1C5B1D950089DD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E407D221C5B1E290089DD87 /* PlayGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayGame.h; sourceTree = "<group>"; };
+		0E407D231C5B1E920089DD87 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		0E407D241C5B1E920089DD87 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 		0E61B37E1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4-【理解】应用:block的使用场景1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E61B3801C59F299008AB0DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E61B3891C59FCD2008AB0DB /* 5-【理解】block作为函数的返回值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5-【理解】block作为函数的返回值"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +137,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		0E407D081C5B15F60089DD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407D181C5B1D950089DD87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,6 +214,17 @@
 			path = "8-【掌握】protocol概念及基本使用";
 			sourceTree = "<group>";
 		};
+		0E407D1C1C5B1D950089DD87 /* 9-【掌握】protocol中@required和@optional */ = {
+			isa = PBXGroup;
+			children = (
+				0E407D1D1C5B1D950089DD87 /* main.m */,
+				0E407D221C5B1E290089DD87 /* PlayGame.h */,
+				0E407D231C5B1E920089DD87 /* Player.h */,
+				0E407D241C5B1E920089DD87 /* Player.m */,
+			);
+			path = "9-【掌握】protocol中@required和@optional";
+			sourceTree = "<group>";
+		};
 		0E61B37F1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +270,7 @@
 				0E61B3981C5A0B08008AB0DB /* 6-【理解】应用:block的使用场景2 */,
 				0E61B3A31C5A156C008AB0DB /* 7-【掌握】block使用技巧及注意 */,
 				0E407D0C1C5B15F60089DD87 /* 8-【掌握】protocol概念及基本使用 */,
+				0E407D1C1C5B1D950089DD87 /* 9-【掌握】protocol中@required和@optional */,
 				0E805D221C59127000A75DDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -251,6 +286,7 @@
 				0E61B3971C5A0B08008AB0DB /* 6-【理解】应用:block的使用场景2 */,
 				0E61B3A21C5A156C008AB0DB /* 7-【掌握】block使用技巧及注意 */,
 				0E407D0B1C5B15F60089DD87 /* 8-【掌握】protocol概念及基本使用 */,
+				0E407D1B1C5B1D950089DD87 /* 9-【掌握】protocol中@required和@optional */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -297,6 +333,23 @@
 			name = "8-【掌握】protocol概念及基本使用";
 			productName = "8-【掌握】protocol概念及基本使用";
 			productReference = 0E407D0B1C5B15F60089DD87 /* 8-【掌握】protocol概念及基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E407D1A1C5B1D950089DD87 /* 9-【掌握】protocol中@required和@optional */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E407D1F1C5B1D950089DD87 /* Build configuration list for PBXNativeTarget "9-【掌握】protocol中@required和@optional" */;
+			buildPhases = (
+				0E407D171C5B1D950089DD87 /* Sources */,
+				0E407D181C5B1D950089DD87 /* Frameworks */,
+				0E407D191C5B1D950089DD87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9-【掌握】protocol中@required和@optional";
+			productName = "9-【掌握】protocol中@required和@optional";
+			productReference = 0E407D1B1C5B1D950089DD87 /* 9-【掌握】protocol中@required和@optional */;
 			productType = "com.apple.product-type.tool";
 		};
 		0E61B37D1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */ = {
@@ -430,6 +483,9 @@
 					0E407D0A1C5B15F60089DD87 = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E407D1A1C5B1D950089DD87 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					0E61B37D1C59F299008AB0DB = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -473,6 +529,7 @@
 				0E61B3961C5A0B08008AB0DB /* 6-【理解】应用:block的使用场景2 */,
 				0E61B3A11C5A156C008AB0DB /* 7-【掌握】block使用技巧及注意 */,
 				0E407D0A1C5B15F60089DD87 /* 8-【掌握】protocol概念及基本使用 */,
+				0E407D1A1C5B1D950089DD87 /* 9-【掌握】protocol中@required和@optional */,
 			);
 		};
 /* End PBXProject section */
@@ -484,6 +541,15 @@
 			files = (
 				0E407D151C5B19840089DD87 /* Person.m in Sources */,
 				0E407D0E1C5B15F60089DD87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407D171C5B1D950089DD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E407D251C5B1E920089DD87 /* Player.m in Sources */,
+				0E407D1E1C5B1D950089DD87 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +621,20 @@
 			name = Debug;
 		};
 		0E407D101C5B15F60089DD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E407D201C5B1D950089DD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E407D211C5B1D950089DD87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -747,6 +827,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0E407D1F1C5B1D950089DD87 /* Build configuration list for PBXNativeTarget "9-【掌握】protocol中@required和@optional" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E407D201C5B1D950089DD87 /* Debug */,
+				0E407D211C5B1D950089DD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		0E61B3841C59F299008AB0DB /* Build configuration list for PBXNativeTarget "4-【理解】应用:block的使用场景1" */ = {
 			isa = XCConfigurationList;

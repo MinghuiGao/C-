@@ -39,6 +39,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>9-【掌握】protocol中@required和@optional.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>ocjqday03.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -48,6 +53,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0E407D0A1C5B15F60089DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E407D1A1C5B1D950089DD87</key>
 		<dict>
 			<key>primary</key>
 			<true/>
