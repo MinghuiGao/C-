@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>10-【掌握】protocol类型限制.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>2-【掌握】block的typedef.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -58,6 +63,11 @@
 			<true/>
 		</dict>
 		<key>0E407D1A1C5B1D950089DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E407D291C5B44660089DD87</key>
 		<dict>
 			<key>primary</key>
 			<true/>
