@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>11-【掌握】protocol代理设计模式.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>13-【理解】应用:通过中介找房子.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>2-【掌握】block的typedef.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -68,6 +78,16 @@
 			<true/>
 		</dict>
 		<key>0E407D291C5B44660089DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E407D461C5B57F70089DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E407D5E1C5B77370089DD87</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -16,6 +16,14 @@
 		0E407D3C1C5B48410089DD87 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D3B1C5B48410089DD87 /* Teacher.m */; settings = {ASSET_TAGS = (); }; };
 		0E407D3F1C5B48480089DD87 /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D3E1C5B48480089DD87 /* Girl.m */; settings = {ASSET_TAGS = (); }; };
 		0E407D421C5B4AD70089DD87 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D411C5B4AD70089DD87 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E407D4A1C5B57F70089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D491C5B57F70089DD87 /* main.m */; };
+		0E407D501C5B591C0089DD87 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D4F1C5B591C0089DD87 /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		0E407D531C5B59680089DD87 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D521C5B59680089DD87 /* Father.m */; settings = {ASSET_TAGS = (); }; };
+		0E407D561C5B59750089DD87 /* Baby.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D551C5B59750089DD87 /* Baby.m */; settings = {ASSET_TAGS = (); }; };
+		0E407D5A1C5B5B8C0089DD87 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D591C5B5B8C0089DD87 /* Worker.m */; settings = {ASSET_TAGS = (); }; };
+		0E407D621C5B77370089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D611C5B77370089DD87 /* main.m */; };
+		0E407D691C5B7B620089DD87 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D681C5B7B620089DD87 /* Student.m */; settings = {ASSET_TAGS = (); }; };
+		0E407D6C1C5B7BDD0089DD87 /* HouseMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D6B1C5B7BDD0089DD87 /* HouseMedia.m */; settings = {ASSET_TAGS = (); }; };
 		0E61B3811C59F299008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B3801C59F299008AB0DB /* main.m */; };
 		0E61B38C1C59FCD2008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B38B1C59FCD2008AB0DB /* main.m */; };
 		0E61B39A1C5A0B08008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B3991C5A0B08008AB0DB /* main.m */; };
@@ -46,6 +54,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		0E407D281C5B44660089DD87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E407D451C5B57F70089DD87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E407D5D1C5B77370089DD87 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -142,6 +168,24 @@
 		0E407D3E1C5B48480089DD87 /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Girl.m; sourceTree = "<group>"; };
 		0E407D401C5B4AD70089DD87 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0E407D411C5B4AD70089DD87 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E407D471C5B57F70089DD87 /* 11-【掌握】protocol代理设计模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11-【掌握】protocol代理设计模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E407D491C5B57F70089DD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E407D4E1C5B591C0089DD87 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0E407D4F1C5B591C0089DD87 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0E407D511C5B59680089DD87 /* Father.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		0E407D521C5B59680089DD87 /* Father.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		0E407D541C5B59750089DD87 /* Baby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baby.h; sourceTree = "<group>"; };
+		0E407D551C5B59750089DD87 /* Baby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baby.m; sourceTree = "<group>"; };
+		0E407D571C5B5B140089DD87 /* BaoMu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaoMu.h; sourceTree = "<group>"; };
+		0E407D581C5B5B8C0089DD87 /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		0E407D591C5B5B8C0089DD87 /* Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
+		0E407D5F1C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13-【理解】应用:通过中介找房子"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E407D611C5B77370089DD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E407D661C5B7B3C0089DD87 /* MediaProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaProtocal.h; sourceTree = "<group>"; };
+		0E407D671C5B7B620089DD87 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		0E407D681C5B7B620089DD87 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		0E407D6A1C5B7BDD0089DD87 /* HouseMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseMedia.h; sourceTree = "<group>"; };
+		0E407D6B1C5B7BDD0089DD87 /* HouseMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseMedia.m; sourceTree = "<group>"; };
 		0E61B37E1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4-【理解】应用:block的使用场景1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E61B3801C59F299008AB0DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E61B3891C59FCD2008AB0DB /* 5-【理解】block作为函数的返回值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5-【理解】block作为函数的返回值"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +220,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0E407D271C5B44660089DD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407D441C5B57F70089DD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407D5C1C5B77370089DD87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -274,6 +332,36 @@
 			path = "10-【掌握】protocol类型限制";
 			sourceTree = "<group>";
 		};
+		0E407D481C5B57F70089DD87 /* 11-【掌握】protocol代理设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				0E407D491C5B57F70089DD87 /* main.m */,
+				0E407D4E1C5B591C0089DD87 /* Person.h */,
+				0E407D4F1C5B591C0089DD87 /* Person.m */,
+				0E407D511C5B59680089DD87 /* Father.h */,
+				0E407D521C5B59680089DD87 /* Father.m */,
+				0E407D541C5B59750089DD87 /* Baby.h */,
+				0E407D551C5B59750089DD87 /* Baby.m */,
+				0E407D571C5B5B140089DD87 /* BaoMu.h */,
+				0E407D581C5B5B8C0089DD87 /* Worker.h */,
+				0E407D591C5B5B8C0089DD87 /* Worker.m */,
+			);
+			path = "11-【掌握】protocol代理设计模式";
+			sourceTree = "<group>";
+		};
+		0E407D601C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */ = {
+			isa = PBXGroup;
+			children = (
+				0E407D611C5B77370089DD87 /* main.m */,
+				0E407D661C5B7B3C0089DD87 /* MediaProtocal.h */,
+				0E407D671C5B7B620089DD87 /* Student.h */,
+				0E407D681C5B7B620089DD87 /* Student.m */,
+				0E407D6A1C5B7BDD0089DD87 /* HouseMedia.h */,
+				0E407D6B1C5B7BDD0089DD87 /* HouseMedia.m */,
+			);
+			path = "13-【理解】应用:通过中介找房子";
+			sourceTree = "<group>";
+		};
 		0E61B37F1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,6 +409,8 @@
 				0E407D0C1C5B15F60089DD87 /* 8-【掌握】protocol概念及基本使用 */,
 				0E407D1C1C5B1D950089DD87 /* 9-【掌握】protocol中@required和@optional */,
 				0E407D2B1C5B44660089DD87 /* 10-【掌握】protocol类型限制 */,
+				0E407D481C5B57F70089DD87 /* 11-【掌握】protocol代理设计模式 */,
+				0E407D601C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */,
 				0E805D221C59127000A75DDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -338,6 +428,8 @@
 				0E407D0B1C5B15F60089DD87 /* 8-【掌握】protocol概念及基本使用 */,
 				0E407D1B1C5B1D950089DD87 /* 9-【掌握】protocol中@required和@optional */,
 				0E407D2A1C5B44660089DD87 /* 10-【掌握】protocol类型限制 */,
+				0E407D471C5B57F70089DD87 /* 11-【掌握】protocol代理设计模式 */,
+				0E407D5F1C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -418,6 +510,40 @@
 			name = "10-【掌握】protocol类型限制";
 			productName = "10-【掌握】protocol类型限制";
 			productReference = 0E407D2A1C5B44660089DD87 /* 10-【掌握】protocol类型限制 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E407D461C5B57F70089DD87 /* 11-【掌握】protocol代理设计模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E407D4B1C5B57F70089DD87 /* Build configuration list for PBXNativeTarget "11-【掌握】protocol代理设计模式" */;
+			buildPhases = (
+				0E407D431C5B57F70089DD87 /* Sources */,
+				0E407D441C5B57F70089DD87 /* Frameworks */,
+				0E407D451C5B57F70089DD87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "11-【掌握】protocol代理设计模式";
+			productName = "11-【掌握】protocol代理设计模式";
+			productReference = 0E407D471C5B57F70089DD87 /* 11-【掌握】protocol代理设计模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E407D5E1C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E407D651C5B77370089DD87 /* Build configuration list for PBXNativeTarget "13-【理解】应用:通过中介找房子" */;
+			buildPhases = (
+				0E407D5B1C5B77370089DD87 /* Sources */,
+				0E407D5C1C5B77370089DD87 /* Frameworks */,
+				0E407D5D1C5B77370089DD87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-【理解】应用:通过中介找房子";
+			productName = "13-【理解】应用:通过中介找房子";
+			productReference = 0E407D5F1C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */;
 			productType = "com.apple.product-type.tool";
 		};
 		0E61B37D1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */ = {
@@ -557,6 +683,12 @@
 					0E407D291C5B44660089DD87 = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E407D461C5B57F70089DD87 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E407D5E1C5B77370089DD87 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					0E61B37D1C59F299008AB0DB = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -602,6 +734,8 @@
 				0E407D0A1C5B15F60089DD87 /* 8-【掌握】protocol概念及基本使用 */,
 				0E407D1A1C5B1D950089DD87 /* 9-【掌握】protocol中@required和@optional */,
 				0E407D291C5B44660089DD87 /* 10-【掌握】protocol类型限制 */,
+				0E407D461C5B57F70089DD87 /* 11-【掌握】protocol代理设计模式 */,
+				0E407D5E1C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */,
 			);
 		};
 /* End PBXProject section */
@@ -634,6 +768,28 @@
 				0E407D421C5B4AD70089DD87 /* Person.m in Sources */,
 				0E407D391C5B48290089DD87 /* Model.m in Sources */,
 				0E407D3F1C5B48480089DD87 /* Girl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407D431C5B57F70089DD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E407D501C5B591C0089DD87 /* Person.m in Sources */,
+				0E407D531C5B59680089DD87 /* Father.m in Sources */,
+				0E407D4A1C5B57F70089DD87 /* main.m in Sources */,
+				0E407D561C5B59750089DD87 /* Baby.m in Sources */,
+				0E407D5A1C5B5B8C0089DD87 /* Worker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407D5B1C5B77370089DD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E407D6C1C5B7BDD0089DD87 /* HouseMedia.m in Sources */,
+				0E407D621C5B77370089DD87 /* main.m in Sources */,
+				0E407D691C5B7B620089DD87 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,6 +889,36 @@
 			name = Debug;
 		};
 		0E407D301C5B44660089DD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E407D4C1C5B57F70089DD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E407D4D1C5B57F70089DD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E407D631C5B77370089DD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E407D641C5B77370089DD87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -933,12 +1119,31 @@
 				0E407D211C5B1D950089DD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E407D2E1C5B44660089DD87 /* Build configuration list for PBXNativeTarget "10-【掌握】protocol类型限制" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E407D2F1C5B44660089DD87 /* Debug */,
 				0E407D301C5B44660089DD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E407D4B1C5B57F70089DD87 /* Build configuration list for PBXNativeTarget "11-【掌握】protocol代理设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E407D4C1C5B57F70089DD87 /* Debug */,
+				0E407D4D1C5B57F70089DD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E407D651C5B77370089DD87 /* Build configuration list for PBXNativeTarget "13-【理解】应用:通过中介找房子" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E407D631C5B77370089DD87 /* Debug */,
+				0E407D641C5B77370089DD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
