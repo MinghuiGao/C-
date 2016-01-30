@@ -19,6 +19,16 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>15-【掌握】NSString介绍及基本使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>16-【掌握】使用NSURL读写字符串.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
 		<key>2-【掌握】block的typedef.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -88,6 +98,16 @@
 			<true/>
 		</dict>
 		<key>0E407D5E1C5B77370089DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E407D701C5C5D300089DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E407D7B1C5C61480089DD87</key>
 		<dict>
 			<key>primary</key>
 			<true/>

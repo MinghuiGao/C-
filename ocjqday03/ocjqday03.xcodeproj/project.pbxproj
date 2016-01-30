@@ -24,6 +24,8 @@
 		0E407D621C5B77370089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D611C5B77370089DD87 /* main.m */; };
 		0E407D691C5B7B620089DD87 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D681C5B7B620089DD87 /* Student.m */; settings = {ASSET_TAGS = (); }; };
 		0E407D6C1C5B7BDD0089DD87 /* HouseMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D6B1C5B7BDD0089DD87 /* HouseMedia.m */; settings = {ASSET_TAGS = (); }; };
+		0E407D741C5C5D300089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D731C5C5D300089DD87 /* main.m */; };
+		0E407D7F1C5C61480089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407D7E1C5C61480089DD87 /* main.m */; };
 		0E61B3811C59F299008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B3801C59F299008AB0DB /* main.m */; };
 		0E61B38C1C59FCD2008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B38B1C59FCD2008AB0DB /* main.m */; };
 		0E61B39A1C5A0B08008AB0DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E61B3991C5A0B08008AB0DB /* main.m */; };
@@ -72,6 +74,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		0E407D5D1C5B77370089DD87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E407D6F1C5C5D300089DD87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E407D7A1C5C61480089DD87 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -186,6 +206,10 @@
 		0E407D681C5B7B620089DD87 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		0E407D6A1C5B7BDD0089DD87 /* HouseMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseMedia.h; sourceTree = "<group>"; };
 		0E407D6B1C5B7BDD0089DD87 /* HouseMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseMedia.m; sourceTree = "<group>"; };
+		0E407D711C5C5D300089DD87 /* 15-【掌握】NSString介绍及基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15-【掌握】NSString介绍及基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E407D731C5C5D300089DD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E407D7C1C5C61480089DD87 /* 16-【掌握】使用NSURL读写字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16-【掌握】使用NSURL读写字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E407D7E1C5C61480089DD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E61B37E1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4-【理解】应用:block的使用场景1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E61B3801C59F299008AB0DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E61B3891C59FCD2008AB0DB /* 5-【理解】block作为函数的返回值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5-【理解】block作为函数的返回值"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -234,6 +258,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0E407D5C1C5B77370089DD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407D6E1C5C5D300089DD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407D791C5C61480089DD87 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,6 +400,22 @@
 			path = "13-【理解】应用:通过中介找房子";
 			sourceTree = "<group>";
 		};
+		0E407D721C5C5D300089DD87 /* 15-【掌握】NSString介绍及基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				0E407D731C5C5D300089DD87 /* main.m */,
+			);
+			path = "15-【掌握】NSString介绍及基本使用";
+			sourceTree = "<group>";
+		};
+		0E407D7D1C5C61480089DD87 /* 16-【掌握】使用NSURL读写字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				0E407D7E1C5C61480089DD87 /* main.m */,
+			);
+			path = "16-【掌握】使用NSURL读写字符串";
+			sourceTree = "<group>";
+		};
 		0E61B37F1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -411,6 +465,8 @@
 				0E407D2B1C5B44660089DD87 /* 10-【掌握】protocol类型限制 */,
 				0E407D481C5B57F70089DD87 /* 11-【掌握】protocol代理设计模式 */,
 				0E407D601C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */,
+				0E407D721C5C5D300089DD87 /* 15-【掌握】NSString介绍及基本使用 */,
+				0E407D7D1C5C61480089DD87 /* 16-【掌握】使用NSURL读写字符串 */,
 				0E805D221C59127000A75DDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -430,6 +486,8 @@
 				0E407D2A1C5B44660089DD87 /* 10-【掌握】protocol类型限制 */,
 				0E407D471C5B57F70089DD87 /* 11-【掌握】protocol代理设计模式 */,
 				0E407D5F1C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */,
+				0E407D711C5C5D300089DD87 /* 15-【掌握】NSString介绍及基本使用 */,
+				0E407D7C1C5C61480089DD87 /* 16-【掌握】使用NSURL读写字符串 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -544,6 +602,40 @@
 			name = "13-【理解】应用:通过中介找房子";
 			productName = "13-【理解】应用:通过中介找房子";
 			productReference = 0E407D5F1C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E407D701C5C5D300089DD87 /* 15-【掌握】NSString介绍及基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E407D751C5C5D300089DD87 /* Build configuration list for PBXNativeTarget "15-【掌握】NSString介绍及基本使用" */;
+			buildPhases = (
+				0E407D6D1C5C5D300089DD87 /* Sources */,
+				0E407D6E1C5C5D300089DD87 /* Frameworks */,
+				0E407D6F1C5C5D300089DD87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15-【掌握】NSString介绍及基本使用";
+			productName = "15-【掌握】NSString介绍及基本使用";
+			productReference = 0E407D711C5C5D300089DD87 /* 15-【掌握】NSString介绍及基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E407D7B1C5C61480089DD87 /* 16-【掌握】使用NSURL读写字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E407D821C5C61480089DD87 /* Build configuration list for PBXNativeTarget "16-【掌握】使用NSURL读写字符串" */;
+			buildPhases = (
+				0E407D781C5C61480089DD87 /* Sources */,
+				0E407D791C5C61480089DD87 /* Frameworks */,
+				0E407D7A1C5C61480089DD87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16-【掌握】使用NSURL读写字符串";
+			productName = "16-【掌握】使用NSURL读写字符串";
+			productReference = 0E407D7C1C5C61480089DD87 /* 16-【掌握】使用NSURL读写字符串 */;
 			productType = "com.apple.product-type.tool";
 		};
 		0E61B37D1C59F299008AB0DB /* 4-【理解】应用:block的使用场景1 */ = {
@@ -689,6 +781,12 @@
 					0E407D5E1C5B77370089DD87 = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E407D701C5C5D300089DD87 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E407D7B1C5C61480089DD87 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					0E61B37D1C59F299008AB0DB = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -736,6 +834,8 @@
 				0E407D291C5B44660089DD87 /* 10-【掌握】protocol类型限制 */,
 				0E407D461C5B57F70089DD87 /* 11-【掌握】protocol代理设计模式 */,
 				0E407D5E1C5B77370089DD87 /* 13-【理解】应用:通过中介找房子 */,
+				0E407D701C5C5D300089DD87 /* 15-【掌握】NSString介绍及基本使用 */,
+				0E407D7B1C5C61480089DD87 /* 16-【掌握】使用NSURL读写字符串 */,
 			);
 		};
 /* End PBXProject section */
@@ -790,6 +890,22 @@
 				0E407D6C1C5B7BDD0089DD87 /* HouseMedia.m in Sources */,
 				0E407D621C5B77370089DD87 /* main.m in Sources */,
 				0E407D691C5B7B620089DD87 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407D6D1C5C5D300089DD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E407D741C5C5D300089DD87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407D781C5C61480089DD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E407D7F1C5C61480089DD87 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -919,6 +1035,34 @@
 			name = Debug;
 		};
 		0E407D641C5B77370089DD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E407D761C5C5D300089DD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E407D771C5C5D300089DD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E407D801C5C61480089DD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E407D811C5C61480089DD87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1144,6 +1288,24 @@
 			buildConfigurations = (
 				0E407D631C5B77370089DD87 /* Debug */,
 				0E407D641C5B77370089DD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E407D751C5C5D300089DD87 /* Build configuration list for PBXNativeTarget "15-【掌握】NSString介绍及基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E407D761C5C5D300089DD87 /* Debug */,
+				0E407D771C5C5D300089DD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E407D821C5C61480089DD87 /* Build configuration list for PBXNativeTarget "16-【掌握】使用NSURL读写字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E407D801C5C61480089DD87 /* Debug */,
+				0E407D811C5C61480089DD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
