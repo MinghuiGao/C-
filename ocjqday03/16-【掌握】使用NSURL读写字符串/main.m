@@ -22,13 +22,13 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         //        1、创建一个NSURL类
-
         NSURL *url = [NSURL URLWithString:@"file:///Users/gaominghui/Desktop/url.txt"];
+        NSLog(@"url = %@",url);
         //        2、调用NSString对象的write
         NSString *str = @"你好itcast";
         BOOL isOK = [str writeToURL:url atomically:YES encoding:NSUTF8StringEncoding error:nil];
         if (isOK) {
-            // 如果写入成功，那么尽兴读取
+            // 3、如果写入成功，那么进行读取
             NSString *str2 = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
             NSLog(@"读取成功，str2 = %@",str2);
         }
