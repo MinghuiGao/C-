@@ -29,6 +29,16 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>7-【理解】NSString的其他用法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>8-【理解】NSMutableString 介绍和使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>ocjqday04.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -63,6 +73,16 @@
 			<true/>
 		</dict>
 		<key>0E407DCC1C5CC4950089DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E407DD71C5D26DF0089DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E407DE21C5D4F3D0089DD87</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -15,6 +15,8 @@
 		0E407DBA1C5CA6410089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407DB91C5CA6410089DD87 /* main.m */; };
 		0E407DC51C5CB1AA0089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407DC41C5CB1AA0089DD87 /* main.m */; };
 		0E407DD01C5CC4950089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407DCF1C5CC4950089DD87 /* main.m */; };
+		0E407DDB1C5D26DF0089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407DDA1C5D26DF0089DD87 /* main.m */; };
+		0E407DE61C5D4F3D0089DD87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E407DE51C5D4F3D0089DD87 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,6 +74,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0E407DD61C5D26DF0089DD87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E407DE11C5D4F3D0089DD87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +112,10 @@
 		0E407DC41C5CB1AA0089DD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E407DCD1C5CC4950089DD87 /* 6-【理解】字符串的截取和替换 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6-【理解】字符串的截取和替换"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E407DCF1C5CC4950089DD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E407DD81C5D26DF0089DD87 /* 7-【理解】NSString的其他用法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7-【理解】NSString的其他用法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E407DDA1C5D26DF0089DD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E407DE31C5D4F3D0089DD87 /* 8-【理解】NSMutableString 介绍和使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8-【理解】NSMutableString 介绍和使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E407DE51C5D4F3D0089DD87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +161,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0E407DD51C5D26DF0089DD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407DE01C5D4F3D0089DD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -149,6 +187,8 @@
 				0E407DB81C5CA6410089DD87 /* 4-【理解】NSString前后缀检查及搜索 */,
 				0E407DC31C5CB1AA0089DD87 /* 5-【理解】NSRange使用 */,
 				0E407DCE1C5CC4950089DD87 /* 6-【理解】字符串的截取和替换 */,
+				0E407DD91C5D26DF0089DD87 /* 7-【理解】NSString的其他用法 */,
+				0E407DE41C5D4F3D0089DD87 /* 8-【理解】NSMutableString 介绍和使用 */,
 				0E407D8D1C5C7B1D0089DD87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -162,6 +202,8 @@
 				0E407DB71C5CA6410089DD87 /* 4-【理解】NSString前后缀检查及搜索 */,
 				0E407DC21C5CB1AA0089DD87 /* 5-【理解】NSRange使用 */,
 				0E407DCD1C5CC4950089DD87 /* 6-【理解】字符串的截取和替换 */,
+				0E407DD81C5D26DF0089DD87 /* 7-【理解】NSString的其他用法 */,
+				0E407DE31C5D4F3D0089DD87 /* 8-【理解】NSMutableString 介绍和使用 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,6 +259,22 @@
 				0E407DCF1C5CC4950089DD87 /* main.m */,
 			);
 			path = "6-【理解】字符串的截取和替换";
+			sourceTree = "<group>";
+		};
+		0E407DD91C5D26DF0089DD87 /* 7-【理解】NSString的其他用法 */ = {
+			isa = PBXGroup;
+			children = (
+				0E407DDA1C5D26DF0089DD87 /* main.m */,
+			);
+			path = "7-【理解】NSString的其他用法";
+			sourceTree = "<group>";
+		};
+		0E407DE41C5D4F3D0089DD87 /* 8-【理解】NSMutableString 介绍和使用 */ = {
+			isa = PBXGroup;
+			children = (
+				0E407DE51C5D4F3D0089DD87 /* main.m */,
+			);
+			path = "8-【理解】NSMutableString 介绍和使用";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +382,40 @@
 			productReference = 0E407DCD1C5CC4950089DD87 /* 6-【理解】字符串的截取和替换 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0E407DD71C5D26DF0089DD87 /* 7-【理解】NSString的其他用法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E407DDE1C5D26DF0089DD87 /* Build configuration list for PBXNativeTarget "7-【理解】NSString的其他用法" */;
+			buildPhases = (
+				0E407DD41C5D26DF0089DD87 /* Sources */,
+				0E407DD51C5D26DF0089DD87 /* Frameworks */,
+				0E407DD61C5D26DF0089DD87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7-【理解】NSString的其他用法";
+			productName = "7-【理解】NSString的其他用法";
+			productReference = 0E407DD81C5D26DF0089DD87 /* 7-【理解】NSString的其他用法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E407DE21C5D4F3D0089DD87 /* 8-【理解】NSMutableString 介绍和使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E407DE91C5D4F3D0089DD87 /* Build configuration list for PBXNativeTarget "8-【理解】NSMutableString 介绍和使用" */;
+			buildPhases = (
+				0E407DDF1C5D4F3D0089DD87 /* Sources */,
+				0E407DE01C5D4F3D0089DD87 /* Frameworks */,
+				0E407DE11C5D4F3D0089DD87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8-【理解】NSMutableString 介绍和使用";
+			productName = "8-【理解】NSMutableString 介绍和使用";
+			productReference = 0E407DE31C5D4F3D0089DD87 /* 8-【理解】NSMutableString 介绍和使用 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -351,6 +443,12 @@
 					0E407DCC1C5CC4950089DD87 = {
 						CreatedOnToolsVersion = 7.0;
 					};
+					0E407DD71C5D26DF0089DD87 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E407DE21C5D4F3D0089DD87 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 				};
 			};
 			buildConfigurationList = 0E407D871C5C7B1D0089DD87 /* Build configuration list for PBXProject "ocjqday04" */;
@@ -371,6 +469,8 @@
 				0E407DB61C5CA6410089DD87 /* 4-【理解】NSString前后缀检查及搜索 */,
 				0E407DC11C5CB1AA0089DD87 /* 5-【理解】NSRange使用 */,
 				0E407DCC1C5CC4950089DD87 /* 6-【理解】字符串的截取和替换 */,
+				0E407DD71C5D26DF0089DD87 /* 7-【理解】NSString的其他用法 */,
+				0E407DE21C5D4F3D0089DD87 /* 8-【理解】NSMutableString 介绍和使用 */,
 			);
 		};
 /* End PBXProject section */
@@ -423,6 +523,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E407DD01C5CC4950089DD87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407DD41C5D26DF0089DD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E407DDB1C5D26DF0089DD87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E407DDF1C5D4F3D0089DD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E407DE61C5D4F3D0089DD87 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,6 +706,34 @@
 			};
 			name = Release;
 		};
+		0E407DDC1C5D26DF0089DD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E407DDD1C5D26DF0089DD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E407DE71C5D4F3D0089DD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E407DE81C5D4F3D0089DD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -627,6 +771,7 @@
 				0E407DB11C5C9C610089DD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E407DBB1C5CA6410089DD87 /* Build configuration list for PBXNativeTarget "4-【理解】NSString前后缀检查及搜索" */ = {
 			isa = XCConfigurationList;
@@ -635,6 +780,7 @@
 				0E407DBD1C5CA6410089DD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E407DC61C5CB1AA0089DD87 /* Build configuration list for PBXNativeTarget "5-【理解】NSRange使用" */ = {
 			isa = XCConfigurationList;
@@ -643,12 +789,31 @@
 				0E407DC81C5CB1AA0089DD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E407DD11C5CC4950089DD87 /* Build configuration list for PBXNativeTarget "6-【理解】字符串的截取和替换" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0E407DD21C5CC4950089DD87 /* Debug */,
 				0E407DD31C5CC4950089DD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E407DDE1C5D26DF0089DD87 /* Build configuration list for PBXNativeTarget "7-【理解】NSString的其他用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E407DDC1C5D26DF0089DD87 /* Debug */,
+				0E407DDD1C5D26DF0089DD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E407DE91C5D4F3D0089DD87 /* Build configuration list for PBXNativeTarget "8-【理解】NSMutableString 介绍和使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E407DE71C5D4F3D0089DD87 /* Debug */,
+				0E407DE81C5D4F3D0089DD87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
