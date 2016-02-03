@@ -4,6 +4,51 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>10-【理解】NSArray 的介绍和基本使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>11-【理解】NSArray 的常见用法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>12-【理解】NSArray 的遍历方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>13-【理解】NSArray 读写文件.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>14-【理解】NSArray 与字符串.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>15-【理解】NSMutableArray及基本使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>16-【理解】NSDictionary的介绍及使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
+		<key>17-【理解】NSDictionary的简写及文件操作.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>18-【理解】NSMutableDictionary介绍和使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
 		<key>2-【理解】protocol的使用补充.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -39,6 +84,16 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>9-【理解】NSMutableString常用方法.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Category联系.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>ocjqday04.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -47,6 +102,51 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0E0DEE551C5E2ABE00BFFE4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E0DEE601C5E3DA500BFFE4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E0DEE6B1C5E4C0600BFFE4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E0DEE761C5E556500BFFE4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E0DEE811C5F10B500BFFE4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E0DEE8C1C5F123900BFFE4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E0DEE9E1C5F469200BFFE4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E0DEEA91C5F46EB00BFFE4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E0DEEB41C5F5BA600BFFE4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0E407D8B1C5C7B1D0089DD87</key>
 		<dict>
 			<key>primary</key>
@@ -83,6 +183,16 @@
 			<true/>
 		</dict>
 		<key>0E407DE21C5D4F3D0089DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E407DED1C5DBEA60089DD87</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E407DF81C5DC97F0089DD87</key>
 		<dict>
 			<key>primary</key>
 			<true/>
