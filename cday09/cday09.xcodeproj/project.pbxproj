@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1F38E81C70A8EE00EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F38E71C70A8EE00EC0DC5 /* main.c */; };
+		0E1F38F51C70A91500EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F38F41C70A91500EC0DC5 /* main.c */; };
+		0E1F39001C70A99700EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F38FF1C70A99700EC0DC5 /* main.c */; };
+		0E1F390B1C70AC0400EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F390A1C70AC0400EC0DC5 /* main.c */; };
+		0E1F39161C70C0C600EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F39151C70C0C600EC0DC5 /* main.c */; };
+		0E1F39211C70C52C00EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F39201C70C52C00EC0DC5 /* main.c */; };
+		0E1F392C1C70CA7100EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F392B1C70CA7100EC0DC5 /* main.c */; };
+		0E1F39371C71770600EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F39361C71770600EC0DC5 /* main.c */; };
+		0E1F39421C717E0D00EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F39411C717E0D00EC0DC5 /* main.c */; };
+		0E1F394D1C718B8D00EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F394C1C718B8D00EC0DC5 /* main.c */; };
+		0E1F39581C71920700EC0DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 0E1F39571C71920700EC0DC5 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0E1F38E21C70A8EE00EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1F38F01C70A91500EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1F38FB1C70A99700EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1F39061C70AC0400EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1F39111C70C0C600EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1F391C1C70C52C00EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1F39271C70CA7100EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1F39321C71770600EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1F393D1C717E0D00EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1F39481C718B8D00EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0E1F39531C71920700EC0DC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E1F38E41C70A8EE00EC0DC5 /* cday09 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cday09; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F38E71C70A8EE00EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1F38F21C70A91500EC0DC5 /* 1【了解】构造类型概念 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1【了解】构造类型概念"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F38F41C70A91500EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1F38FD1C70A99700EC0DC5 /* 3【掌握】结构体变量及定义方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3【掌握】结构体变量及定义方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F38FF1C70A99700EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1F39081C70AC0400EC0DC5 /* 4【掌握】结构体变量的初始化和使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4【掌握】结构体变量的初始化和使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F390A1C70AC0400EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1F39131C70C0C600EC0DC5 /* 6结构体占用空间大小 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6结构体占用空间大小"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F39151C70C0C600EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1F391E1C70C52C00EC0DC5 /* 7【掌握】结构体作用域 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7【掌握】结构体作用域"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F39201C70C52C00EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1F39291C70CA7100EC0DC5 /* 8【掌握】结构体数组概念及定义 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "8【掌握】结构体数组概念及定义"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F392B1C70CA7100EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1F39341C71770600EC0DC5 /* 9【掌握】结构数组的初始化和遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "9【掌握】结构数组的初始化和遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F39361C71770600EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1F393F1C717E0D00EC0DC5 /* 10【掌握】结构指针定义和初始化 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10【掌握】结构指针定义和初始化"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F39411C717E0D00EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1F394A1C718B8D00EC0DC5 /* 13【掌握】结构体嵌套使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13【掌握】结构体嵌套使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F394C1C718B8D00EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		0E1F39551C71920700EC0DC5 /* 14【掌握】成员属性作为函数参数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14【掌握】成员属性作为函数参数"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1F39571C71920700EC0DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1F38E11C70A8EE00EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F38EF1C70A91500EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F38FA1C70A99700EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39051C70AC0400EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39101C70C0C600EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F391B1C70C52C00EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39261C70CA7100EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39311C71770600EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F393C1C717E0D00EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39471C718B8D00EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39521C71920700EC0DC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E1F38DB1C70A8EE00EC0DC5 = {
+			isa = PBXGroup;
+			children = (
+				0E1F38E61C70A8EE00EC0DC5 /* cday09 */,
+				0E1F38F31C70A91500EC0DC5 /* 1【了解】构造类型概念 */,
+				0E1F38FE1C70A99700EC0DC5 /* 3【掌握】结构体变量及定义方法 */,
+				0E1F39091C70AC0400EC0DC5 /* 4【掌握】结构体变量的初始化和使用 */,
+				0E1F39141C70C0C600EC0DC5 /* 6结构体占用空间大小 */,
+				0E1F391F1C70C52C00EC0DC5 /* 7【掌握】结构体作用域 */,
+				0E1F392A1C70CA7100EC0DC5 /* 8【掌握】结构体数组概念及定义 */,
+				0E1F39351C71770600EC0DC5 /* 9【掌握】结构数组的初始化和遍历 */,
+				0E1F39401C717E0D00EC0DC5 /* 10【掌握】结构指针定义和初始化 */,
+				0E1F394B1C718B8D00EC0DC5 /* 13【掌握】结构体嵌套使用 */,
+				0E1F39561C71920700EC0DC5 /* 14【掌握】成员属性作为函数参数 */,
+				0E1F38E51C70A8EE00EC0DC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E1F38E51C70A8EE00EC0DC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F38E41C70A8EE00EC0DC5 /* cday09 */,
+				0E1F38F21C70A91500EC0DC5 /* 1【了解】构造类型概念 */,
+				0E1F38FD1C70A99700EC0DC5 /* 3【掌握】结构体变量及定义方法 */,
+				0E1F39081C70AC0400EC0DC5 /* 4【掌握】结构体变量的初始化和使用 */,
+				0E1F39131C70C0C600EC0DC5 /* 6结构体占用空间大小 */,
+				0E1F391E1C70C52C00EC0DC5 /* 7【掌握】结构体作用域 */,
+				0E1F39291C70CA7100EC0DC5 /* 8【掌握】结构体数组概念及定义 */,
+				0E1F39341C71770600EC0DC5 /* 9【掌握】结构数组的初始化和遍历 */,
+				0E1F393F1C717E0D00EC0DC5 /* 10【掌握】结构指针定义和初始化 */,
+				0E1F394A1C718B8D00EC0DC5 /* 13【掌握】结构体嵌套使用 */,
+				0E1F39551C71920700EC0DC5 /* 14【掌握】成员属性作为函数参数 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E1F38E61C70A8EE00EC0DC5 /* cday09 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F38E71C70A8EE00EC0DC5 /* main.c */,
+			);
+			path = cday09;
+			sourceTree = "<group>";
+		};
+		0E1F38F31C70A91500EC0DC5 /* 1【了解】构造类型概念 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F38F41C70A91500EC0DC5 /* main.c */,
+			);
+			path = "1【了解】构造类型概念";
+			sourceTree = "<group>";
+		};
+		0E1F38FE1C70A99700EC0DC5 /* 3【掌握】结构体变量及定义方法 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F38FF1C70A99700EC0DC5 /* main.c */,
+			);
+			path = "3【掌握】结构体变量及定义方法";
+			sourceTree = "<group>";
+		};
+		0E1F39091C70AC0400EC0DC5 /* 4【掌握】结构体变量的初始化和使用 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F390A1C70AC0400EC0DC5 /* main.c */,
+			);
+			path = "4【掌握】结构体变量的初始化和使用";
+			sourceTree = "<group>";
+		};
+		0E1F39141C70C0C600EC0DC5 /* 6结构体占用空间大小 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F39151C70C0C600EC0DC5 /* main.c */,
+			);
+			path = "6结构体占用空间大小";
+			sourceTree = "<group>";
+		};
+		0E1F391F1C70C52C00EC0DC5 /* 7【掌握】结构体作用域 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F39201C70C52C00EC0DC5 /* main.c */,
+			);
+			path = "7【掌握】结构体作用域";
+			sourceTree = "<group>";
+		};
+		0E1F392A1C70CA7100EC0DC5 /* 8【掌握】结构体数组概念及定义 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F392B1C70CA7100EC0DC5 /* main.c */,
+			);
+			path = "8【掌握】结构体数组概念及定义";
+			sourceTree = "<group>";
+		};
+		0E1F39351C71770600EC0DC5 /* 9【掌握】结构数组的初始化和遍历 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F39361C71770600EC0DC5 /* main.c */,
+			);
+			path = "9【掌握】结构数组的初始化和遍历";
+			sourceTree = "<group>";
+		};
+		0E1F39401C717E0D00EC0DC5 /* 10【掌握】结构指针定义和初始化 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F39411C717E0D00EC0DC5 /* main.c */,
+			);
+			path = "10【掌握】结构指针定义和初始化";
+			sourceTree = "<group>";
+		};
+		0E1F394B1C718B8D00EC0DC5 /* 13【掌握】结构体嵌套使用 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F394C1C718B8D00EC0DC5 /* main.c */,
+			);
+			path = "13【掌握】结构体嵌套使用";
+			sourceTree = "<group>";
+		};
+		0E1F39561C71920700EC0DC5 /* 14【掌握】成员属性作为函数参数 */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F39571C71920700EC0DC5 /* main.c */,
+			);
+			path = "14【掌握】成员属性作为函数参数";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E1F38E31C70A8EE00EC0DC5 /* cday09 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F38EB1C70A8EE00EC0DC5 /* Build configuration list for PBXNativeTarget "cday09" */;
+			buildPhases = (
+				0E1F38E01C70A8EE00EC0DC5 /* Sources */,
+				0E1F38E11C70A8EE00EC0DC5 /* Frameworks */,
+				0E1F38E21C70A8EE00EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cday09;
+			productName = cday09;
+			productReference = 0E1F38E41C70A8EE00EC0DC5 /* cday09 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1F38F11C70A91500EC0DC5 /* 1【了解】构造类型概念 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F38F61C70A91500EC0DC5 /* Build configuration list for PBXNativeTarget "1【了解】构造类型概念" */;
+			buildPhases = (
+				0E1F38EE1C70A91500EC0DC5 /* Sources */,
+				0E1F38EF1C70A91500EC0DC5 /* Frameworks */,
+				0E1F38F01C70A91500EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1【了解】构造类型概念";
+			productName = "1【了解】构造类型概念";
+			productReference = 0E1F38F21C70A91500EC0DC5 /* 1【了解】构造类型概念 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1F38FC1C70A99700EC0DC5 /* 3【掌握】结构体变量及定义方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F39011C70A99700EC0DC5 /* Build configuration list for PBXNativeTarget "3【掌握】结构体变量及定义方法" */;
+			buildPhases = (
+				0E1F38F91C70A99700EC0DC5 /* Sources */,
+				0E1F38FA1C70A99700EC0DC5 /* Frameworks */,
+				0E1F38FB1C70A99700EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3【掌握】结构体变量及定义方法";
+			productName = "3【掌握】结构体变量及定义方法";
+			productReference = 0E1F38FD1C70A99700EC0DC5 /* 3【掌握】结构体变量及定义方法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1F39071C70AC0400EC0DC5 /* 4【掌握】结构体变量的初始化和使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F390C1C70AC0400EC0DC5 /* Build configuration list for PBXNativeTarget "4【掌握】结构体变量的初始化和使用" */;
+			buildPhases = (
+				0E1F39041C70AC0400EC0DC5 /* Sources */,
+				0E1F39051C70AC0400EC0DC5 /* Frameworks */,
+				0E1F39061C70AC0400EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4【掌握】结构体变量的初始化和使用";
+			productName = "4【掌握】结构体变量的初始化和使用";
+			productReference = 0E1F39081C70AC0400EC0DC5 /* 4【掌握】结构体变量的初始化和使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1F39121C70C0C600EC0DC5 /* 6结构体占用空间大小 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F39171C70C0C600EC0DC5 /* Build configuration list for PBXNativeTarget "6结构体占用空间大小" */;
+			buildPhases = (
+				0E1F390F1C70C0C600EC0DC5 /* Sources */,
+				0E1F39101C70C0C600EC0DC5 /* Frameworks */,
+				0E1F39111C70C0C600EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6结构体占用空间大小";
+			productName = "6结构体占用空间大小";
+			productReference = 0E1F39131C70C0C600EC0DC5 /* 6结构体占用空间大小 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1F391D1C70C52C00EC0DC5 /* 7【掌握】结构体作用域 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F39221C70C52C00EC0DC5 /* Build configuration list for PBXNativeTarget "7【掌握】结构体作用域" */;
+			buildPhases = (
+				0E1F391A1C70C52C00EC0DC5 /* Sources */,
+				0E1F391B1C70C52C00EC0DC5 /* Frameworks */,
+				0E1F391C1C70C52C00EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7【掌握】结构体作用域";
+			productName = "7【掌握】结构体作用域";
+			productReference = 0E1F391E1C70C52C00EC0DC5 /* 7【掌握】结构体作用域 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1F39281C70CA7100EC0DC5 /* 8【掌握】结构体数组概念及定义 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F392D1C70CA7100EC0DC5 /* Build configuration list for PBXNativeTarget "8【掌握】结构体数组概念及定义" */;
+			buildPhases = (
+				0E1F39251C70CA7100EC0DC5 /* Sources */,
+				0E1F39261C70CA7100EC0DC5 /* Frameworks */,
+				0E1F39271C70CA7100EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8【掌握】结构体数组概念及定义";
+			productName = "8【掌握】结构体数组概念及定义";
+			productReference = 0E1F39291C70CA7100EC0DC5 /* 8【掌握】结构体数组概念及定义 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1F39331C71770600EC0DC5 /* 9【掌握】结构数组的初始化和遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F39381C71770600EC0DC5 /* Build configuration list for PBXNativeTarget "9【掌握】结构数组的初始化和遍历" */;
+			buildPhases = (
+				0E1F39301C71770600EC0DC5 /* Sources */,
+				0E1F39311C71770600EC0DC5 /* Frameworks */,
+				0E1F39321C71770600EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "9【掌握】结构数组的初始化和遍历";
+			productName = "9【掌握】结构数组的初始化和遍历";
+			productReference = 0E1F39341C71770600EC0DC5 /* 9【掌握】结构数组的初始化和遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1F393E1C717E0D00EC0DC5 /* 10【掌握】结构指针定义和初始化 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F39431C717E0D00EC0DC5 /* Build configuration list for PBXNativeTarget "10【掌握】结构指针定义和初始化" */;
+			buildPhases = (
+				0E1F393B1C717E0D00EC0DC5 /* Sources */,
+				0E1F393C1C717E0D00EC0DC5 /* Frameworks */,
+				0E1F393D1C717E0D00EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10【掌握】结构指针定义和初始化";
+			productName = "10【掌握】结构指针定义和初始化";
+			productReference = 0E1F393F1C717E0D00EC0DC5 /* 10【掌握】结构指针定义和初始化 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1F39491C718B8D00EC0DC5 /* 13【掌握】结构体嵌套使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F394E1C718B8D00EC0DC5 /* Build configuration list for PBXNativeTarget "13【掌握】结构体嵌套使用" */;
+			buildPhases = (
+				0E1F39461C718B8D00EC0DC5 /* Sources */,
+				0E1F39471C718B8D00EC0DC5 /* Frameworks */,
+				0E1F39481C718B8D00EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13【掌握】结构体嵌套使用";
+			productName = "13【掌握】结构体嵌套使用";
+			productReference = 0E1F394A1C718B8D00EC0DC5 /* 13【掌握】结构体嵌套使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0E1F39541C71920700EC0DC5 /* 14【掌握】成员属性作为函数参数 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1F39591C71920700EC0DC5 /* Build configuration list for PBXNativeTarget "14【掌握】成员属性作为函数参数" */;
+			buildPhases = (
+				0E1F39511C71920700EC0DC5 /* Sources */,
+				0E1F39521C71920700EC0DC5 /* Frameworks */,
+				0E1F39531C71920700EC0DC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14【掌握】成员属性作为函数参数";
+			productName = "14【掌握】成员属性作为函数参数";
+			productReference = 0E1F39551C71920700EC0DC5 /* 14【掌握】成员属性作为函数参数 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E1F38DC1C70A8EE00EC0DC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					0E1F38E31C70A8EE00EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E1F38F11C70A91500EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E1F38FC1C70A99700EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E1F39071C70AC0400EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E1F39121C70C0C600EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E1F391D1C70C52C00EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E1F39281C70CA7100EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E1F39331C71770600EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E1F393E1C717E0D00EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E1F39491C718B8D00EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					0E1F39541C71920700EC0DC5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 0E1F38DF1C70A8EE00EC0DC5 /* Build configuration list for PBXProject "cday09" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E1F38DB1C70A8EE00EC0DC5;
+			productRefGroup = 0E1F38E51C70A8EE00EC0DC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1F38E31C70A8EE00EC0DC5 /* cday09 */,
+				0E1F38F11C70A91500EC0DC5 /* 1【了解】构造类型概念 */,
+				0E1F38FC1C70A99700EC0DC5 /* 3【掌握】结构体变量及定义方法 */,
+				0E1F39071C70AC0400EC0DC5 /* 4【掌握】结构体变量的初始化和使用 */,
+				0E1F39121C70C0C600EC0DC5 /* 6结构体占用空间大小 */,
+				0E1F391D1C70C52C00EC0DC5 /* 7【掌握】结构体作用域 */,
+				0E1F39281C70CA7100EC0DC5 /* 8【掌握】结构体数组概念及定义 */,
+				0E1F39331C71770600EC0DC5 /* 9【掌握】结构数组的初始化和遍历 */,
+				0E1F393E1C717E0D00EC0DC5 /* 10【掌握】结构指针定义和初始化 */,
+				0E1F39491C718B8D00EC0DC5 /* 13【掌握】结构体嵌套使用 */,
+				0E1F39541C71920700EC0DC5 /* 14【掌握】成员属性作为函数参数 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1F38E01C70A8EE00EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F38E81C70A8EE00EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F38EE1C70A91500EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F38F51C70A91500EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F38F91C70A99700EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F39001C70A99700EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39041C70AC0400EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F390B1C70AC0400EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F390F1C70C0C600EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F39161C70C0C600EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F391A1C70C52C00EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F39211C70C52C00EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39251C70CA7100EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F392C1C70CA7100EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39301C71770600EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F39371C71770600EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F393B1C717E0D00EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F39421C717E0D00EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39461C718B8D00EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F394D1C718B8D00EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1F39511C71920700EC0DC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1F39581C71920700EC0DC5 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E1F38E91C70A8EE00EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0E1F38EA1C70A8EE00EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0E1F38EC1C70A8EE00EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F38ED1C70A8EE00EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1F38F71C70A91500EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F38F81C70A91500EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1F39021C70A99700EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F39031C70A99700EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1F390D1C70AC0400EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F390E1C70AC0400EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1F39181C70C0C600EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F39191C70C0C600EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1F39231C70C52C00EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F39241C70C52C00EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1F392E1C70CA7100EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F392F1C70CA7100EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1F39391C71770600EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F393A1C71770600EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1F39441C717E0D00EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F39451C717E0D00EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1F394F1C718B8D00EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F39501C718B8D00EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1F395A1C71920700EC0DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1F395B1C71920700EC0DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E1F38DF1C70A8EE00EC0DC5 /* Build configuration list for PBXProject "cday09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F38E91C70A8EE00EC0DC5 /* Debug */,
+				0E1F38EA1C70A8EE00EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1F38EB1C70A8EE00EC0DC5 /* Build configuration list for PBXNativeTarget "cday09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F38EC1C70A8EE00EC0DC5 /* Debug */,
+				0E1F38ED1C70A8EE00EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E1F38F61C70A91500EC0DC5 /* Build configuration list for PBXNativeTarget "1【了解】构造类型概念" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F38F71C70A91500EC0DC5 /* Debug */,
+				0E1F38F81C70A91500EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E1F39011C70A99700EC0DC5 /* Build configuration list for PBXNativeTarget "3【掌握】结构体变量及定义方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F39021C70A99700EC0DC5 /* Debug */,
+				0E1F39031C70A99700EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E1F390C1C70AC0400EC0DC5 /* Build configuration list for PBXNativeTarget "4【掌握】结构体变量的初始化和使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F390D1C70AC0400EC0DC5 /* Debug */,
+				0E1F390E1C70AC0400EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E1F39171C70C0C600EC0DC5 /* Build configuration list for PBXNativeTarget "6结构体占用空间大小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F39181C70C0C600EC0DC5 /* Debug */,
+				0E1F39191C70C0C600EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E1F39221C70C52C00EC0DC5 /* Build configuration list for PBXNativeTarget "7【掌握】结构体作用域" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F39231C70C52C00EC0DC5 /* Debug */,
+				0E1F39241C70C52C00EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E1F392D1C70CA7100EC0DC5 /* Build configuration list for PBXNativeTarget "8【掌握】结构体数组概念及定义" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F392E1C70CA7100EC0DC5 /* Debug */,
+				0E1F392F1C70CA7100EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E1F39381C71770600EC0DC5 /* Build configuration list for PBXNativeTarget "9【掌握】结构数组的初始化和遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F39391C71770600EC0DC5 /* Debug */,
+				0E1F393A1C71770600EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E1F39431C717E0D00EC0DC5 /* Build configuration list for PBXNativeTarget "10【掌握】结构指针定义和初始化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F39441C717E0D00EC0DC5 /* Debug */,
+				0E1F39451C717E0D00EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E1F394E1C718B8D00EC0DC5 /* Build configuration list for PBXNativeTarget "13【掌握】结构体嵌套使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F394F1C718B8D00EC0DC5 /* Debug */,
+				0E1F39501C718B8D00EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E1F39591C71920700EC0DC5 /* Build configuration list for PBXNativeTarget "14【掌握】成员属性作为函数参数" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1F395A1C71920700EC0DC5 /* Debug */,
+				0E1F395B1C71920700EC0DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E1F38DC1C70A8EE00EC0DC5 /* Project object */;
+}
