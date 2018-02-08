@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/cppAlgorithm.dir/main.cpp.o  -o cppAlgorithm 
