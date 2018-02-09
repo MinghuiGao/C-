@@ -43,10 +43,10 @@ RM = /home/gaomh/Downloads/clion-2016.3.5/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaomh/CLionProjects/cppAlgorithm
+CMAKE_SOURCE_DIR = /home/gaomh/git_spaces/C-/cppAlgorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cppAlgorithm.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/cppAlgorithm.dir/flags.make
 
 CMakeFiles/cppAlgorithm.dir/main.cpp.o: CMakeFiles/cppAlgorithm.dir/flags.make
 CMakeFiles/cppAlgorithm.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppAlgorithm.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppAlgorithm.dir/main.cpp.o -c /home/gaomh/CLionProjects/cppAlgorithm/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cppAlgorithm.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppAlgorithm.dir/main.cpp.o -c /home/gaomh/git_spaces/C-/cppAlgorithm/main.cpp
 
 CMakeFiles/cppAlgorithm.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppAlgorithm.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gaomh/CLionProjects/cppAlgorithm/main.cpp > CMakeFiles/cppAlgorithm.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gaomh/git_spaces/C-/cppAlgorithm/main.cpp > CMakeFiles/cppAlgorithm.dir/main.cpp.i
 
 CMakeFiles/cppAlgorithm.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppAlgorithm.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gaomh/CLionProjects/cppAlgorithm/main.cpp -o CMakeFiles/cppAlgorithm.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gaomh/git_spaces/C-/cppAlgorithm/main.cpp -o CMakeFiles/cppAlgorithm.dir/main.cpp.s
 
 CMakeFiles/cppAlgorithm.dir/main.cpp.o.requires:
 
@@ -81,17 +81,95 @@ CMakeFiles/cppAlgorithm.dir/main.cpp.o.provides: CMakeFiles/cppAlgorithm.dir/mai
 CMakeFiles/cppAlgorithm.dir/main.cpp.o.provides.build: CMakeFiles/cppAlgorithm.dir/main.cpp.o
 
 
+CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o: CMakeFiles/cppAlgorithm.dir/flags.make
+CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o: ../chapter2/阶乘之和/MutipleSteps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o -c /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.cpp
+
+CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.cpp > CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.i
+
+CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.cpp -o CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.s
+
+CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o.requires:
+
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o.requires
+
+CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o.provides: CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o.provides.build
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o.provides
+
+CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o.provides.build: CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o
+
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o: CMakeFiles/cppAlgorithm.dir/flags.make
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o: ../chapter2/数据结构和基本排序/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o -c /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.cpp
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.cpp > CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.i
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.cpp -o CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.s
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o.requires:
+
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o.requires
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o.provides: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o.provides.build
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o.provides
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o.provides.build: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o
+
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o: CMakeFiles/cppAlgorithm.dir/flags.make
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o: ../chapter2/数据结构和基本排序/SortAlgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o -c /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.cpp
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.cpp > CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.i
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.cpp -o CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.s
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o.requires:
+
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o.requires
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o.provides: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o.provides.build
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o.provides
+
+CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o.provides.build: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o
+
+
 # Object files for target cppAlgorithm
 cppAlgorithm_OBJECTS = \
-"CMakeFiles/cppAlgorithm.dir/main.cpp.o"
+"CMakeFiles/cppAlgorithm.dir/main.cpp.o" \
+"CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o" \
+"CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o" \
+"CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o"
 
 # External object files for target cppAlgorithm
 cppAlgorithm_EXTERNAL_OBJECTS =
 
 cppAlgorithm: CMakeFiles/cppAlgorithm.dir/main.cpp.o
+cppAlgorithm: CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o
+cppAlgorithm: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o
+cppAlgorithm: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o
 cppAlgorithm: CMakeFiles/cppAlgorithm.dir/build.make
 cppAlgorithm: CMakeFiles/cppAlgorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cppAlgorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cppAlgorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppAlgorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +178,9 @@ CMakeFiles/cppAlgorithm.dir/build: cppAlgorithm
 .PHONY : CMakeFiles/cppAlgorithm.dir/build
 
 CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/main.cpp.o.requires
+CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o.requires
+CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o.requires
+CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o.requires
 
 .PHONY : CMakeFiles/cppAlgorithm.dir/requires
 
@@ -108,6 +189,6 @@ CMakeFiles/cppAlgorithm.dir/clean:
 .PHONY : CMakeFiles/cppAlgorithm.dir/clean
 
 CMakeFiles/cppAlgorithm.dir/depend:
-	cd /home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaomh/CLionProjects/cppAlgorithm /home/gaomh/CLionProjects/cppAlgorithm /home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug /home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug /home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/CMakeFiles/cppAlgorithm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gaomh/git_spaces/C-/cppAlgorithm /home/gaomh/git_spaces/C-/cppAlgorithm /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles/cppAlgorithm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cppAlgorithm.dir/depend
 

@@ -6,7 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/gaomh/CLionProjects/cppAlgorithm/main.cpp
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.cpp
+tic.h
+-
+Node.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.h
+set
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/set
+
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.h
+
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.cpp
+SortAlgorithm.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.h
+
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.h
+
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.cpp
+stdio.h
+-
+time.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/time.h
+MutipleSteps.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.h
+
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.h
+
+/home/gaomh/git_spaces/C-/cppAlgorithm/main.cpp
 iostream
 -
+chapter2/阶乘之和/MutipleSteps.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.h
+chapter2/数据结构和基本排序/SortAlgorithm.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.h
 

@@ -48,10 +48,10 @@ RM = /home/gaomh/Downloads/clion-2016.3.5/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gaomh/CLionProjects/cppAlgorithm
+CMAKE_SOURCE_DIR = /home/gaomh/git_spaces/C-/cppAlgorithm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug
+CMAKE_BINARY_DIR = /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/CMakeFiles /home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,87 @@ cppAlgorithm/fast:
 	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/build
 .PHONY : cppAlgorithm/fast
 
+chapter2/数据结构和基本排序/Node.o: chapter2/数据结构和基本排序/Node.cpp.o
+
+.PHONY : chapter2/数据结构和基本排序/Node.o
+
+# target to build an object file
+chapter2/数据结构和基本排序/Node.cpp.o:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o
+.PHONY : chapter2/数据结构和基本排序/Node.cpp.o
+
+chapter2/数据结构和基本排序/Node.i: chapter2/数据结构和基本排序/Node.cpp.i
+
+.PHONY : chapter2/数据结构和基本排序/Node.i
+
+# target to preprocess a source file
+chapter2/数据结构和基本排序/Node.cpp.i:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.i
+.PHONY : chapter2/数据结构和基本排序/Node.cpp.i
+
+chapter2/数据结构和基本排序/Node.s: chapter2/数据结构和基本排序/Node.cpp.s
+
+.PHONY : chapter2/数据结构和基本排序/Node.s
+
+# target to generate assembly for a file
+chapter2/数据结构和基本排序/Node.cpp.s:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.s
+.PHONY : chapter2/数据结构和基本排序/Node.cpp.s
+
+chapter2/数据结构和基本排序/SortAlgorithm.o: chapter2/数据结构和基本排序/SortAlgorithm.cpp.o
+
+.PHONY : chapter2/数据结构和基本排序/SortAlgorithm.o
+
+# target to build an object file
+chapter2/数据结构和基本排序/SortAlgorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o
+.PHONY : chapter2/数据结构和基本排序/SortAlgorithm.cpp.o
+
+chapter2/数据结构和基本排序/SortAlgorithm.i: chapter2/数据结构和基本排序/SortAlgorithm.cpp.i
+
+.PHONY : chapter2/数据结构和基本排序/SortAlgorithm.i
+
+# target to preprocess a source file
+chapter2/数据结构和基本排序/SortAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.i
+.PHONY : chapter2/数据结构和基本排序/SortAlgorithm.cpp.i
+
+chapter2/数据结构和基本排序/SortAlgorithm.s: chapter2/数据结构和基本排序/SortAlgorithm.cpp.s
+
+.PHONY : chapter2/数据结构和基本排序/SortAlgorithm.s
+
+# target to generate assembly for a file
+chapter2/数据结构和基本排序/SortAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.s
+.PHONY : chapter2/数据结构和基本排序/SortAlgorithm.cpp.s
+
+chapter2/阶乘之和/MutipleSteps.o: chapter2/阶乘之和/MutipleSteps.cpp.o
+
+.PHONY : chapter2/阶乘之和/MutipleSteps.o
+
+# target to build an object file
+chapter2/阶乘之和/MutipleSteps.cpp.o:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o
+.PHONY : chapter2/阶乘之和/MutipleSteps.cpp.o
+
+chapter2/阶乘之和/MutipleSteps.i: chapter2/阶乘之和/MutipleSteps.cpp.i
+
+.PHONY : chapter2/阶乘之和/MutipleSteps.i
+
+# target to preprocess a source file
+chapter2/阶乘之和/MutipleSteps.cpp.i:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.i
+.PHONY : chapter2/阶乘之和/MutipleSteps.cpp.i
+
+chapter2/阶乘之和/MutipleSteps.s: chapter2/阶乘之和/MutipleSteps.cpp.s
+
+.PHONY : chapter2/阶乘之和/MutipleSteps.s
+
+# target to generate assembly for a file
+chapter2/阶乘之和/MutipleSteps.cpp.s:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.s
+.PHONY : chapter2/阶乘之和/MutipleSteps.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +240,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cppAlgorithm"
+	@echo "... chapter2/数据结构和基本排序/Node.o"
+	@echo "... chapter2/数据结构和基本排序/Node.i"
+	@echo "... chapter2/数据结构和基本排序/Node.s"
+	@echo "... chapter2/数据结构和基本排序/SortAlgorithm.o"
+	@echo "... chapter2/数据结构和基本排序/SortAlgorithm.i"
+	@echo "... chapter2/数据结构和基本排序/SortAlgorithm.s"
+	@echo "... chapter2/阶乘之和/MutipleSteps.o"
+	@echo "... chapter2/阶乘之和/MutipleSteps.i"
+	@echo "... chapter2/阶乘之和/MutipleSteps.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

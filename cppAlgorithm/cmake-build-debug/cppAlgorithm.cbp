@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug"/>
+				<Option working_dir="/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug"/>
+				<Option working_dir="/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug"/>
+				<Option working_dir="/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cppAlgorithm">
-				<Option output="/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/cppAlgorithm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug"/>
+				<Option output="/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/cppAlgorithm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppAlgorithm"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppAlgorithm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="cppAlgorithm/fast">
-				<Option output="/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/cppAlgorithm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug"/>
+				<Option output="/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/cppAlgorithm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,17 +77,35 @@
 					<Add directory="/usr/include/c++/4.8/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppAlgorithm/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gaomh/CLionProjects/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 cppAlgorithm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/gaomh/CLionProjects/cppAlgorithm/main.cpp">
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.cpp">
 			<Option target="cppAlgorithm"/>
 		</Unit>
-		<Unit filename="/home/gaomh/CLionProjects/cppAlgorithm/CMakeLists.txt">
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.h">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.cpp">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.h">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.cpp">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.h">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/main.cpp">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
