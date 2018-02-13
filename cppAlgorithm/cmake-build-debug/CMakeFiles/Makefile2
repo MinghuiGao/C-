@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug
 CMakeFiles/cppAlgorithm.dir/all:
 	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/depend
 	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target cppAlgorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target cppAlgorithm"
 .PHONY : CMakeFiles/cppAlgorithm.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/cppAlgorithm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cppAlgorithm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cppAlgorithm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/cppAlgorithm.dir/rule

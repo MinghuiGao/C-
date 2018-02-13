@@ -3,6 +3,8 @@ using namespace std;
 #include <iostream>
 #include "chapter2/阶乘之和/MutipleSteps.h"
 #include "chapter2/数据结构和基本排序/SortAlgorithm.h"
+#include "chapter2/execersise/Subse2.h"
+#include "chapter3/ArraySome.h"
 
 class Person {
 public:
@@ -23,12 +25,24 @@ private:
 
 void testSort();
 
+void testXulie();
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
-
-    //testSort();
-
+    ArraySome *some = new ArraySome();
+    //some->shutdownTheLight();
+    //some->snakeFill();
+    //printf("is huiwen : %d\n",some->isHuiwen());
+//    printf("%s\n", some->findMinDicString());
+    //some->findMinDicString();
+    some->sumOScore();
     return 0;
+}
+
+void testXulie() {
+    Subse2 *s2 = new Subse2();
+    //s2->subsequence();
+    s2->permutation();
 }
 
 void testSort() {

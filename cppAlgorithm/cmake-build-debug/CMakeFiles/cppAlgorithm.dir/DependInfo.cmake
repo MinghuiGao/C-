@@ -4,9 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/execersise/Subse2.cpp" "/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o"
+  "/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/fopen读写文件/FopenTool.cpp" "/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o"
   "/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.cpp" "/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o"
   "/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.cpp" "/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o"
   "/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.cpp" "/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o"
+  "/home/gaomh/git_spaces/C-/cppAlgorithm/chapter3/ArraySome.cpp" "/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o"
   "/home/gaomh/git_spaces/C-/cppAlgorithm/main.cpp" "/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles/cppAlgorithm.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

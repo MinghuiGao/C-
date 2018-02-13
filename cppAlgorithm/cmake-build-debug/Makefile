@@ -123,6 +123,60 @@ cppAlgorithm/fast:
 	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/build
 .PHONY : cppAlgorithm/fast
 
+chapter2/execersise/Subse2.o: chapter2/execersise/Subse2.cpp.o
+
+.PHONY : chapter2/execersise/Subse2.o
+
+# target to build an object file
+chapter2/execersise/Subse2.cpp.o:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o
+.PHONY : chapter2/execersise/Subse2.cpp.o
+
+chapter2/execersise/Subse2.i: chapter2/execersise/Subse2.cpp.i
+
+.PHONY : chapter2/execersise/Subse2.i
+
+# target to preprocess a source file
+chapter2/execersise/Subse2.cpp.i:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.i
+.PHONY : chapter2/execersise/Subse2.cpp.i
+
+chapter2/execersise/Subse2.s: chapter2/execersise/Subse2.cpp.s
+
+.PHONY : chapter2/execersise/Subse2.s
+
+# target to generate assembly for a file
+chapter2/execersise/Subse2.cpp.s:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.s
+.PHONY : chapter2/execersise/Subse2.cpp.s
+
+chapter2/fopen读写文件/FopenTool.o: chapter2/fopen读写文件/FopenTool.cpp.o
+
+.PHONY : chapter2/fopen读写文件/FopenTool.o
+
+# target to build an object file
+chapter2/fopen读写文件/FopenTool.cpp.o:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o
+.PHONY : chapter2/fopen读写文件/FopenTool.cpp.o
+
+chapter2/fopen读写文件/FopenTool.i: chapter2/fopen读写文件/FopenTool.cpp.i
+
+.PHONY : chapter2/fopen读写文件/FopenTool.i
+
+# target to preprocess a source file
+chapter2/fopen读写文件/FopenTool.cpp.i:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.i
+.PHONY : chapter2/fopen读写文件/FopenTool.cpp.i
+
+chapter2/fopen读写文件/FopenTool.s: chapter2/fopen读写文件/FopenTool.cpp.s
+
+.PHONY : chapter2/fopen读写文件/FopenTool.s
+
+# target to generate assembly for a file
+chapter2/fopen读写文件/FopenTool.cpp.s:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.s
+.PHONY : chapter2/fopen读写文件/FopenTool.cpp.s
+
 chapter2/数据结构和基本排序/Node.o: chapter2/数据结构和基本排序/Node.cpp.o
 
 .PHONY : chapter2/数据结构和基本排序/Node.o
@@ -204,6 +258,33 @@ chapter2/阶乘之和/MutipleSteps.cpp.s:
 	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.s
 .PHONY : chapter2/阶乘之和/MutipleSteps.cpp.s
 
+chapter3/ArraySome.o: chapter3/ArraySome.cpp.o
+
+.PHONY : chapter3/ArraySome.o
+
+# target to build an object file
+chapter3/ArraySome.cpp.o:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o
+.PHONY : chapter3/ArraySome.cpp.o
+
+chapter3/ArraySome.i: chapter3/ArraySome.cpp.i
+
+.PHONY : chapter3/ArraySome.i
+
+# target to preprocess a source file
+chapter3/ArraySome.cpp.i:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.i
+.PHONY : chapter3/ArraySome.cpp.i
+
+chapter3/ArraySome.s: chapter3/ArraySome.cpp.s
+
+.PHONY : chapter3/ArraySome.s
+
+# target to generate assembly for a file
+chapter3/ArraySome.cpp.s:
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.s
+.PHONY : chapter3/ArraySome.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -240,6 +321,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... cppAlgorithm"
+	@echo "... chapter2/execersise/Subse2.o"
+	@echo "... chapter2/execersise/Subse2.i"
+	@echo "... chapter2/execersise/Subse2.s"
+	@echo "... chapter2/fopen读写文件/FopenTool.o"
+	@echo "... chapter2/fopen读写文件/FopenTool.i"
+	@echo "... chapter2/fopen读写文件/FopenTool.s"
 	@echo "... chapter2/数据结构和基本排序/Node.o"
 	@echo "... chapter2/数据结构和基本排序/Node.i"
 	@echo "... chapter2/数据结构和基本排序/Node.s"
@@ -249,6 +336,9 @@ help:
 	@echo "... chapter2/阶乘之和/MutipleSteps.o"
 	@echo "... chapter2/阶乘之和/MutipleSteps.i"
 	@echo "... chapter2/阶乘之和/MutipleSteps.s"
+	@echo "... chapter3/ArraySome.o"
+	@echo "... chapter3/ArraySome.i"
+	@echo "... chapter3/ArraySome.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

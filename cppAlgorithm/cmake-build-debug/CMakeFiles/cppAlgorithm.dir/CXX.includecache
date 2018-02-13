@@ -6,6 +6,20 @@
 
 #IncludeRegexTransform: 
 
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/execersise/Subse2.cpp
+Subse2.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/execersise/Subse2.h
+stdio.h
+-
+
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/execersise/Subse2.h
+
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/fopen读写文件/FopenTool.cpp
+FopenTool.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/fopen读写文件/FopenTool.h
+
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/fopen读写文件/FopenTool.h
+
 /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.cpp
 tic.h
 -
@@ -32,6 +46,16 @@ MutipleSteps.h
 
 /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.h
 
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter3/ArraySome.cpp
+ArraySome.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter3/ArraySome.h
+string.h
+-
+stdio.h
+-
+
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter3/ArraySome.h
+
 /home/gaomh/git_spaces/C-/cppAlgorithm/main.cpp
 iostream
 -
@@ -39,4 +63,8 @@ chapter2/阶乘之和/MutipleSteps.h
 /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.h
 chapter2/数据结构和基本排序/SortAlgorithm.h
 /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/SortAlgorithm.h
+chapter2/execersise/Subse2.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/execersise/Subse2.h
+chapter3/ArraySome.h
+/home/gaomh/git_spaces/C-/cppAlgorithm/chapter3/ArraySome.h
 

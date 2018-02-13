@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/execersise/Subse2.cpp">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/execersise/Subse2.h">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/fopen读写文件/FopenTool.cpp">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/fopen读写文件/FopenTool.h">
+			<Option target="cppAlgorithm"/>
+		</Unit>
 		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/数据结构和基本排序/Node.cpp">
 			<Option target="cppAlgorithm"/>
 		</Unit>
@@ -100,6 +112,12 @@
 			<Option target="cppAlgorithm"/>
 		</Unit>
 		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/阶乘之和/MutipleSteps.h">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter3/ArraySome.cpp">
+			<Option target="cppAlgorithm"/>
+		</Unit>
+		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/chapter3/ArraySome.h">
 			<Option target="cppAlgorithm"/>
 		</Unit>
 		<Unit filename="/home/gaomh/git_spaces/C-/cppAlgorithm/main.cpp">

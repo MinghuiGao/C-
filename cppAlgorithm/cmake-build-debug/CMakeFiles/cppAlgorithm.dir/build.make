@@ -153,12 +153,87 @@ CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.c
 CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o.provides.build: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o
 
 
+CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o: CMakeFiles/cppAlgorithm.dir/flags.make
+CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o: ../chapter2/fopen读写文件/FopenTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o -c /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/fopen读写文件/FopenTool.cpp
+
+CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/fopen读写文件/FopenTool.cpp > CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.i
+
+CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/fopen读写文件/FopenTool.cpp -o CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.s
+
+CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o.requires:
+
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o.requires
+
+CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o.provides: CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o.provides.build
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o.provides
+
+CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o.provides.build: CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o
+
+
+CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o: CMakeFiles/cppAlgorithm.dir/flags.make
+CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o: ../chapter2/execersise/Subse2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o -c /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/execersise/Subse2.cpp
+
+CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/execersise/Subse2.cpp > CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.i
+
+CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gaomh/git_spaces/C-/cppAlgorithm/chapter2/execersise/Subse2.cpp -o CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.s
+
+CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o.requires:
+
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o.requires
+
+CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o.provides: CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o.provides.build
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o.provides
+
+CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o.provides.build: CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o
+
+
+CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o: CMakeFiles/cppAlgorithm.dir/flags.make
+CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o: ../chapter3/ArraySome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o -c /home/gaomh/git_spaces/C-/cppAlgorithm/chapter3/ArraySome.cpp
+
+CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gaomh/git_spaces/C-/cppAlgorithm/chapter3/ArraySome.cpp > CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.i
+
+CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gaomh/git_spaces/C-/cppAlgorithm/chapter3/ArraySome.cpp -o CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.s
+
+CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o.requires:
+
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o.requires
+
+CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o.provides: CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o.requires
+	$(MAKE) -f CMakeFiles/cppAlgorithm.dir/build.make CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o.provides.build
+.PHONY : CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o.provides
+
+CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o.provides.build: CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o
+
+
 # Object files for target cppAlgorithm
 cppAlgorithm_OBJECTS = \
 "CMakeFiles/cppAlgorithm.dir/main.cpp.o" \
 "CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o" \
 "CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o" \
-"CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o"
+"CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o" \
+"CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o" \
+"CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o" \
+"CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o"
 
 # External object files for target cppAlgorithm
 cppAlgorithm_EXTERNAL_OBJECTS =
@@ -167,9 +242,12 @@ cppAlgorithm: CMakeFiles/cppAlgorithm.dir/main.cpp.o
 cppAlgorithm: CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o
 cppAlgorithm: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o
 cppAlgorithm: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o
+cppAlgorithm: CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o
+cppAlgorithm: CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o
+cppAlgorithm: CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o
 cppAlgorithm: CMakeFiles/cppAlgorithm.dir/build.make
 cppAlgorithm: CMakeFiles/cppAlgorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cppAlgorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gaomh/git_spaces/C-/cppAlgorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cppAlgorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cppAlgorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +259,9 @@ CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/main.cpp.o.req
 CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/chapter2/阶乘之和/MutipleSteps.cpp.o.requires
 CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/Node.cpp.o.requires
 CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/chapter2/数据结构和基本排序/SortAlgorithm.cpp.o.requires
+CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/chapter2/fopen读写文件/FopenTool.cpp.o.requires
+CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/chapter2/execersise/Subse2.cpp.o.requires
+CMakeFiles/cppAlgorithm.dir/requires: CMakeFiles/cppAlgorithm.dir/chapter3/ArraySome.cpp.o.requires
 
 .PHONY : CMakeFiles/cppAlgorithm.dir/requires
 
